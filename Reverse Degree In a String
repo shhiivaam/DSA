@@ -1,0 +1,9 @@
+int reverseDegree(char* s) {
+    int sum=0,pos;
+    for(int i=1;i<=strlen(s);i++){
+        pos= 26-((s[i-1])-97);
+     
+        sum+=(pos*i);
+    }
+    return sum;
+}
