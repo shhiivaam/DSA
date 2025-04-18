@@ -1,0 +1,24 @@
+class Solution {
+private:
+    bool isPl(const string& s, int st, int e) {
+        while (st < e) {
+            if (s[st++] != s[e--])
+                return false;
+        }
+        return true;
+    }
+
+public:
+    bool validPalindrome(string s) {
+        int st = 0;
+        int e = s.length() - 1;
+        while (st < e) {
+            if (s[st] != s[e]) {
+                return isPl(s, st + 1, e) || isPl(s, st, e - 1);
+            }
+            st++;
+            e--;
+        }
+        return true;
+    }
+};
