@@ -1,0 +1,23 @@
+class Solution {
+public:
+    int arithmeticTriplets(vector<int>& nums, int diff) {
+        int ans=0;
+        for(int i=0,j=1,k=2;k<nums.size();){
+            int x=nums[j]-nums[i];
+            int y=nums[k]-nums[j];
+            if(x==diff && y==diff){
+                ans++;
+                i++;
+                j++;
+                k++;
+            }
+            else if(y<diff)
+            k++;
+            else if(x<diff)
+            j++;
+            else
+            i++;
+        }
+        return ans;
+    }
+};
