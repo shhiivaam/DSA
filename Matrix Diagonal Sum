@@ -1,0 +1,21 @@
+class Solution {
+public:
+    int diagonalSum(vector<vector<int>>& mat) {
+        int ans=0;
+        int m = mat.size();
+     //   if(m%2 != 0){
+    //        int t =m/2;
+   //         ans -=mat[t][t];
+   //     }
+    for(int i=0;i<m;i++){
+        for(int j=0;j<m;j++){
+            if(i == j){
+                ans +=mat[i][j];
+            }else if( i + j == m-1){
+                ans +=mat[i][j];
+            }
+        }
+    }
+return ans;
+    }
+};
