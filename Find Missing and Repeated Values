@@ -1,0 +1,38 @@
+class Solution {
+public:
+    int findMissingNumber(const vector<vector<int>>& matrix) {
+        int n = matrix.size();
+        long long expectedSum = 1LL * n * n * (n * n + 1) / 2;
+        long long actualSum = 0;
+
+        for (const auto& row : matrix)
+            for (int num : row)
+                actualSum += num;
+
+        return expectedSum - actualSum;
+    }
+
+    vector<int> findMissingAndRepeatedValues(vector<vector<int>>& grid) {
+        int n = grid.size();
+        int maxVal = n * n;
+        vector<int> freq(maxVal + 1, 0);  // to count frequencies
+        vector<int> ans;
+
+        for (auto& row : grid) {
+            for (int num : row) {
+                freq[num]++;
+            }
+        }
+
+        int repeated = -1, missing = -1;
+
+        for (int i = 1; i <= maxVal; ++i) {
+            if (freq[i] == 2) repeated = i;
+            if (freq[i] == 0) missing = i;
+        }
+
+        ans.push_back(repeated);
+        ans.push_back(missing);
+        return ans;
+    }
+};
