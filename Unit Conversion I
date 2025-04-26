@@ -1,0 +1,32 @@
+class Solution {
+    public:
+     const int MOD = 1e9 + 7;
+
+    void dfs(int node, long long value, vector<pair<int, int>> adj[], vector<long long>& result) {
+        result[node] = value;
+
+        for (auto& [next, factor] : adj[node]) {
+            dfs(next, (value * factor) % MOD, adj, result);
+        }
+    }
+
+public:
+    vector<int> baseUnitConversions(vector<vector<int>>& conversions) {
+        int n = conversions.size() + 1;
+        vector<pair<int, int>> adj[n];
+        for (auto& conv : conversions) {
+            int src = conv[0], tgt = conv[1], factor = conv[2];
+            adj[src].push_back({tgt, factor});
+        }
+
+        vector<long long> result(n, 0);
+        dfs(0, 1, adj, result);
+
+        vector<int> ans(n);
+        for (int i = 0; i < n; i++) {
+            ans[i] = result[i] % MOD;
+        }
+
+        return ans;
+    }
+};
