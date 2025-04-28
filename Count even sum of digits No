@@ -1,0 +1,23 @@
+class Solution {
+    public:
+    bool dsum(int n){
+        int ans=0;
+         while(n!=0){
+            int ld = n%10;
+            ans +=ld;
+            n /=10;
+         }
+         if(ans%2 != 0){return false;}
+         else return true;
+    }
+public:
+    int countEven(int num) {
+        int cnt=0;
+        for(int i=1;i<=num;i++){
+            if(dsum(i)){
+               cnt++;
+            }
+        }
+    return cnt;
+    }
+};
