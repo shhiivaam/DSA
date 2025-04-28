@@ -1,0 +1,14 @@
+class Solution {
+public:
+    vector<int> constructRectangle(int area) {
+         vector<int> rec;
+        int w = sqrt(area);
+        while (area % w != 0) {
+            w--;
+        }
+        int l = area / w; 
+        rec.push_back(l);
+        rec.push_back(w);
+        return rec;
+    }
+};
