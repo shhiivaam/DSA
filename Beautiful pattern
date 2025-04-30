@@ -1,0 +1,47 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+  ios_base::sync_with_stdio(false);
+  cin.tie(NULL);
+
+  // including all the test cases
+  int t;
+  cin >> t;
+
+  while (t--) {
+    int n, i, j;
+    cin >> n;
+
+    // printing the first n rows
+    for (i = 1; i <= n; i++) {
+      // iterating over every column
+      for (j = 1; j <= 2 * n - 1; j++) {
+        if (j <= i || j >= 2 * n - i)
+          cout << "*";
+        else
+          cout << " ";
+      }
+
+      cout << "\n";
+    }
+
+    // printing the next n-1 rows
+    for (i = 1; i < n; i++) {
+      // iterating over every column
+      for (j = 1; j <= 2 * n - 1; j++) {
+        if (j <= n - i || j >= n + i)
+          cout << "*";
+        else
+          cout << " ";
+      }
+
+      cout << "\n";
+    }
+
+    // spacing between different test cases
+    cout << "\n";
+  }
+
+  return 0;
+}
