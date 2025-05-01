@@ -1,0 +1,49 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+#define IOS ios::sync_with_stdio(0); cin.tie(0); cout.tie(0);
+
+int main() {
+    IOS
+    int t;
+    cin >> t;
+    while (t--) {
+        int n;
+        cin >> n;
+        int a[n];
+        for (int i = 0; i < n; ++i) {
+            cin >> a[i];
+        }
+        stack<int> s;
+        int i = 0;
+        long long ans = 0;
+        while (i < n) {
+            if (s.empty() || a[i] >= a[s.top()]) {
+                s.push(i);
+                i++;
+            }
+            else {
+                int t = s.top();
+                s.pop();
+                if (s.empty()) {
+                    ans = max(ans, 1LL * i * a[t]);
+                }
+                else {
+                    ans = max(ans, 1LL * a[t] * (i - s.top() - 1));
+                }
+            }
+        }
+        while (!s.empty()) {
+            int t = s.top();
+            s.pop();
+            if (s.empty()) {
+                ans = max(ans, 1LL * i * a[t]);
+            }
+            else {
+                ans = max(ans, 1LL * a[t] * (i - s.top() - 1));
+            }
+        }
+        cout << ans << "\n";
+    }
+    return 0;
+}
