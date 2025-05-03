@@ -1,0 +1,57 @@
+class Solution {
+public:
+    int maj2(vector<int>& arr) {
+        unordered_map<int, int> freq;
+        int maj = arr[0], maxCount = 0;
+        for (int num : arr) {
+            freq[num]++;
+            if (freq[num] > maxCount) {
+                maxCount = freq[num];
+                maj = num;
+            }
+        }
+        return maj;
+    }
+    int maj(vector<int>& arr) {
+        unordered_map<int, int> freq;
+        int maxCount = 0;
+        for (int num : arr) {
+            freq[num]++;
+            maxCount = max(maxCount, freq[num]);
+        }
+        return maxCount;
+    }
+
+    int minDominoRotations(vector<int>& tops, vector<int>& bottoms) {
+        int m = maj(tops);
+        int n = maj(bottoms);
+        int target = 0, rotations = 0;
+
+        if (m > n) {
+            target = maj2(tops);
+            for (int i = 0; i < bottoms.size(); i++) {
+                if (tops[i] != target) {
+                    swap(tops[i], bottoms[i]);
+                    rotations++;
+                }
+            }
+            for (int i = 0; i < tops.size(); i++) {
+                if (tops[i] != target)
+                    return -1;
+            }
+        } else {
+            target = maj2(bottoms);
+            for (int i = 0; i < tops.size(); i++) {
+                if (bottoms[i] != target) {
+                    swap(tops[i], bottoms[i]);
+                    rotations++;
+                }
+            }
+            for (int i = 0; i < bottoms.size(); i++) {
+                if (bottoms[i] != target)
+                    return -1;
+            }
+        }
+        return rotations;
+    }
+};
