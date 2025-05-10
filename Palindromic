@@ -1,0 +1,17 @@
+#include <bits/stdc++.h>
+using namespace std;
+bool isPalindrome(string&s,int l , int e){
+    cout<<s[l]<<" "<<s[e]<<endl; 
+    if(l > e){
+        return true;
+    }
+    if(s[l] != s[e]){
+        return false;
+    }
+    return isPalindrome(s,l+1,e-1);
+}
+int main() {
+   string s="maooam";
+   cout<<isPalindrome(s,0,5)<<endl;
+   cout<<s;
+}
