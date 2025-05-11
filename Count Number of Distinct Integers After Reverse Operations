@@ -1,0 +1,18 @@
+class Solution {
+public:
+    int countDistinctIntegers(vector<int>& nums) {
+         set<int> st;
+        for (int num : nums) {
+            st.insert(num);
+            int reversed_num = 0;
+            int original = num;
+            while (num != 0) {
+                int ld = num % 10;
+                reversed_num = (reversed_num * 10) + ld;
+                num /= 10;
+            }
+            st.insert(reversed_num);
+        }
+        return st.size();
+    }
+};
