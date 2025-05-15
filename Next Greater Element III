@@ -1,0 +1,12 @@
+class Solution {
+public:
+    int nextGreaterElement(int n) {
+         string num = to_string(n);
+        if (next_permutation(num.begin(), num.end())) {
+            long long nextNum = stoll(num);
+            if (nextNum <= INT_MAX) return (int)nextNum;
+        }
+
+        return -1;
+    }
+};
