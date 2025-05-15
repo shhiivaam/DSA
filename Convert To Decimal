@@ -1,0 +1,35 @@
+#include <bits/stdc++.h>
+using namespace std;
+// O(T) time complexity
+// O(1) space
+int main()
+{
+    ios_base::sync_with_stdio(false);
+    cin.tie(0);
+    cout.tie(0);
+
+    int t;
+    cin >> t;
+
+    while (t--)
+    {
+        int n;
+        cin >> n;
+        int cnt = 0;
+        // stores how many 1 bits found till current position
+        int val = 0;
+        for (int i = 0; i < 31; i++)
+        // traversing the bits of the binary representation from right to left
+        {
+            if ((n >> i) & 1) // if bit 1
+            {
+                cnt++; // increment counter
+            }
+        }
+        // so the value we are interested in is (11...1) cnt times which is 2^(cnt of 1 bits)-1
+        cout << (1 << cnt) - 1 << "\n";
+    }
+
+    return 0;
+}
+
