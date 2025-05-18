@@ -1,0 +1,39 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+#define int long long
+
+int dp[100][100][100];
+int a[100];
+
+int dfs(int l,int r,int k){
+       if (l > r) return 0;
+       if (dp[l][r][k]) return dp[l][r][k];
+
+       while (l < r && a[r] == a[r-1]) {
+           r--;
+           k++;
+       }
+       dp[l][r][k] = dfs(l,r-1,0) + (k+1) * (k+1);
+       for (int i = l; i < r; ++i) {
+           if (a[i]==a[r]) {
+               dp[l][r][k] = max(dp[l][r][k], dfs(l,i,k+1) + dfs(i+1,r-1,0));
+           }
+       }
+       return dp[l][r][k];
+   }
+
+signed main(){
+   ios::sync_with_stdio(0); cin.tie(0); cout.tie(0);
+   int t = 1;
+   while (t--) {
+       int n;
+       cin >> n;
+       for (int i = 0; i < n; ++i) {
+           cin >> a[i];
+       }
+       memset(dp, 0, sizeof(dp));
+       cout << dfs(0, n-1, 0) << "\n";
+   }
+   return 0;
+}
