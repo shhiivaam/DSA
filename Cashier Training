@@ -1,0 +1,50 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+#define IOS                  \
+    ios::sync_with_stdio(0); \
+    cin.tie(0);              \
+    cout.tie(0);
+
+vector<long long> arr;
+vector<long long> ps;
+
+int main()
+{
+
+    IOS
+
+    int t;
+    cin >> t;
+
+    while (t--)
+    {
+
+        long long n, q, i;
+
+        cin >> n >> q;
+
+        arr.assign(n + 1, 0);
+        ps.assign(n + 1, 0);
+
+        for (i = 1; i <= n; i++)
+        {
+            cin >> arr[i];
+        }
+
+        for (i = 1; i <= n; i++)
+        {
+            ps[i] = arr[i] + ps[i - 1];
+        }
+
+        for (i = 1; i <= q; i++)
+        {
+            long long l, r;
+            cin >> l >> r;
+
+            cout << ps[r] - ps[l - 1] << "\n";
+        }
+    }
+
+    return 0;
+}
