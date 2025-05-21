@@ -1,0 +1,34 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int FindRepeated(vector<int> &a)
+{
+    int n = (int)a.size();
+
+    int x = 0;
+
+    for (int i = 1; i <= n - 1; i++)
+        x ^= i;
+
+    for (int i = 0; i < n; i++)
+        x ^= a[i];
+
+    return x;
+}
+
+int main()
+{
+    ios_base::sync_with_stdio(NULL);
+    cin.tie(NULL);
+    cout.tie(NULL);
+
+    int n;
+    cin >> n;
+
+    vector<int> a(n);
+
+    for (int i = 0; i < n; i++)
+        cin >> a[i];
+
+    cout << FindRepeated(a) << "\n";
+}
