@@ -1,0 +1,62 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+struct Team {
+    int score;
+    int goaldiff;
+    int index;
+};
+
+pair<int, int> findTopTeams(const vector<int>& wins, const vector<int>& draws, const vector<int>& scored, const vector<int>& conceded) {
+    int n = wins.size();
+    vector<Team> teams(n);
+    
+    // Calculate score, goal difference and store the index.
+    for (int i = 0; i < n; i++) {
+        teams[i].score = 3 * wins[i] + draws[i];
+        teams[i].goaldiff = scored[i] - conceded[i];
+        teams[i].index = i;
+    }
+    
+    // Sort teams:
+    // 1. Descending by score.
+    // 2. Descending by goal difference.
+    // 3. Ascending by index (tie-breaker).
+    sort(teams.begin(), teams.end(), [&](const Team &a, const Team &b) {
+        if (a.score != b.score)
+            return a.score > b.score;
+        if (a.goaldiff != b.goaldiff)
+            return a.goaldiff > b.goaldiff;
+        return a.index < b.index;
+    });
+    
+    return {teams[0].index, teams[1].index};
+}
+
+int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(nullptr);
+
+    int T;
+    cin >> T;
+    while (T--) {
+        int n;
+        cin >> n;
+        vector<int> wins(n), draws(n), scored(n), conceded(n);
+
+        for (int i = 0; i < n; i++) 
+            cin >> wins[i];
+        for (int i = 0; i < n; i++) 
+            cin >> draws[i];
+        for (int i = 0; i < n; i++) 
+            cin >> scored[i];
+        for (int i = 0; i < n; i++) 
+            cin >> conceded[i];
+
+        auto result = findTopTeams(wins, draws, scored, conceded);
+        cout << result.first << " " << result.second << "\n";
+    }
+
+    return 0;
+}
+
