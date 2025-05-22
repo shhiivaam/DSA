@@ -1,0 +1,27 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+#define IOS ios::sync_with_stdio(0);cin.tie(0);cout.tie(0);
+
+int main() {
+  IOS
+
+  int t = 1;
+  // cin >> t;
+
+  while (t--) {
+    int n, m;
+    cin >> n >> m;
+    vector<int> A(n), B(m);
+    for(auto &it : A) cin >> it;
+    for(auto &it : B) cin >> it;
+
+    sort(A.begin(), A.end());
+    for(auto &it : B) {
+      int satisfyingEleCnt = upper_bound(A.begin(), A.end(), it) - A.begin();
+      cout << satisfyingEleCnt << " ";
+    }
+    cout << endl;
+  }
+  return 0;
+}
