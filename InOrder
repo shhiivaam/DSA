@@ -1,0 +1,39 @@
+#include<iostream>
+#include<vector>
+using namespace std;
+//Sample input 11
+// 1 2 -1 -1 3 4 -1 -1 5 -1 -1
+class Node{
+    public:
+    int data;
+    Node* left;
+    Node* right;
+    Node(int val){
+        data=val;
+        left = right = NULL;
+    }
+};
+static int ind = -1;
+Node* Build_tree(vector<int>seq){
+    ind++;
+    if(seq[ind] == -1 ){
+        return NULL;
+    }               // O(n);
+    Node* root = new Node(seq[ind]);
+    root->left=Build_tree(seq);
+    root->right=Build_tree(seq);
+    return root;
+}
+void inOrder(Node* root){
+    if(root == NULL) return;
+    inOrder(root->left);
+    cout<<root->data<<" ";
+    inOrder(root->right);  // O(n);
+}
+int main(){
+    int n; cin>>n;
+    vector<int>seq;
+    for(int i =0; i < n ;i++){ int x ; cin>>x; seq.push_back(x);}
+    Node* root = Build_tree(seq);
+    inOrder(root);
+}
