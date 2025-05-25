@@ -1,0 +1,33 @@
+#include <bits/stdc++.h>
+using namespace std;
+ 
+#define IOS ios::sync_with_stdio(0); cin.tie(0); cout.tie(0);
+ 
+int main() {
+    IOS
+    int t;
+    cin >> t;
+    while(t--) {
+        int n;
+        cin >> n;
+        multiset<int> s;
+        int b = 1;
+        for (int i = 0; i < n; ++i) {
+            int x;
+            cin >> x;
+            if(x > b) {
+                s.insert(x);
+            }
+            while(!s.empty() && *s.begin() <= b) {
+                s.erase(s.begin());
+            }
+            if(s.size() > b) {
+                b++;
+            }
+            cout << b << " ";
+ 
+        }
+        cout << "\n";
+    }
+    return 0;
+}
