@@ -1,0 +1,62 @@
+#include<iostream>
+#include<algorithm>
+#include<queue>
+#include<map>
+using namespace std;
+class Node{
+    public:
+    int data;
+    Node* left;
+    Node* right;
+    Node(int val){
+        data= val;
+        left = right = NULL;
+    }
+};
+static int idx=-1;
+Node* BuildTree(vector<int>seq){
+    idx++;
+    if(seq[idx] == -1){return NULL;}
+    Node* root= new Node(seq[idx]);
+    root->left =BuildTree(seq);
+    root->right =BuildTree(seq);
+    return root;
+}
+void top_view(Node* root){
+    queue<pair<Node*,int>>q;
+    map<int,int>mp;
+    q.push({root,0});
+
+    while(!q.empty()){
+        Node* cur = q.front().first;
+        int curHD = q.front().second;
+        q.pop();
+
+        if(mp.find(curHD) == mp.end()){
+            mp[curHD] = cur->data;
+        }
+
+        if(cur->left){
+            q.push({cur->left, curHD - 1});
+        }
+
+        if(cur->right){
+            q.push({cur->right, curHD + 1});
+        }
+    }
+
+    for(auto it : mp){
+        cout << it.second << " ";
+    }
+    cout << endl;
+}
+int main(){
+    int n; cin>>n;
+    vector<int>seq;
+    for(int i=0; i<n; i++){
+        int x; cin>>x;
+        seq.push_back(x);
+    }
+    Node* root= BuildTree(seq);
+    top_view(root);
+}
