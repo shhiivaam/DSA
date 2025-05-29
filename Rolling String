@@ -1,0 +1,33 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+#define IOS ios::sync_with_stdio(0); cin.tie(0); cout.tie(0);
+
+int main() {
+  IOS
+
+  int t = 1;
+  // cin >> t;
+
+  while (t--) {
+    string s; cin >> s;
+    int len = (int)s.length();
+    int n; cin >> n;
+    while(n--) {
+      int l, r; char ch;
+      cin >> l >> r >> ch;
+      if(ch == 'L') {
+        for(int i = l; i <= r; i++) {
+          s[i] = (((s[i] - 'a') + 25) % 26) + 'a';
+        }
+      } else {
+        for(int i = l; i <= r; i++) {
+          s[i] = (((s[i] - 'a') + 1) % 26) + 'a';
+        }
+      }
+    }
+    cout << s << endl;
+  }
+
+  return 0;
+}
