@@ -1,0 +1,28 @@
+#include<bits/stdc++.h>
+using namespace std;
+void solution() {
+    string s, temp;
+    getline(cin, s);
+    int n = s.size();
+    set<char> check;
+    check.insert('!'); check.insert('.');
+    check.insert('?'); check.insert(',');
+    check.insert(' ');
+    int ans = 0;
+    for (int i = 0; i < s.size(); i++) {
+        if (check.find(s[i]) == check.end()) {
+            temp += s[i];
+        }
+        if ((i == n - 1 || check.find(s[i]) != check.end()) && temp.size() > 0) {
+            ans++;
+            temp = "";
+        }
+    }
+    cout << ans << endl;
+}
+int main() {
+    ios_base::sync_with_stdio(0);
+    cin.tie(0); cout.tie(0);
+    solution();
+    return 0;
+}
