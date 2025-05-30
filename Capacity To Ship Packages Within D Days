@@ -1,0 +1,32 @@
+class Solution {
+public:
+bool check(vector<int>& wf,int capacity, int days){
+        int dayCount = 1;
+        int currentLoad = 0;
+        for (int w : wf) {
+            if (currentLoad + w <= capacity) {
+                currentLoad += w;
+            } else {
+                dayCount++;
+                currentLoad = w;
+            }
+            if (dayCount > days) return false;
+        }
+        return true;
+}
+    int shipWithinDays(vector<int>& weights, int days) {
+        int lo =*max_element(weights.begin(), weights.end());;
+        int hi = accumulate(weights.begin(),weights.end(),0);
+        int ans = 0;
+        while(lo <= hi){
+            const int mid = (lo + hi) / 2;
+            if(check(weights,mid,days)){
+                ans = mid;
+                hi = mid -1;
+            }else{
+                lo = mid+1;
+            }
+        }
+    return ans;
+    }
+};
