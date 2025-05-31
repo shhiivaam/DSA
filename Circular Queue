@@ -1,0 +1,167 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+class MyCircularQueue
+{
+public:
+    struct ListNode
+    {
+        int val;
+        ListNode *next, *back;
+        ListNode() : val(0), next(nullptr), back(nullptr) {}
+        ListNode(int x) : val(x), next(nullptr), back(nullptr) {}
+        ListNode(int x, ListNode *next, ListNode *back) : val(x), next(next), back(back) {}
+    };
+
+    ListNode *head;
+    int K;
+    int curSize;
+
+    MyCircularQueue(int k)
+    {
+        head = nullptr;
+        K = k;
+        curSize = 0;
+    }
+
+    bool enQueue(int value)
+    {
+        if (curSize == K)
+            return false;
+
+        ListNode *newNode = new ListNode(value);
+
+        if (!curSize)
+        {
+            head = newNode;
+            head->next = head;
+            head->back = head;
+        }
+        else
+        {
+            ListNode *tail = head->next;
+            tail->back = newNode;
+            newNode->next = tail;
+            newNode->back = head;
+            head->next = newNode;
+        }
+
+        curSize++;
+
+        return true;
+    }
+
+    bool deQueue()
+    {
+        if (!curSize)
+            return false;
+
+        if (curSize == 1)
+        {
+            delete (head);
+            head = nullptr;
+        }
+        else
+        {
+            ListNode *tail = head->next;
+            head = head->back;
+            delete (head->next);
+            head->next = tail;
+            tail->back = head;
+        }
+
+        curSize--;
+        return true;
+    }
+
+    int Front()
+    {
+        if (head)
+            return head->val;
+        return -1;
+    }
+
+    int Rear()
+    {
+        if (head)
+            return head->next->val;
+        return -1;
+    }
+
+    bool isEmpty()
+    {
+        return !curSize;
+    }
+
+    bool isFull()
+    {
+        return (curSize == K);
+    }
+};
+
+int main()
+{
+    ios_base::sync_with_stdio(false);
+    cin.tie(0);
+    cout.tie(0);
+
+    int q;
+    cin >> q;
+
+    int k;
+    cin >> k;
+
+    MyCircularQueue myCircularQueue(k);
+
+    while (q--)
+    {
+        string s;
+        cin >> s;
+
+        if (s == "enQueue")
+        {
+            int val;
+            cin >> val;
+
+            if (myCircularQueue.enQueue(val))
+                cout << "True\n";
+            else
+                cout << "False\n";
+        }
+        else if (s == "deQueue")
+        {
+            if (myCircularQueue.deQueue())
+                cout << "True\n";
+            else
+                cout << "False\n";
+        }
+        else if (s == "Front")
+        {
+            cout << myCircularQueue.Front() << "\n";
+        }
+        else if (s == "Rear")
+        {
+            cout << myCircularQueue.Rear() << "\n";
+        }
+        else if (s == "isEmpty")
+        {
+            if (myCircularQueue.isEmpty())
+                cout << "True\n";
+            else
+                cout << "False\n";
+        }
+        else if (s == "isFull")
+        {
+            if (myCircularQueue.isFull())
+                cout << "True\n";
+            else
+                cout << "False\n";
+        }
+        else
+        {
+            assert(1 == 0); // This never happen
+        }
+    }
+
+    return 0;
+}
