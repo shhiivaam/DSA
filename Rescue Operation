@@ -1,0 +1,85 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+#define ll long long int
+#define LD long double
+
+const int N = 200010;
+
+int inf = 1e9;
+int mod = 1e9 + 7;
+
+vector<pair<int,int>> graph[N];
+
+vector<int> dijkstra(int s, int n) {
+    vector<int> dist(n + 1, inf);
+    vector<bool> visited(n + 1, false);
+
+    dist[s] = 0;
+
+    priority_queue<pair<int,int>> q;
+
+    q.push({0, s});
+
+    while (!q.empty()) {
+        int u = q.top().second;
+        q.pop();
+
+        if (visited[u]) continue;
+        visited[u] = true;
+
+        for (auto it : graph[u]) {
+            int v = it.first;
+            if (dist[v] > dist[u] + it.second) {
+                dist[v] = dist[u] + it.second;
+                q.push({-dist[v], v});
+            }
+        }
+    }
+
+    return dist;
+}
+
+signed main()
+{
+    //freopen("IN", "r", stdin);
+    //freopen("OUT", "w", stdout);
+
+    ios_base::sync_with_stdio(0);
+    cin.tie(0); cout.tie(0);
+
+    int t;
+    cin >> t;
+
+    while (t--) {
+        int n, m;
+        cin >> n >> m;
+
+        for (int i = 1; i <= n; i++) {
+            graph[i].clear();
+        }
+
+        for (int i = 0; i < m; i++) {
+            int u, v, w;
+            cin >> u >> v >> w;
+            graph[u].emplace_back(v, w);
+            graph[v].emplace_back(u, w);
+        }
+
+        int s, d;
+        cin >> s >> d;
+
+        vector<int> dists = dijkstra(s, n);
+        vector<int> distd = dijkstra(d, n);
+
+        int ans = 0;
+        for (int i = 1; i <= n; i++) {
+            ans = max(ans, dists[i] + distd[i] + 1);
+        }
+
+        assert(ans < inf);
+
+        cout << ans << "\n";
+    }
+    return 0;
+}
