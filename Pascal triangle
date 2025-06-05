@@ -1,0 +1,30 @@
+#include <iostream>
+using namespace std;
+int factorial(int n) {
+    int res = 1;
+    for(int i = 2; i <= n; ++i)
+        res *= i;
+    return res;
+}
+int binomialCoeff(int n, int r) {
+    return factorial(n) / (factorial(r) * factorial(n - r));
+}
+void printPascalsTriangle(int N) {
+    for(int i = 0; i < N; ++i) {
+        for(int space = 0; space < N - i - 1; ++space)
+            cout << "  ";
+        for(int j = 0; j <= i; ++j)
+            cout << binomialCoeff(i, j) << "   ";
+        
+        cout << endl;
+    }
+}
+int main() {
+    int t; cin>>t;
+    while(t--){
+    int N;
+    cin >> N;
+    printPascalsTriangle(N);
+    } 
+    return 0;
+}
