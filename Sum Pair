@@ -1,0 +1,39 @@
+#include <iostream>
+#include <vector>
+#include <unordered_map>
+using namespace std;
+
+int main() {
+    int n, m, q;
+    cin >> n >> m >> q;
+
+    vector<int> A(n), B(m);
+    for (int &x : A) cin >> x;
+    for (int &x : B) cin >> x;
+
+    unordered_map<int, int> bFreq;
+    for (int x : B) bFreq[x]++;
+
+    while (q--) {
+        string cmd;
+        cin >> cmd;
+        if (cmd == "add") {
+            int x, y;
+            cin >> x >> y;
+            bFreq[B[x]]--;              // remove old value
+            B[x] += y;                  // update value
+            bFreq[B[x]]++;              // insert new value
+        } else if (cmd == "count") {
+            int total;
+            cin >> total;
+            long long count = 0;
+            for (int a : A) {
+                int need = total - a;
+                count += bFreq[need];   // count how many B[j] make a + B[j] == total
+            }
+            cout << count << endl;
+        }
+    }
+
+    return 0;
+}
