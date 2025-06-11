@@ -1,0 +1,32 @@
+class Solution {
+public:
+bool check(vector<int>& nums, int k,int len){
+   long long total = 0;
+        for (int i = 0; i < len; ++i) {
+            total += nums[i];
+        }
+        long long targetSum = 1LL * nums[len - 1] * len;
+        if (targetSum - total <= k) return true;
+        for (int i = len; i < nums.size(); ++i) {
+            total += nums[i] - nums[i - len];
+            targetSum = 1LL * nums[i] * len;
+            if (targetSum - total <= k) return true;
+        }
+
+        return false;
+}
+    int maxFrequency(vector<int>& nums, int k) {
+        sort(nums.begin(), nums.end());
+        int lo = 1, hi = nums.size(), ans = 1;
+        while (lo <= hi) {
+            int mid = lo + (hi - lo) / 2;
+            if (check(nums, k, mid)) {
+                ans = mid;
+                lo = mid + 1;
+            } else {
+                hi = mid - 1;
+            }
+        }
+    return ans;
+    }
+};
