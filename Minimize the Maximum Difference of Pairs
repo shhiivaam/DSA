@@ -1,0 +1,28 @@
+class Solution {
+public:
+bool check(vector<int>nums,int p,int mid){
+     int pairs = 0;
+    for (int i = 1; i < nums.size(); ++i)
+      if (nums[i] - nums[i - 1] <= mid) {
+        pairs++;
+        i++;
+      }
+    return pairs >= p;
+}
+    int minimizeMax(vector<int>& nums, int p) {
+        int l = *max_element(nums.begin(),nums.end());
+        int r = *min_element(nums.begin(),nums.end());
+        sort(nums.begin(),nums.end());
+         int lo =0; int hi =l-r; int ans = hi;
+        while(lo <= hi){
+            const int mid = lo+(hi-lo)/2;
+            if(check(nums,p,mid)){
+                ans = mid;
+                 hi =mid-1;
+            }else{
+                lo = mid+1;
+            }
+        }
+      return ans;
+    }
+};
