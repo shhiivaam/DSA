@@ -1,0 +1,50 @@
+#include<iostream>
+using namespace std;
+int cost; int bk;
+bool check(vector<int>t,int cost,int mid){
+    int pc = 0; int cnt = 0; int cur =0;
+
+    for(int i =0;i<t.size();i++){
+        cur = t[i];
+        if(cur == cost) cnt++; break;
+        if(pc+cur <= cost && cur != -1){
+            pc +=cur; cnt++;
+        }else{
+            continue;
+        }
+    }
+    return cnt == mid;
+}
+int main(){
+    int t=1; cin>>t;
+    while(t--){
+    int n; cin>>n;
+    vector<int>toys(n);
+    for(int i =0;i<n;i++) cin>>toys[i];
+    int q; cin>>q;
+    vector<int>br;
+    int ans=0;
+    while(q--){
+     cin>>cost;
+     cin>>bk;
+     br.resize(bk);
+       for(int i =0;i<bk;i++) cin>>br[i];
+    
+        for(int i =0;i < bk;i++){
+            int x = br[i]-1;
+            toys[x]= -1; 
+        }
+        int lo = 0; int hi = n;
+        while(lo <= hi){
+            const int mid = lo +(hi-lo)/2;
+            if(check(toys,cost,mid)){
+                ans = mid;
+                lo = mid + 1;
+            }else{
+                hi = mid-1;
+            }
+        }
+      }
+      cout<<ans<<endl;
+    }
+}
