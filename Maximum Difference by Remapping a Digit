@@ -1,0 +1,42 @@
+class Solution {
+public:
+    int get_val(vector<int> nums) {
+        long long ans = 0;
+        for (int i = 0; i < nums.size(); i++) {
+            ans = ans * 10 + nums[i];
+        }
+        return ans;
+    }
+    int minMaxDifference(int num) {
+        vector<int> digits;
+        int temp = num;
+        while (temp > 0) {
+            digits.push_back(temp % 10);
+            temp /= 10;
+        }
+        reverse(digits.begin(), digits.end());
+        vector<int> maxDigits = digits;
+        int toReplaceMax = -1;
+        for (int d : maxDigits) {
+            if (d != 9) {
+                toReplaceMax = d;
+                break;
+            }
+        }
+        if (toReplaceMax != -1) {
+            for (int &d : maxDigits) {
+                if (d == toReplaceMax)
+                    d = 9;
+            }
+        }
+        int maxi = get_val(maxDigits);
+        vector<int> minDigits = digits;
+        int toReplaceMin = minDigits[0];
+        for (int &d : minDigits) {
+            if (d == toReplaceMin)
+                d = 0;
+        }
+        int mini = get_val(minDigits);
+        return maxi - mini;
+    }
+};
