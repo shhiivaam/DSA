@@ -1,0 +1,49 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int n, total = 0;
+bool col[20], diag1[40], diag2[40];
+vector<pair<int, int>> placedQueens;
+int dx[] = {-2, -1, 1, 2, 2, 1, -1, -2};
+int dy[] = {1, 2, 2, 1, -1, -2, -2, -1};
+bool isSafe(int row, int c) {
+    if (col[c] || diag1[row - c + n - 1] || diag2[row + c])
+        return false;
+
+    for (auto [x, y] : placedQueens) {
+        for (int i = 0; i < 8; ++i) {
+            int nx = x + dx[i];
+            int ny = y + dy[i];
+            if (nx == row && ny == c)
+                return false;
+        }
+    }
+    return true;
+}
+void solve(int row) {
+    if (row == n) {
+        total++;
+        return;
+    }
+    for (int c = 0; c < n; ++c) {
+        if (isSafe(row, c)) {
+            col[c] = diag1[row - c + n - 1] = diag2[row + c] = true;
+            placedQueens.push_back({row, c});
+            solve(row + 1);
+            placedQueens.pop_back();
+            col[c] = diag1[row - c + n - 1] = diag2[row + c] = false;
+        }
+    }
+}
+
+int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    
+    cin >> n;
+    total = 0;
+    solve(0);
+    cout << total << '\n';
+
+    return 0;
+}
