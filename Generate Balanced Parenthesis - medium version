@@ -1,0 +1,27 @@
+#include <bits/stdc++.h>
+using namespace std;
+int n, k;
+vector<string> result;
+void generate(string s, int open, int close, int current_depth, int max_depth) {
+    if (s.length() == n) {
+        if (max_depth == k)
+            result.push_back(s);
+        return;
+    }
+    if (open < n / 2) {
+        generate(s + '(', open + 1, close, current_depth + 1, max(max_depth, current_depth + 1));
+    }
+    if (close < open) {
+        generate(s + ')', open, close + 1, current_depth - 1, max_depth);
+    }
+}
+
+int main() {
+    cin >> n >> k;
+    generate("", 0, 0, 0, 0);
+    sort(result.begin(), result.end());
+    for (string &s : result)
+        cout << s << "\n";
+    
+    return 0;
+}
