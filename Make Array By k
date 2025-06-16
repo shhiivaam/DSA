@@ -1,0 +1,75 @@
+#include <iostream>
+#include <vector>
+#include <numeric>
+#include <algorithm>
+
+// Function to check if a permutation is sortable with a given k
+// A permutation p is sortable if for every i (1-based index), 
+// (p[i-1]-1) % k == (i-1) % k.
+bool is_sortable(int n, int k, const std::vector<int>& p) {
+    for (int i = 0; i < n; ++i) {
+        // p[i] is the value at 1-based index (i+1)
+        // Its target position is value p[i], which is at 0-based index p[i]-1
+        // Its current position is 0-based index i
+        if (((p[i] - 1) % k) != (i % k)) {
+            return false;
+        }
+    }
+    return true;
+}
+
+void solve() {
+    int n, k;
+    std::cin >> n >> k;
+    std::vector<int> p(n);
+    std::vector<int> bad_indices;
+
+    for (int i = 0; i < n; ++i) {
+        std::cin >> p[i];
+        // Check if the current position (i, 0-based) modulo k is the same
+        // as the value at that position (p[i]) modulo k.
+        // We use (val - 1) % k for both to ensure correct modulo for values
+        // that are multiples of k (e.g., k % k = 0, but if k is value, it should be k-1 mod k)
+        // For 1-based index 'j' and value 'v', the condition is (v-1)%k == (j-1)%k.
+        // Here, current index is i (0-based), so 1-based index is (i+1).
+        // The value is p[i].
+        // So we check if (p[i] - 1) % k == i % k.
+        if (((p[i] - 1) % k) != (i % k)) {
+            bad_indices.push_back(i); // Store 0-based index
+        }
+    }
+
+    if (bad_indices.empty()) {
+        std::cout << 0 << std::endl;
+    } else if (bad_indices.size() == 2) {
+        // Try swapping the two bad elements
+        int idx1 = bad_indices[0];
+        int idx2 = bad_indices[1];
+
+        // Simulate the swap
+        std::swap(p[idx1], p[idx2]);
+
+        // Check if both positions are now good
+        bool fixed1 = (((p[idx1] - 1) % k) == (idx1 % k));
+        bool fixed2 = (((p[idx2] - 1) % k) == (idx2 % k));
+
+        if (fixed1 && fixed2) {
+            std::cout << 1 << std::endl;
+        } else {
+            std::cout << -1 << std::endl;
+        }
+    } else {
+        std::cout << -1 << std::endl;
+    }
+}
+
+int main() {
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
+    int t;
+    std::cin >> t;
+    while (t--) {
+        solve();
+    }
+    return 0;
+}
