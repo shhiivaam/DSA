@@ -1,0 +1,47 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    ios_base::sync_with_stdio(false);
+    cin.tie(0);
+    cout.tie(0);
+
+    int t;
+    cin >> t;
+
+    while (t--)
+    {
+        int n;
+        cin >> n;
+
+        int arr[n][n];
+        for (int i = 0; i < n; i++)
+        {
+            for (int j = 0; j < n; j++)
+            {
+                cin >> arr[i][j];
+            }
+        }
+
+        int s1 = 0, s2 = 0;
+        for (int i = 0; i < n; i++)
+        {
+            for (int j = 0; j < n; j++)
+            {
+                if (i == j)
+                {
+                    s1 += arr[i][j];
+                }
+                if (i == n - j - 1)
+                {
+                    s2 += arr[i][j];
+                }
+            }
+        }
+
+        cout << abs(s1 - s2) << "\n";
+    }
+
+    return 0;
+}
