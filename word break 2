@@ -1,0 +1,27 @@
+class Solution {
+public:
+vector<string> ans;
+unordered_set<string> st;
+void solve(int i, string& cur, string& s) {
+    if (i >= s.length()) {
+        ans.push_back(cur);
+        return;
+    }
+    for (int j = i; j < s.length(); j++) {
+        string temp = s.substr(i, j - i + 1);
+        if (st.count(temp)) {
+            int prevLen = cur.length();
+            if (!cur.empty()) cur += " ";
+            cur += temp;
+            solve(j + 1, cur, s);
+            cur.erase(prevLen);
+        }
+    }
+}
+    vector<string> wordBreak(string s, vector<string>& wordDict) {
+    for (string& word : wordDict) st.insert(word);
+    string curSen = "";
+    solve(0, curSen, s);
+    return ans;
+    }
+};
