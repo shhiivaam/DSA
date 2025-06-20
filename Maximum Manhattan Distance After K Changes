@@ -1,0 +1,26 @@
+class Solution {
+public:
+    int maxDistance(string s, int k) {
+      int maxi = 0;
+      int n=0;
+      int ss=0;
+      int w=0;
+      int e=0;
+      for(int i =0;i<s.length();i++){
+        if(s[i] =='N') n++;
+        else if(s[i] =='W') w++;
+        else if(s[i]=='S') ss++;
+        else if(s[i]=='E')e++;
+      int cur = abs(n-ss) + abs(e-w);
+      int step = i+1;
+      int wst= step - cur ;
+      int extra=0;
+      if(wst != 0){
+         extra=min(2*k,wst);
+      }  
+      int f = cur + extra;
+       maxi  = max(maxi,f);
+      }
+     return maxi; 
+    } 
+};
