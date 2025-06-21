@@ -1,0 +1,76 @@
+#include <bits/stdc++.h>
+using namespace std;
+using int64 = long long;
+
+vector<int> parent;
+
+void dfs(int u, int par, vector<vector<int>>& tree, vector<int>& minLabel, int label) {
+    minLabel[u] = min(label, u);
+    for (int v : tree[u]) {
+        if (v != par)
+            dfs(v, u, tree, minLabel, minLabel[u]);
+    }
+}
+
+int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+
+    int T;
+    cin >> T;
+
+    while (T--) {
+        int n;
+        int64 m;
+        cin >> n >> m;
+
+        if (n == 1) {
+            if (m == 1) {
+                cout << "1\n";
+            } else {
+                cout << "-1\n";
+            }
+            continue;
+        }
+
+        bool found = false;
+        // Try all roots from 1 to n
+        for (int root = 1; root <= n && !found; ++root) {
+            vector<vector<int>> tree(n + 1);
+            vector<pair<int, int>> edges;
+            int current = 1;
+
+            if (current == root) current++;
+            int last = root;
+
+            for (int i = 1; i <= n - 1; ++i) {
+                if (current == root) current++;
+                tree[last].push_back(current);
+                tree[current].push_back(last);
+                edges.emplace_back(last, current);
+                last = current;
+                current++;
+            }
+
+            vector<int> minLabel(n + 1, 0);
+            dfs(root, -1, tree, minLabel, root);
+
+            int64 totalDivine = 0;
+            for (int i = 1; i <= n; ++i) {
+                totalDivine += minLabel[i];
+            }
+
+            if (totalDivine == m) {
+                cout << root << '\n';
+                for (auto &[u, v] : edges)
+                    cout << u << " " << v << '\n';
+                found = true;
+                break;
+            }
+        }
+
+        if (!found) cout << "-1\n";
+    }
+
+    return 0;
+}
