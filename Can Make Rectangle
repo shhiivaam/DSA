@@ -1,0 +1,28 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+void solve() {
+    int l1, b1, l2, b2, l3, b3;
+    cin >> l1 >> b1 >> l2 >> b2 >> l3 >> b3;
+
+    // Case 1: All same height (widths add to square)
+    if (l1 == l2 && l2 == l3 && b1 + b2 + b3 == l1) {
+        cout << "YES\n";
+        return;
+    }
+
+    // Case 2: One top, two below
+    if (b2 == b3 && l2 + l3 == l1 && b1 + b2 == l1) {
+        cout << "YES\n";
+        return;
+    }
+
+    cout << "NO\n";
+}
+
+int main() {
+    int t;
+    cin >> t;
+    while (t--) solve();
+    return 0;
+}
