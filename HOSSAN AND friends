@@ -1,0 +1,36 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+#define int long long
+
+int32_t main() {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+
+    int t;
+    cin >> t;
+
+    while (t--) {
+        int n, m;
+        cin >> n >> m;
+
+        int right_limit = n + 1;
+
+        for (int i = 0; i < m; ++i) {
+            int x, y;
+            cin >> x >> y;
+            if (x > y) swap(x, y); // Always make x < y
+            right_limit = min(right_limit, y); // y is the earliest block
+        }
+
+        // Count all subsegments [a, b] such that a < right_limit
+        long long ans = 0;
+        for (int a = 1; a < right_limit; ++a) {
+            ans += (n - a + 1);
+        }
+
+        cout << ans << '\n';
+    }
+
+    return 0;
+}
