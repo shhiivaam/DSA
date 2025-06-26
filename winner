@@ -1,0 +1,31 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main() {
+    int t;
+    cin>>t;
+    while(t--) {
+        int n, m;
+        cin >> n >> m;
+        vector<vector<int>> v(n, vector<int>(m));
+        for (int i = 0; i < n;i++){
+            for (int j = 0; j < m;j++){
+                cin >> v[i][j];
+            }
+        }
+        long long total = 0;
+        for (int j = 0; j < m; ++j) {
+            vector<int> val(n);
+            for (int i = 0; i < n; ++i){
+                val[i] = v[i][j];
+            }
+            sort(val.begin(), val.end());
+            long long pre = 0;
+            for (int i=0;i<n;i++) {
+                total += (long long )val[i] * i - pre;
+                pre += val[i];
+            }
+        }
+        cout << total << "\n"; 
+    }
+    return 0;
+}
