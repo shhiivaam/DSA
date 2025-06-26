@@ -1,0 +1,29 @@
+By *shhiivaam, contest: Educational Codeforces Round 180 (Rated for Div. 2), problem: (A) Race, Skipped, #, Copy
+#include<bits/stdc++.h>
+using namespace std;
+void pogo(){
+  int a,x,y; cin>>a>>x>>y;
+  int d1 = abs(x-a);
+  int d2 = abs(y-a);
+  bool is =0;
+  for(int i=1;i<=max(x,y);i++){
+    int s1=abs(x-i);
+    int s2=abs(y-i);
+    if(s1+s2 < d1+d2){
+        is=1;
+        break;
+    }
+  }
+    if(is){
+        cout<<"YES"<<endl;
+    }else{
+        cout<<"NO"<<endl;
+    }
+ 
+}
+int main(){
+    int t; cin>>t;
+    while(t--){
+        pogo();
+    }
+}
