@@ -1,0 +1,55 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+#define ll long long
+#define mod 1000000007
+#define mod2 998244353
+
+int32_t main() {
+  ios_base::sync_with_stdio(false);
+  cin.tie(0);
+  cout.tie(0);
+  
+  long long t;
+  cin >> t;
+
+  for (int tt = 1; tt <= t; tt++) {
+    string str;
+    cin >> str;
+    int n = str.size();
+    int prev = 0;
+    vector<int> before(n), after(n);
+    for (int i = 0; i < n; i++) {
+      before[i] = prev;
+      if (str[i] == 'R') prev = i;
+    }
+    prev = n - 1;
+    for (int i = n - 1; i >= 0; i--) {
+      after[i] = prev;
+      if (str[i] == 'L') prev = i;
+    }
+    vector<int> cnt(n, 0);
+    for (int i = 0; i < n; i++) {
+      if (str[i] == 'L') {
+        int diff = i - before[i];
+        if (diff % 2 == 0)
+          cnt[before[i]]++;
+        else
+          cnt[before[i] + 1]++;
+      } else {
+        int diff = after[i] - i;
+        if (diff % 2 == 0) {
+          cnt[after[i]]++;
+        } else {
+          cnt[after[i] - 1]++;
+        }
+      }
+    }
+    int sum = 0;
+    for (int i = 0; i < n; ++i) {
+      cout << cnt[i];
+    }
+    cout << endl;
+  }
+  return 0;
+}
