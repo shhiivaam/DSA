@@ -1,0 +1,27 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int n,k; cin>>n>>k;
+    vector<int>v(n);
+    //1 2 1 3
+    for(int i =0;i<n;i++) cin>>v[i];
+    int tail=0,head =-1;
+    int ans = 0;
+    while(tail < n){
+        int cur = 0;vector<int>vis(n+1,0);
+        while(head+1 < n && vis[head] == 0){
+            vis[head]=1;
+            head++;
+            cout<<head<<" "<<cur<<" "<<ans<<endl;
+            cur = head;
+        }
+        ans += cur * n ;
+        if(tail > head){
+            tail++;
+            head = tail -1;
+        }else{
+            tail++;
+        }
+    }
+   cout<<ans<<endl;
+}
