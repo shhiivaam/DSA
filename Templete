@@ -1,0 +1,50 @@
+#include <iostream>
+using namespace std;
+typedef long long ll;
+typedef vector<int> vi;
+typedef vector<ll> vll;
+typedef pair<int,int> pii;
+const int MOD = 1e9 + 7;
+const int INF = 1e9;
+int dx4[] = {-1, 1, 0, 0};
+int dy4[] = {0, 0, -1, 1};
+int dx8[] = {-1,-1,-1,0,0,1,1,1};
+int dy8[] = {-1,0,1,-1,1,-1,0,1};
+ll mod_add(ll a, ll b, ll m = MOD) {
+    return (a + b) % m;
+}
+ll mod_sub(ll a, ll b, ll m = MOD) { return ((a - b) % m + m) % m;}
+ll mod_mul(ll a, ll b, ll m = MOD) { return (a * b) % m;}
+ll mod_pow(ll base, ll exp, ll m = MOD) {
+    ll res = 1; base %= m;
+    while(exp > 0) { if(exp & 1) res = mod_mul(res, base, m); base = mod_mul(base, base, m); exp >>= 1; } return res;
+}
+template<typename T>
+void debug(const vector<T>& arr) {
+    for(auto x : arr) cout << x << " ";
+    cout << "\n";
+}
+template<typename T>
+void print_grid(const vector<vector<T>>& grid, const string& label = "") {
+    if(!label.empty()) cout << label << ":\n";
+    for(auto row : grid) {
+        for(auto x : row) cout << x << " ";
+        cout << "\n";
+    }
+}
+/*_________________________________________________________________________________________________*/
+void solve(){
+     int n; cin>>n;
+     vi arr(n);
+     for(int i =0; i<n;i++) cin>>arr[i];
+     debug(arr);
+}
+int main() {
+  ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    int t;
+   cin >> t;
+    while(t--) {
+       solve();
+}
+}
