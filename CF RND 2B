@@ -1,0 +1,37 @@
+#include <bits/stdc++.h>
+using namespace std;
+void solve() {
+    int n, j, k;
+    cin >> n >> j >> k;
+    vector<int> v(n);
+    for (int i = 0; i < n; i++) cin >> v[i];
+    sort(v.begin(), v.end());
+    deque<int> dq;
+    for (int i = 0; i < n; i++) {
+        dq.push_back(v[i]);
+    }
+    int i = 1;
+    k = n-k;
+    while (k) {
+        if (i % 2 != 0) {
+            if (!dq.empty()) dq.pop_front();
+        } else {
+            if (!dq.empty()) dq.pop_back();
+        }
+        i++;
+        k--;
+    }
+    auto it = find(dq.begin(), dq.end(), j);
+    if (it != dq.end()) {
+        cout << "YES" << endl;
+    } else {
+        cout << "NO" << endl;
+    }
+}
+int main() {
+    int t;
+    cin >> t;
+    while (t--) {
+        solve();
+    }
+}
