@@ -1,0 +1,85 @@
+class Dsu {
+public:
+    vector<int> parent, size;
+    Dsu(int n) {
+        parent.resize(n + 1);
+        size.resize(n + 1);
+        for (int i = 0; i <= n; i++) {
+            parent[i] = i;
+            size[i] = 1;
+        }
+    }
+    int findUpar(int node) {
+        if (node == parent[node]) return node;
+        return parent[node] = findUpar(parent[node]);
+    }
+    void unionByRank(int u, int v) {
+        int ult_u = findUpar(u);
+        int ult_v = findUpar(v);
+        if (ult_u == ult_v) return;
+        if (size[ult_u] < size[ult_v]) {
+            parent[ult_u] = ult_v;
+            size[ult_v] += size[ult_u];
+        } else {
+            parent[ult_v] = ult_u;
+            size[ult_u] += size[ult_v];
+        }
+    }
+};
+
+class Solution {
+private:
+    bool can_place(int x, int y, int n) {
+        return x >= 0 && x < n && y >= 0 && y < n;
+    }
+
+public:
+    int largestIsland(vector<vector<int>>& grid) {
+        int n = grid.size();
+        Dsu ds(n * n);
+        for (int row = 0; row < n; row++) {
+            for (int col = 0; col < n; col++) {
+                if (grid[row][col] == 0) continue;
+                int dx[] = {1, 0, -1, 0};
+                int dy[] = {0, -1, 0, 1};
+                for (int k = 0; k < 4; k++) {
+                    int nx = row + dx[k];
+                    int ny = col + dy[k];
+                    if (can_place(nx, ny, n) && grid[nx][ny] == 1) {
+                        int nodeNo = row * n + col;
+                        int adjNode = nx * n + ny;
+                        ds.unionByRank(nodeNo, adjNode);
+                    }
+                }
+            }
+        }
+        int mx = 0;
+        for (int row = 0; row < n; row++) {
+            for (int col = 0; col < n; col++) {
+                if (grid[row][col] == 1) continue;
+                set<int> cmp;
+                int dx[] = {1, 0, -1, 0};
+                int dy[] = {0, -1, 0, 1};
+                for (int k = 0; k < 4; k++) {
+                    int nx = row + dx[k];
+                    int ny = col + dy[k];
+                    if (can_place(nx, ny, n) && grid[nx][ny] == 1) {
+                        cmp.insert(ds.findUpar(nx * n + ny));
+                    }
+                }
+                int sizeTot = 1;
+                for (auto it : cmp) {
+                    sizeTot += ds.size[it];
+                }
+                mx = max(mx, sizeTot);
+            }
+        }
+        for (int c = 0; c < n * n; c++) {
+            if (ds.findUpar(c) == c) {
+                mx = max(mx, ds.size[c]);
+            }
+        }
+        return mx;
+    }
+};
+;
