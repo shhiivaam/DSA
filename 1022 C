@@ -1,0 +1,92 @@
+#include <bits/stdc++.h>
+using namespace std;
+#define all(x) x.begin(),x.end()
+
+struct D {
+    vector<int> p;
+    D(int n){ p.resize(n+1); iota(all(p),0); }
+    int F(int x){ return p[x]==x?x:p[x]=F(p[x]); }
+    void U(int a,int b){ a=F(a); b=F(b); if(a!=b) p[a]=b; }
+};
+
+void B(int s, vector<vector<pair<int,int>>> &g, vector<char> &vis, vector<int> &ans){
+    queue<int> q; q.push(s); vis[s]=1;
+    while(!q.empty()){
+        int u=q.front(); q.pop();
+        for(auto &e:g[u]) if(!vis[e.first]){
+            vis[e.first]=1; ans.push_back(e.second); q.push(e.first);
+        }
+    }
+}
+
+void solve(){
+    int n; cin>>n;
+    vector<array<int,3>> e(n);
+    int mx=0; vector<int> vals;
+    for(int i=0;i<n;i++){
+        cin>>e[i][0]>>e[i][1]; e[i][2]=i+1;
+        mx=max({mx,e[i][0],e[i][1]});
+        vals.push_back(e[i][0]); vals.push_back(e[i][1]);
+    }
+    sort(all(vals)); vals.erase(unique(all(vals)),vals.end());
+    D dsu(mx);
+    for(auto &ed:e) dsu.U(ed[0],ed[1]);
+    
+    map<int,vector<int>> comp;
+    for(int x:vals) comp[dsu.F(x)].push_back(x);
+    struct I { int l,r,id; };
+    vector<I> seg;
+    for(auto &p:comp){
+        auto &v=p.second;
+        int L=*min_element(all(v)), R=*max_element(all(v));
+        seg.push_back({L,R,p.first});
+    }
+    if(seg.empty()){ cout<<"0\n\n"; return; }
+    sort(all(seg),[](auto &a,auto &b){ return a.l!=b.l?a.l<b.l:a.r<b.r; });
+
+    int m=seg.size();
+    vector<long long> dp(m+1,0);
+    vector<int> nxt(m+1,0);
+    for(int i=m-1;i>=0;i--){
+        dp[i]=dp[i+1]; nxt[i]=i+1;
+        int R=seg[i].r;
+        for(int j=i+1;j<m;j++) if(seg[j].l<=R) R=max(R,seg[j].r);
+        auto it=upper_bound(seg.begin()+i,seg.end(),R,
+            [](int x,const I &y){ return x<y.l; });
+        int k=it-seg.begin();
+        long long val=(long long)R-seg[i].l+dp[k];
+        if(val>dp[i]){ dp[i]=val; nxt[i]=-k; }
+    }
+
+    vector<int> choose;
+    for(int c=0;c<m;) if(nxt[c]<=0) choose.push_back(seg[c].id), c=-nxt[c]; else c=nxt[c];
+
+    vector<int> chosen;
+    for(int id:choose){
+        int L=-1,R=-1;
+        for(auto &iv:seg) if(iv.id==id){ L=iv.l; R=iv.r; break; }
+        for(auto &iv:seg) if(iv.l<=R && iv.l>=L) chosen.push_back(iv.id), R=max(R,iv.r);
+    }
+    sort(all(chosen)); chosen.erase(unique(all(chosen)),chosen.end());
+
+    vector<vector<pair<int,int>>> g(mx+1);
+    for(auto &ed:e) if(binary_search(all(chosen),dsu.F(ed[0])))
+        g[ed[0]].push_back({ed[1],ed[2]}),
+        g[ed[1]].push_back({ed[0],ed[2]});
+
+    vector<int> ans; vector<char> vis(mx+1,0);
+    for(int id:chosen){
+        int st=comp[id][0];
+        if(!vis[st]) B(st,g,vis,ans);
+    }
+
+    cout<<ans.size()<<"\n";
+    for(int i=0;i<ans.size();i++) cout<<ans[i]<<(i+1==ans.size()?'\n':' ');
+}
+
+int main(){
+    ios::sync_with_stdio(0);
+    cin.tie(0);
+    int t; cin>>t;
+    while(t--) solve();
+}
