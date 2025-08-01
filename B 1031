@@ -1,0 +1,65 @@
+#include <bits/stdc++.h>
+
+#pragma optimization_level 3
+#pragma GCC optimize("Ofast,no-stack-protector,unroll-loops,fast-math,O3")
+#pragma GCC target("sse,sse2,sse3,ssse3,sse4,popcnt,abm,mmx,avx")
+#pragma GCC optimize("Ofast")//Comment optimisations for interactive problems (use endl)
+#pragma GCC target("avx,avx2,fma")
+#pragma GCC optimization ("unroll-loops")
+
+struct PairHash {inline std::size_t operator()(const std::pair<int,int> & v) const {return v.first*31+v.second;}};
+
+#define MAX_N 50505
+#define INF 987654321
+#define EPS 1e-9
+#define ll long long
+#define pll pair<ll, ll>
+#define vpll vector<pll>
+#define vall3 vector<array<ll,3>>
+#define all3 array<ll,3>
+#define all5 array<ll,5>
+#define vall5 vector<all5>
+#define vll vector<ll>
+#define vs vector<string>
+#define usll unordered_set<ll>
+#define uspll unordered_set<pll, PairHash>
+#define vvs vector<vs>
+#define vvll vector<vll>
+#define all(a) begin(a), end(a)
+
+using namespace std;
+
+ll solve(vll& A) {
+    sort(all(A));
+    ll n = A.size(), l = 0, r = 0, lis1 = 0, lis2 = 0;
+    bool hook = false;
+
+    while(r < n) {
+        while(r < n and A[l] == A[r]) r++;
+        ll count = r - l;
+        if(count == 1) {
+            hook = true;
+            if(lis1 <= lis2) lis1++;
+            else lis2++;
+        } else lis1++,lis2++;
+
+        l = r;
+    }
+
+    return lis1 == lis2 ? lis1 : hook + min(lis1, lis2);
+}
+
+int main() {
+    ios_base::sync_with_stdio(0);
+    cin.tie(0);
+    ll tc;
+    cin>>tc;
+    for(ll i = 1; i <= tc; i++) {
+        ll n;
+        cin>>n;
+        vll A(n);
+        for(ll j = 0; j < n; j++) cin>>A[j];
+        cout<<solve(A)<<endl;
+    }
+    return 0;
+}
