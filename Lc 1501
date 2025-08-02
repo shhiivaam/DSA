@@ -1,0 +1,43 @@
+class Solution {
+public:
+    long long minCost(vector<int>& b1, vector<int>& b2) {
+        map<int,int> diff;
+        for (int x : b1) diff[x]++;
+        for (int x : b2) diff[x]--;
+
+        // Find global minimum fruit cost
+        int minFruit = INT_MAX;
+        for (auto &p : diff) {
+            minFruit = min(minFruit, p.first);
+        }
+
+        vector<int> extra1, extra2;
+        for (auto &p : diff) {
+            int val = p.first;
+            int cnt = p.second;
+            if (cnt % 2 != 0) return -1; // impossible case
+
+            if (cnt > 0) { // extra in basket1
+                for (int i = 0; i < cnt / 2; i++) {
+                    extra1.push_back(val);
+                }
+            } 
+            else if (cnt < 0) { // extra in basket2
+                for (int i = 0; i < (-cnt) / 2; i++) {
+                    extra2.push_back(val);
+                }
+            }
+        }
+
+        sort(extra1.begin(), extra1.end()); // smallest first
+        sort(extra2.rbegin(), extra2.rend()); // largest first
+
+        long long cost = 0;
+        for (int i = 0; i < extra1.size(); i++) {
+            int directSwap = min(extra1[i], extra2[i]);
+            int indirectSwap = 2 * minFruit;
+            cost += min(directSwap, indirectSwap);
+        }
+        return cost;
+    }
+};
