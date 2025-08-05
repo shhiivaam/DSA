@@ -1,0 +1,97 @@
+#include<bits/stdc++.h>
+using namespace std;
+ 
+#define nl "\n"
+#define ff first
+#define ss second
+#define pp pop_back
+#define pf pop_front
+#define pb push_back
+#define lb lower_bound
+#define ub upper_bound
+#define all(x) x.begin(),x.end()
+#define test ll t; cin>>t; while(t--)
+#define loop(i,s,n) for(ll i=s;i<n;i++)
+#define rloop(i,s,n) for(ll i=s;i>=n;i--)
+#define fill(a,value) memset(a,value,sizeof(a))
+ 
+#define debug1(a,n)  loop(i,0,n)  cout<<a[i]<<" ";  cout<<nl;
+#define debug2(a)  for(auto x : a)  cout<<x<<" ";  cout<<nl;
+#define debug4(a)  for(auto x : a)  cout<<x.ff<<" "<<x.ss<<nl;
+#define debug3(a,n,m)  loop(i,0,n){ loop(j,0,m)	cout<<a[i][j]<<" ";	cout<<nl; }
+ 
+typedef long long ll;
+typedef long double ld;
+ 
+typedef stack<ll> sll;
+typedef queue<ll> qll;
+typedef vector<ll> vll;
+typedef vector<char> vc;
+typedef vector<string> vs;
+typedef pair<ll, ll> pll;
+typedef vector<pll> vpll;
+typedef pair<ll, pll> ppll;
+typedef vector<vector<ll>> vvll;
+typedef priority_queue<ll> pqll;
+ 
+const ll mod = 1000000007;  //998244353;
+const ld pi =  3.1415926535; //acos((ld) - 1);
+ 
+void solve()
+{
+	ll n;		cin >> n;
+	ll a[n];	fill(a,-1);
+ 
+	if(n==1)
+	{
+		cout<<"! 1"<<endl;
+		return;
+	}
+	ll x=0,y=1;
+	while(x<n && y<n)
+	{
+		cout<<"? "<<x+1<<" "<<y+1<<endl;
+		ll xy;		cin>>xy;
+		cout<<"? "<<y+1<<" "<<x+1<<endl;
+		ll yx;		cin>>yx;
+ 
+		if(xy>yx)
+		{
+			a[x]=xy;
+			x++;
+			if(x==y)	x++;
+			while(x<n && a[x]!=-1)		x++;
+			if(x==y)	x++;
+		}	
+		else
+		{
+			a[y]=yx;
+			y++;
+			if(y==x)	y++;
+			while(y<n && a[y]!=-1)		y++;
+			if(y==x)	y++;
+		}
+	}
+	cout<<"! ";
+	loop(i,0,n)
+	{
+		if(a[i]==-1)	cout<<n<<" ";
+		else	cout<<a[i]<<" ";
+	}		
+	cout<<endl;
+}
+ 
+int main() {
+	ios_base::sync_with_stdio(false);
+	cin.tie(NULL);
+ 
+#ifndef ONLINE_JUDGE
+	freopen("input.txt", "r", stdin);
+	freopen("output.txt", "w", stdout);
+#endif
+ 
+	// test
+	solve();
+ 
+	return 0;
+}
