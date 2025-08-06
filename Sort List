@@ -1,0 +1,23 @@
+class Solution {
+public:
+    ListNode* sortList(ListNode* head) {
+        if (!head || !head->next) return head;
+
+        // Extract values
+        vector<int> vals;
+        for (ListNode* cur = head; cur; cur = cur->next)
+            vals.push_back(cur->val);
+
+        // Sort values
+        sort(vals.begin(), vals.end());
+
+        // Rebuild linked list
+        ListNode* cur = head;
+        for (int v : vals) {
+            cur->val = v; // reuse nodes
+            cur = cur->next;
+        }
+
+        return head;
+    }
+};
