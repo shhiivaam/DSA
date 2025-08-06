@@ -1,0 +1,38 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int rec(int level, int n, int k, vector<int>& arr, vector<vector<int>>& dp) {
+    // Pruning: If level exceeds n, return a large value
+    if(level >= n) return 1e9;
+    // Base case: If at the last level, no cost to stay
+    if(level == n - 1) return 0;
+    // Cache check
+    if(dp[level][k] != -1) return dp[level][k];
+    // Transition: Try all possible jumps from 1 to k
+    int ans = 1e9;
+    for(int i = 1; i <= k; i++) {
+        if(level + i < n) {
+            ans = min(ans, rec(level + i, n, k, arr, dp) + abs(arr[level] - arr[level + i]));
+        }
+    }
+    // Save and return
+    return dp[level][k] = ans;
+}
+
+void solve() {
+    int n, k;
+    cin >> n >> k;
+    vector<int> arr(n);
+    vector<vector<int>> dp(n + 1, vector<int>(k + 1, -1));
+    for(int i = 0; i < n; i++) cin >> arr[i];
+    cout << rec(0, n, k, arr, dp) << endl;
+}
+
+int main() {
+    int t=1;
+ //   cin >> t;
+    while(t--) {
+        solve();
+    }
+    return 0;
+}
