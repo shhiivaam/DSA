@@ -1,0 +1,66 @@
+#include<bits/stdc++.h>
+using namespace std;
+class Node{
+public:
+    int data;
+	Node* next;
+	Node(int val){
+		data = val;
+		next = NULL;
+	}
+};
+int addOneUtil(Node* head) {
+    if (head == NULL) return 1;
+    int carry = addOneUtil(head->next);
+    int sum = head->data + carry;
+    head->data = sum % 10;
+    return sum / 10;
+}
+Node* addOne(Node* head) {
+    int carry = addOneUtil(head);
+    if (carry) {
+        Node* newHead = new Node(carry);
+        newHead->next = head;
+        head = newHead;
+    }
+    return head;
+}
+Node* reverse(Node*&head){
+	if(head == NULL || head->next ==NULL) return head;
+	Node* resthead=reverse(head->next);
+	Node* prev= head->next;
+	prev->next = head;
+	head->next = NULL;
+	return resthead;
+}
+void insert(Node* &head,int val){
+	Node* newNode = new Node(val);
+	if(head == NULL){
+		head = newNode;
+		return;
+	}
+	Node* cur = head;
+	while(cur->next != NULL){
+		cur = cur->next;
+	}
+	cur->next = newNode;
+}
+void print(Node* &head){
+	Node* cur = head;
+	while(cur != NULL){
+		cout<<cur->data<<" ";
+	   cur = cur->next;
+	}
+}
+int main(){
+   Node* head = NULL;
+   int n; cin>>n;
+   while(n--){
+   	int val; cin>>val;
+   	  insert(head,val);
+   }
+   print(head);
+   cout<<endl;
+   Node*cur = addOne(head);
+   print(cur);
+}
