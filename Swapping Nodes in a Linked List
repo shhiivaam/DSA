@@ -1,0 +1,34 @@
+class Solution {
+public:
+    int getlen(ListNode* head) {
+        int len = 0;
+        ListNode* firstkth = head;
+        while (firstkth) {
+            firstkth = firstkth->next;
+            len++;
+        }
+        return len;
+    }
+
+    ListNode* swapNodes(ListNode* head, int k) {
+        int len = getlen(head);
+        ListNode* firstkth = head;
+        int i = 1; 
+        while (i < k) {
+            firstkth = firstkth->next;
+            i++;
+        }
+        int fromend = len - k + 1;
+        ListNode* endkth = head;
+        i = 1;
+        while (i < fromend) {
+            endkth = endkth->next;
+            i++;
+        }
+        int tempVal = firstkth->val;
+        firstkth->val = endkth->val;
+        endkth->val = tempVal;
+
+        return head;
+    }
+};
