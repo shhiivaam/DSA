@@ -1,0 +1,18 @@
+class Solution {
+public:
+    int rec(int level, int idx, string &s, string &t, vector<vector<int>> &dp) {
+        if (idx == t.size()) return 1;
+        if (level == s.size()) return 0;
+        if (dp[level][idx] != -1) return dp[level][idx];
+        long long ways = 0;
+        if (s[level] == t[idx]) {
+            ways += rec(level + 1, idx + 1, s, t, dp); 
+        }
+        ways += rec(level + 1, idx, s, t, dp);
+        return dp[level][idx] = ways;
+    }
+    int numDistinct(string s, string t) {
+        vector<vector<int>> dp(s.size(), vector<int>(t.size(), -1));
+        return rec(0, 0, s, t, dp);
+    }
+};
