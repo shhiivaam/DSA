@@ -1,0 +1,24 @@
+class Solution {
+public:
+    ListNode* removeZeroSumSublists(ListNode* head) {
+        ListNode dummy(0);
+        dummy.next = head;
+        unordered_map<int, ListNode*> prefixMap;
+        int prefixSum = 0;
+        ListNode* cur = &dummy;
+        while (cur) {
+            prefixSum += cur->val;
+            prefixMap[prefixSum] = cur;
+            cur = cur->next;
+        }
+        prefixSum = 0;
+        cur = &dummy;
+        while (cur) {
+            prefixSum += cur->val;
+            cur->next = prefixMap[prefixSum]->next;
+            cur = cur->next;
+        }
+
+        return dummy.next;
+    }
+};
