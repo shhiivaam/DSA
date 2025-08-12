@@ -1,0 +1,42 @@
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode() : val(0), next(nullptr) {}
+ *     ListNode(int x) : val(x), next(nullptr) {}
+ *     ListNode(int x, ListNode *next) : val(x), next(next) {}
+ * };
+ */
+class Solution {
+public:
+    bool dfs(ListNode* head, int val1, int val2) {
+        ListNode* cur = head;
+        bool first = false;
+        bool second = false;
+        
+        while (cur != nullptr) {
+            if (cur->val == val1) first = true;
+            if (cur->val == val2) second = true;
+            if (!first && second) return false;
+            
+            cur = cur->next;
+        }
+        return first && second;
+    }
+
+    int numComponents(ListNode* head, vector<int>& nums) {
+        if (!head) return 0;
+        if (!head->next) return 1;
+        unordered_set<int> s(nums.begin(), nums.end());
+        int cmpsize = 0;
+        ListNode* cur = head;
+        while (cur) {
+            if (s.count(cur->val) && (!cur->next || !s.count(cur->next->val))) {
+                cmpsize++;
+            }
+            cur = cur->next;
+        }
+        return cmpsize;
+    }
+};
