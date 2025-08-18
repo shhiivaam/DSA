@@ -1,0 +1,33 @@
+#include<bits/stdc++.h>
+using namespace std;
+bool pos(string a, string b){
+    int dif=0;
+    for(int i=0;i<a.length();i++){
+        if(a[i] != b[i])
+         dif++;
+    }
+    return dif == 1;
+}
+int bfs(string st,string en,vector<string>&s){
+     int ans =1;
+     for(int i =0;i<s.size();i++){
+         if(pos(st,s[i])){
+             st.erase();
+             st = s[i];
+             ans +=1;
+         }if(pos(s[i],en)==1){
+             return ans + 1;
+         }
+     }
+    return 0; 
+}
+int main(){
+    string st; cin>>st;
+    string en; cin>>en;
+    int n; cin>>n;
+    vector<string>gp(n);
+    for(int i=0;i<n;i++){
+        cin>>gp[i];
+    }
+   cout<<bfs(st,en,gp)<<endl;
+}
