@@ -1,0 +1,49 @@
+#include <iostream>
+#include <vector>
+using namespace std;
+
+vector<vector<int>> gp;
+vector<int> vis;
+
+bool dfs(int node, int parent) {
+    vis[node] = 1;
+    for (auto v : gp[node]) {
+        if (!vis[v]) {
+            if (dfs(v, node)) return true;
+        } else if (v != parent) {
+            return true;
+        }
+    }
+    return false;
+}
+
+int main() {
+    int n, m;
+    cin >> n >> m;
+    gp.resize(n + 1);
+    vis.resize(n + 1, 0);
+
+    for (int i = 0; i < m; i++) {
+        int a, b;
+        cin >> a >> b;
+        gp[a].push_back(b);
+        gp[b].push_back(a);
+    }
+
+    bool hasCycle = false;
+    for (int i = 1; i <= n; i++) {
+        if (!vis[i]) {
+            if (dfs(i, -1)) {
+                hasCycle = true;
+                break;
+            }
+        }
+    }
+    if (hasCycle) {
+        cout << "YES" << endl;
+    } else {
+        cout << "NO" << endl;
+    }
+
+    return 0;
+}
