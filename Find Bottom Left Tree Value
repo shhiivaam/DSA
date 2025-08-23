@@ -1,0 +1,22 @@
+class Solution {
+public:
+    void dfs(TreeNode *root , int &ans , int level , int &maxLevel){
+        if(!root)
+            return ;
+        if(!root->left && !root->right){
+            if(level > maxLevel){
+                ans = root->val;
+                maxLevel = level;
+            }
+            return;
+        }
+        dfs(root->left , ans , level+1 , maxLevel);
+        dfs(root->right , ans , level+1 , maxLevel);
+
+    }
+    int findBottomLeftValue(TreeNode* root) {
+        int ans = 0  , maxLevel = -1;
+        dfs(root , ans , 0 , maxLevel);
+        return ans;
+    }
+};
