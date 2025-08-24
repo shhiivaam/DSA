@@ -1,0 +1,49 @@
+#include <iostream>
+#include <vector>
+#include <algorithm>
+
+void solve() {
+    int n;
+    int x;
+    std::cin >> n >> x;
+    
+    int first_closed = -1;
+    int last_closed = -1;
+    
+    for (int i = 0; i < n; ++i) {
+        int door_state;
+        std::cin >> door_state;
+        if (door_state == 1) {
+            if (first_closed == -1) {
+                first_closed = i;
+            }
+            last_closed = i;
+        }
+    }
+    
+    if (first_closed == -1) {
+        std::cout << "YES\n";
+        return;
+    }
+    
+    int required_duration = last_closed - first_closed + 1;
+    
+    if (x >= required_duration) {
+        std::cout << "YES\n";
+    } else {
+        std::cout << "NO\n";
+    }
+}
+
+int main() {
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(nullptr);
+    
+    int t;
+    std::cin >> t;
+    while (t--) {
+        solve();
+    }
+    
+    return 0;
+}
