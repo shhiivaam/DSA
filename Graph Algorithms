@@ -1,0 +1,71 @@
+#include <iostream>
+#include <vector>
+#include <algorithm>
+
+using namespace std;
+
+int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+
+    int n, m;
+    cin >> n >> m;
+
+    vector<vector<int>> a(n + 2, vector<int>(m + 2, 0));
+    for (int i = 1; i <= n; ++i) {
+        for (int j = 1; j <= m; ++j) {
+            cin >> a[i][j];
+        }
+    }
+
+    vector<vector<long long>> dp1(n + 2, vector<long long>(m + 2, 0));
+    vector<vector<long long>> dp2(n + 2, vector<long long>(m + 2, 0));
+    vector<vector<long long>> dp3(n + 2, vector<long long>(m + 2, 0));
+    vector<vector<long long>> dp4(n + 2, vector<long long>(m + 2, 0));
+
+    // dp1: Iahub from (1,1) to (i,j) [Down, Right]
+    for (int i = 1; i <= n; ++i) {
+        for (int j = 1; j <= m; ++j) {
+            dp1[i][j] = a[i][j] + max(dp1[i - 1][j], dp1[i][j - 1]);
+        }
+    }
+
+    // dp2: Iahub from (i,j) to (n,m) [moves are effectively Up, Left from (n,m)]
+    for (int i = n; i >= 1; --i) {
+        for (int j = m; j >= 1; --j) {
+            dp2[i][j] = a[i][j] + max(dp2[i + 1][j], dp2[i][j + 1]);
+        }
+    }
+
+    // dp3: Iahubina from (n,1) to (i,j) [Up, Right]
+    for (int i = n; i >= 1; --i) {
+        for (int j = 1; j <= m; ++j) {
+            dp3[i][j] = a[i][j] + max(dp3[i + 1][j], dp3[i][j - 1]);
+        }
+    }
+
+    // dp4: Iahubina from (i,j) to (1,m) [moves are effectively Down, Left from (1,m)]
+    for (int i = 1; i <= n; ++i) {
+        for (int j = m; j >= 1; --j) {
+            dp4[i][j] = a[i][j] + max(dp4[i - 1][j], dp4[i][j + 1]);
+        }
+    }
+
+    long long max_gain = 0;
+
+    for (int i = 2; i < n; ++i) {
+        for (int j = 2; j < m; ++j) {
+            // Max gain for paths approaching (i, j)
+            long long gain_before = max(dp1[i - 1][j] + dp3[i][j - 1], dp1[i][j - 1] + dp3[i + 1][j]);
+            
+            // Max gain for paths departing from (i, j)
+            long long gain_after = max(dp2[i + 1][j] + dp4[i][j + 1], dp2[i][j + 1] + dp4[i - 1][j]);
+
+            max_gain = max(max_gain, gain_before + gain_after);
+        }
+    }
+
+    cout << max_gain << endl;
+
+    return 0;
+}
