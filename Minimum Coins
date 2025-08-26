@@ -1,0 +1,22 @@
+class Solution {
+public:
+    int rec(int i, vector<int>& p, int n, vector<int>& dp){
+        if(i > n) return 0;   // no more elements
+        if(i == n) return p[i]; // last element cost
+
+        // cache check
+        if(dp[i] != -1) return dp[i];
+
+        // transition
+        int take = p[i] + rec(i+1, p, n, dp); // include current
+        int skip = rec(i+1, p, n, dp);        // skip current
+
+        return dp[i] = min(take, skip);
+    }
+
+    int minimumCoins(vector<int>& prices) {
+        int n = prices.size();
+        vector<int> dp(n, -1);
+        return rec(0, prices, n-1, dp);
+    }
+};
