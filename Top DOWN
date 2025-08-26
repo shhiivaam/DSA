@@ -1,0 +1,24 @@
+class Solution {
+public:
+    vector<int> prices;
+    vector<int> dp;
+    int n;
+
+    int dfs(int i) {
+        if (i * 2 >= n) return prices[i - 1];  // buying covers all remaining
+        if (dp[i] != -1) return dp[i];
+
+        int ans = INT_MAX;
+        for (int j = i + 1; j <= min(n, i * 2 + 1); j++) {
+            ans = min(ans, prices[i - 1] + dfs(j));
+        }
+        return dp[i] = ans;
+    }
+
+    int minimumCoins(vector<int>& prices) {
+        this->prices = prices;
+        n = prices.size();
+        dp.assign(n + 1, -1);
+        return dfs(1);
+    }
+};
