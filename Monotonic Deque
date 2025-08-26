@@ -1,0 +1,27 @@
+class Solution {
+public:
+    int minimumCoins(vector<int>& prices) {
+        int n = prices.size();
+        int ans = 0;
+        deque<pair<int,int>> dq;  // {dp[j], index}
+        dq.push_front({0, n});    // base case dp[n] = 0
+
+        for (int i = n - 1; i >= 0; i--) {
+            int limit = (i + 1) * 2;
+
+            // remove indices out of allowed range
+            while (!dq.empty() && dq.front().second > limit) {
+                dq.pop_front();
+            }
+
+            ans = prices[i] + dq.front().first;
+
+            // maintain monotonic increasing deque
+            while (!dq.empty() && dq.back().first >= ans) {
+                dq.pop_back();
+            }
+            dq.push_back({ans, i});
+        }
+        return ans;
+    }
+};
