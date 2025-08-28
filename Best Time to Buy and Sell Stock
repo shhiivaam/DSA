@@ -1,0 +1,13 @@
+class Solution {
+public:
+    int solve(vector<int>&arr , int i , int minPrice){
+        if(i >= arr.size()) return 0 ;
+        int x = arr[i] - minPrice ;
+        minPrice = min(minPrice , arr[i]);
+        int y = solve(arr , i+1 , minPrice);
+        return max(x , y);
+    }
+    int maxProfit(vector<int>& prices) {
+        return  solve(prices , 1 ,prices[0]);
+    }
+};
