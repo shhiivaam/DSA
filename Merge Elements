@@ -1,0 +1,33 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+
+    int n;
+    cin >> n;
+    vector<int> a(n);
+    for (int i = 0; i < n; i++) cin >> a[i];
+    vector<int> prefix(n+1, 0);
+    for (int i = 0; i < n; i++) {
+        prefix[i+1] = (prefix[i] + a[i]) % 100;
+    }
+    auto getSum = [&](int l, int r) {
+        return (prefix[r+1] - prefix[l] + 100) % 100;
+    };
+    vector<vector<int>> dp(n, vector<int>(n, 0));
+    for (int len = 2; len <= n; len++) {
+        for (int l = 0; l + len - 1 < n; l++) {
+            int r = l + len - 1;
+            dp[l][r] = INT_MAX;
+            for (int k = l; k < r; k++) {
+                int cost = dp[l][k] + dp[k+1][r] + getSum(l,k) * getSum(k+1,r);
+                dp[l][r] = min(dp[l][r], cost);
+            }
+        }
+    }
+
+    cout << dp[0][n-1] << "\n";
+    return 0;
+}
