@@ -1,0 +1,28 @@
+class Solution {
+public:
+    int solve(int idx, int size, vector<int>& p, vector<vector<int>>& dp) {
+        if (idx == 0) {
+            return size * p[0]; // take all pieces of length 1
+        }
+
+        if (dp[idx][size] != -1) return dp[idx][size];
+
+        // Don't take current length
+        int notTake = solve(idx - 1, size, p, dp);
+
+        // Take current length (stay at idx because it's unbounded)
+        int take = INT_MIN;
+        int rodLen = idx + 1;
+        if (rodLen <= size) {
+            take = p[idx] + solve(idx, size - rodLen, p, dp);
+        }
+
+        return dp[idx][size] = max(take, notTake);
+    }
+
+    int cutRod(vector<int>& price) {
+        int n = price.size();
+        vector<vector<int>> dp(n, vector<int>(n + 1, -1));
+        return solve(n - 1, n, price, dp);
+    }
+};
