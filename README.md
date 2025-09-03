@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/shiivamkumar027/DSA/tree/master/0315-count-of-smaller-numbers-after-self) |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/shiivamkumar027/DSA/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [1129-longest-string-chain](https://github.com/shiivamkumar027/DSA/tree/master/1129-longest-string-chain) |
 ## Hash Table
 |  |
@@ -21,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/shiivamkumar027/DSA/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [1129-longest-string-chain](https://github.com/shiivamkumar027/DSA/tree/master/1129-longest-string-chain) |
 ## Sorting
 |  |
@@ -38,10 +40,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/shiivamkumar027/DSA/tree/master/0315-count-of-smaller-numbers-after-self) |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/shiivamkumar027/DSA/tree/master/0673-number-of-longest-increasing-subsequence) |
 ## Segment Tree
 |  |
 | ------- |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/shiivamkumar027/DSA/tree/master/0315-count-of-smaller-numbers-after-self) |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/shiivamkumar027/DSA/tree/master/0673-number-of-longest-increasing-subsequence) |
 ## Merge Sort
 |  |
 | ------- |
