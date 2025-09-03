@@ -11,7 +11,7 @@ public:
                 first++;
             }
         }
-        return second == w.size(); // ✅ simplified check
+        return second == w.size(); 
     }
 
     static bool comp(string& s, string& w) { 
