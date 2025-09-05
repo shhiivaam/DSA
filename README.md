@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0132-palindrome-partitioning-ii](https://github.com/shiivamkumar027/DSA/tree/master/0132-palindrome-partitioning-ii) |
+| [0458-poor-pigs](https://github.com/shiivamkumar027/DSA/tree/master/0458-poor-pigs) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/shiivamkumar027/DSA/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [1129-longest-string-chain](https://github.com/shiivamkumar027/DSA/tree/master/1129-longest-string-chain) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/shiivamkumar027/DSA/tree/master/1669-minimum-cost-to-cut-a-stick) |
@@ -63,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0458-poor-pigs](https://github.com/shiivamkumar027/DSA/tree/master/0458-poor-pigs) |
 | [3830-find-closest-person](https://github.com/shiivamkumar027/DSA/tree/master/3830-find-closest-person) |
 ## Depth-First Search
 |  |
@@ -88,4 +90,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1197-parsing-a-boolean-expression](https://github.com/shiivamkumar027/DSA/tree/master/1197-parsing-a-boolean-expression) |
+## Combinatorics
+|  |
+| ------- |
+| [0458-poor-pigs](https://github.com/shiivamkumar027/DSA/tree/master/0458-poor-pigs) |
 <!---LeetCode Topics End-->
