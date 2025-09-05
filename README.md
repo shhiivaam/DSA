@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0283-move-zeroes](https://github.com/shiivamkumar027/DSA/tree/master/0283-move-zeroes) |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/shiivamkumar027/DSA/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/shiivamkumar027/DSA/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [1121-partition-array-for-maximum-sum](https://github.com/shiivamkumar027/DSA/tree/master/1121-partition-array-for-maximum-sum) |
@@ -16,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0283-move-zeroes](https://github.com/shiivamkumar027/DSA/tree/master/0283-move-zeroes) |
 | [1129-longest-string-chain](https://github.com/shiivamkumar027/DSA/tree/master/1129-longest-string-chain) |
 ## String
 |  |
