@@ -1,25 +1,29 @@
 class Solution {
 public:
+    vector<int> leftMemo, rightMemo;
+    vector<int> *h;
+    int n;
+    int getLeftMax(int i) {
+        if (i == 0) return (*h)[0];
+        if (leftMemo[i] != -1) return leftMemo[i];
+        return leftMemo[i] = max((*h)[i], getLeftMax(i - 1));
+    }
+    int getRightMax(int i) {
+        if (i == n - 1) return (*h)[n - 1];
+        if (rightMemo[i] != -1) return rightMemo[i];
+        return rightMemo[i] = max((*h)[i], getRightMax(i + 1));
+    }
     int trap(vector<int>& height) {
-        int n = height.size();
-        if (n == 0) return 0;
-        int left = 0, right = n - 1;
-        int leftMax = 0, rightMax = 0;
+        n = height.size();
+        h = &height;
+        leftMemo.assign(n, -1);
+        rightMemo.assign(n, -1);
+
         int water = 0;
-        while (left < right) {
-            if (height[left] < height[right]) {
-                if (height[left] >= leftMax)
-                    leftMax = height[left];
-                else
-                    water += leftMax - height[left];
-                left++;
-            } else {
-                if (height[right] >= rightMax)
-                    rightMax = height[right];
-                else
-                    water += rightMax - height[right];
-                right--;
-            }
+        for (int i = 0; i < n; i++) {
+            int left = getLeftMax(i);
+            int right = getRightMax(i);
+            water += min(left, right) - height[i];
         }
         return water;
     }
