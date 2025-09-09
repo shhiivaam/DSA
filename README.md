@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/shiivamkumar027/DSA/tree/master/0042-trapping-rain-water) |
 | [0283-move-zeroes](https://github.com/shiivamkumar027/DSA/tree/master/0283-move-zeroes) |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/shiivamkumar027/DSA/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0354-russian-doll-envelopes](https://github.com/shiivamkumar027/DSA/tree/master/0354-russian-doll-envelopes) |
@@ -20,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/shiivamkumar027/DSA/tree/master/0042-trapping-rain-water) |
 | [0283-move-zeroes](https://github.com/shiivamkumar027/DSA/tree/master/0283-move-zeroes) |
 | [1129-longest-string-chain](https://github.com/shiivamkumar027/DSA/tree/master/1129-longest-string-chain) |
 ## String
@@ -31,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/shiivamkumar027/DSA/tree/master/0042-trapping-rain-water) |
 | [0132-palindrome-partitioning-ii](https://github.com/shiivamkumar027/DSA/tree/master/0132-palindrome-partitioning-ii) |
 | [0354-russian-doll-envelopes](https://github.com/shiivamkumar027/DSA/tree/master/0354-russian-doll-envelopes) |
 | [0458-poor-pigs](https://github.com/shiivamkumar027/DSA/tree/master/0458-poor-pigs) |
@@ -102,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/shiivamkumar027/DSA/tree/master/0042-trapping-rain-water) |
 | [1197-parsing-a-boolean-expression](https://github.com/shiivamkumar027/DSA/tree/master/1197-parsing-a-boolean-expression) |
 ## Recursion
 |  |
@@ -132,4 +136,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2408-number-of-people-aware-of-a-secret](https://github.com/shiivamkumar027/DSA/tree/master/2408-number-of-people-aware-of-a-secret) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0042-trapping-rain-water](https://github.com/shiivamkumar027/DSA/tree/master/0042-trapping-rain-water) |
 <!---LeetCode Topics End-->
