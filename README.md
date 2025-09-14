@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/shiivamkumar027/DSA/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0354-russian-doll-envelopes](https://github.com/shiivamkumar027/DSA/tree/master/0354-russian-doll-envelopes) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/shiivamkumar027/DSA/tree/master/0673-number-of-longest-increasing-subsequence) |
+| [1006-vowel-spellchecker](https://github.com/shiivamkumar027/DSA/tree/master/1006-vowel-spellchecker) |
 | [1121-partition-array-for-maximum-sum](https://github.com/shiivamkumar027/DSA/tree/master/1121-partition-array-for-maximum-sum) |
 | [1129-longest-string-chain](https://github.com/shiivamkumar027/DSA/tree/master/1129-longest-string-chain) |
 | [1426-find-n-unique-integers-sum-up-to-zero](https://github.com/shiivamkumar027/DSA/tree/master/1426-find-n-unique-integers-sum-up-to-zero) |
@@ -23,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/shiivamkumar027/DSA/tree/master/0242-valid-anagram) |
 | [0290-word-pattern](https://github.com/shiivamkumar027/DSA/tree/master/0290-word-pattern) |
 | [0451-sort-characters-by-frequency](https://github.com/shiivamkumar027/DSA/tree/master/0451-sort-characters-by-frequency) |
+| [1006-vowel-spellchecker](https://github.com/shiivamkumar027/DSA/tree/master/1006-vowel-spellchecker) |
 | [1129-longest-string-chain](https://github.com/shiivamkumar027/DSA/tree/master/1129-longest-string-chain) |
 | [1834-minimum-number-of-people-to-teach](https://github.com/shiivamkumar027/DSA/tree/master/1834-minimum-number-of-people-to-teach) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/shiivamkumar027/DSA/tree/master/3872-find-most-frequent-vowel-and-consonant) |
@@ -41,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/shiivamkumar027/DSA/tree/master/0242-valid-anagram) |
 | [0290-word-pattern](https://github.com/shiivamkumar027/DSA/tree/master/0290-word-pattern) |
 | [0451-sort-characters-by-frequency](https://github.com/shiivamkumar027/DSA/tree/master/0451-sort-characters-by-frequency) |
+| [1006-vowel-spellchecker](https://github.com/shiivamkumar027/DSA/tree/master/1006-vowel-spellchecker) |
 | [1129-longest-string-chain](https://github.com/shiivamkumar027/DSA/tree/master/1129-longest-string-chain) |
 | [1197-parsing-a-boolean-expression](https://github.com/shiivamkumar027/DSA/tree/master/1197-parsing-a-boolean-expression) |
 | [2887-sort-vowels-in-a-string](https://github.com/shiivamkumar027/DSA/tree/master/2887-sort-vowels-in-a-string) |
