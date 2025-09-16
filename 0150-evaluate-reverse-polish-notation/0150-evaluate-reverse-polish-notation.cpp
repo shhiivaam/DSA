@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 class Solution {
 public:
     int evalRPN(vector<string>& arr) {
@@ -19,7 +18,7 @@ public:
                     } else if (arr[i] == "/") {
                         st.push(a / b);
                     } else if (arr[i] == "^") {
-                        st.push(pow(a, b)); // exponentiation
+                        st.push(pow(a, b)); 
                     } else if (arr[i] == "+") {
                         st.push(a + b);
                     } else if (arr[i] == "-") {
