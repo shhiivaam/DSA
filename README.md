@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2307-replace-non-coprime-numbers-in-array](https://github.com/shiivamkumar027/DSA/tree/master/2307-replace-non-coprime-numbers-in-array) |
 | [2429-design-a-food-rating-system](https://github.com/shiivamkumar027/DSA/tree/master/2429-design-a-food-rating-system) |
 | [3106-length-of-the-longest-subsequence-that-sums-to-target](https://github.com/shiivamkumar027/DSA/tree/master/3106-length-of-the-longest-subsequence-that-sums-to-target) |
+| [3242-count-elements-with-maximum-frequency](https://github.com/shiivamkumar027/DSA/tree/master/3242-count-elements-with-maximum-frequency) |
 | [3744-minimum-operations-to-make-array-elements-zero](https://github.com/shiivamkumar027/DSA/tree/master/3744-minimum-operations-to-make-array-elements-zero) |
 | [3797-design-spreadsheet](https://github.com/shiivamkumar027/DSA/tree/master/3797-design-spreadsheet) |
 | [3827-implement-router](https://github.com/shiivamkumar027/DSA/tree/master/3827-implement-router) |
@@ -42,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1834-minimum-number-of-people-to-teach](https://github.com/shiivamkumar027/DSA/tree/master/1834-minimum-number-of-people-to-teach) |
 | [2023-design-movie-rental-system](https://github.com/shiivamkumar027/DSA/tree/master/2023-design-movie-rental-system) |
 | [2429-design-a-food-rating-system](https://github.com/shiivamkumar027/DSA/tree/master/2429-design-a-food-rating-system) |
+| [3242-count-elements-with-maximum-frequency](https://github.com/shiivamkumar027/DSA/tree/master/3242-count-elements-with-maximum-frequency) |
 | [3678-design-task-manager](https://github.com/shiivamkumar027/DSA/tree/master/3678-design-task-manager) |
 | [3797-design-spreadsheet](https://github.com/shiivamkumar027/DSA/tree/master/3797-design-spreadsheet) |
 | [3827-implement-router](https://github.com/shiivamkumar027/DSA/tree/master/3827-implement-router) |
@@ -259,6 +261,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0451-sort-characters-by-frequency](https://github.com/shiivamkumar027/DSA/tree/master/0451-sort-characters-by-frequency) |
 | [1469-minimum-number-of-steps-to-make-two-strings-anagram](https://github.com/shiivamkumar027/DSA/tree/master/1469-minimum-number-of-steps-to-make-two-strings-anagram) |
+| [3242-count-elements-with-maximum-frequency](https://github.com/shiivamkumar027/DSA/tree/master/3242-count-elements-with-maximum-frequency) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/shiivamkumar027/DSA/tree/master/3872-find-most-frequent-vowel-and-consonant) |
 ## Number Theory
 |  |
