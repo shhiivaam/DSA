@@ -1,7 +1,6 @@
 class Solution {
 public:
     int compareVersion(string version1, string version2) {
-        
     int i = 0 , j = 0 ;
     int n1 , n2 ;
     while(i < version1.size() || j < version2.size()){
@@ -14,7 +13,6 @@ public:
             n2 = n2 * 10 + (version2[j] - '0');
             j++;
         }
-        cout<<n1<<" "<<n2<<endl;
         if(n1 < n2)
             return -1;
         else if(n1 > n2)
