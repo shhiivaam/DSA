@@ -5,7 +5,7 @@ public:
         int total = accumulate(card.begin(), card.end(), 0);
         if (n == k) return total;
 
-        int window = n - k; // number of cards to leave
+        int window = n - k; 
         int curr = accumulate(card.begin(), card.begin() + window, 0);
         int min_sum = curr;
 
