@@ -1,52 +1,41 @@
-struct T {
-  int i;
-  int j;
-  int h;  
-};
 class Solution {
- public:
-  int trapRainWater(vector<vector<int>>& heightMap) {
-    constexpr int kDirs[4][2] = {{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
-    const int m = heightMap.size();
-    const int n = heightMap[0].size();
-    int ans = 0;
-    auto compare = [](const T& a, const T& b) { return a.h > b.h; };
-    priority_queue<T, vector<T>, decltype(compare)> minHeap(compare);
-    vector<vector<bool>> seen(m, vector<bool>(n));
+public:
+    int trapRainWater(vector<vector<int>>& heightMap) {
+        int m = heightMap.size(), n = heightMap[0].size();
+        if (m <= 2 || n <= 2) return 0;
 
-    for (int i = 0; i < m; ++i) {
-      minHeap.emplace(i, 0, heightMap[i][0]);
-      minHeap.emplace(i, n - 1, heightMap[i][n - 1]);
-      seen[i][0] = true;
-      seen[i][n - 1] = true;
-    }
+        vector<vector<bool>> visited(m, vector<bool>(n, false));
+        priority_queue<pair<int, pair<int,int>>, 
+                       vector<pair<int, pair<int,int>>>, 
+                       greater<>> pq;
 
-    for (int j = 1; j < n - 1; ++j) {
-      minHeap.emplace(0, j, heightMap[0][j]);
-      minHeap.emplace(m - 1, j, heightMap[m - 1][j]);
-      seen[0][j] = true;
-      seen[m - 1][j] = true;
-    }
-
-    while (!minHeap.empty()) {
-      const auto [i, j, h] = minHeap.top();
-      minHeap.pop();
-      for (const auto& [dx, dy] : kDirs) {
-        const int x = i + dx;
-        const int y = j + dy;
-        if (x < 0 || x == m || y < 0 || y == n)
-          continue;
-        if (seen[x][y])
-          continue;
-        if (heightMap[x][y] < h) {
-          ans += h - heightMap[x][y];
-          minHeap.emplace(x, y, h);
-        } else {
-          minHeap.emplace(x, y, heightMap[x][y]);
+        for (int i = 0; i < m; i++) {
+            pq.push({heightMap[i][0], {i, 0}});
+            pq.push({heightMap[i][n-1], {i, n-1}});
+            visited[i][0] = visited[i][n-1] = true;
         }
-        seen[x][y] = true;
-      }
+        for (int j = 0; j < n; j++) {
+            pq.push({heightMap[0][j], {0, j}});
+            pq.push({heightMap[m-1][j], {m-1, j}});
+            visited[0][j] = visited[m-1][j] = true;
+        }
+
+        vector<int> dir = {0,1,0,-1,0};
+        int trapped = 0;
+
+        while (!pq.empty()) {
+            auto [h, pos] = pq.top(); pq.pop();
+            int x = pos.first, y = pos.second;
+
+            for (int k = 0; k < 4; k++) {
+                int nx = x + dir[k], ny = y + dir[k+1];
+                if (nx < 0 || ny < 0 || nx >= m || ny >= n || visited[nx][ny]) continue;
+                visited[nx][ny] = true;
+                trapped += max(0, h - heightMap[nx][ny]);
+                pq.push({max(h, heightMap[nx][ny]), {nx, ny}});
+            }
+        }
+
+        return trapped;
     }
-    return ans;
-  }
 };
