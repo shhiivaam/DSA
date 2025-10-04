@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/shiivamkumar027/DSA/tree/master/0011-container-with-most-water) |
 | [0033-search-in-rotated-sorted-array](https://github.com/shiivamkumar027/DSA/tree/master/0033-search-in-rotated-sorted-array) |
 | [0042-trapping-rain-water](https://github.com/shiivamkumar027/DSA/tree/master/0042-trapping-rain-water) |
 | [0054-spiral-matrix](https://github.com/shiivamkumar027/DSA/tree/master/0054-spiral-matrix) |
@@ -65,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/shiivamkumar027/DSA/tree/master/0011-container-with-most-water) |
 | [0042-trapping-rain-water](https://github.com/shiivamkumar027/DSA/tree/master/0042-trapping-rain-water) |
 | [0165-compare-version-numbers](https://github.com/shiivamkumar027/DSA/tree/master/0165-compare-version-numbers) |
 | [0283-move-zeroes](https://github.com/shiivamkumar027/DSA/tree/master/0283-move-zeroes) |
@@ -281,6 +283,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/shiivamkumar027/DSA/tree/master/0011-container-with-most-water) |
 | [0611-valid-triangle-number](https://github.com/shiivamkumar027/DSA/tree/master/0611-valid-triangle-number) |
 | [0890-lemonade-change](https://github.com/shiivamkumar027/DSA/tree/master/0890-lemonade-change) |
 | [1018-largest-perimeter-triangle](https://github.com/shiivamkumar027/DSA/tree/master/1018-largest-perimeter-triangle) |
