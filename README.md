@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0283-move-zeroes](https://github.com/shiivamkumar027/DSA/tree/master/0283-move-zeroes) |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/shiivamkumar027/DSA/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/shiivamkumar027/DSA/tree/master/0329-longest-increasing-path-in-a-matrix) |
+| [0336-palindrome-pairs](https://github.com/shiivamkumar027/DSA/tree/master/0336-palindrome-pairs) |
 | [0354-russian-doll-envelopes](https://github.com/shiivamkumar027/DSA/tree/master/0354-russian-doll-envelopes) |
 | [0407-trapping-rain-water-ii](https://github.com/shiivamkumar027/DSA/tree/master/0407-trapping-rain-water-ii) |
 | [0417-pacific-atlantic-water-flow](https://github.com/shiivamkumar027/DSA/tree/master/0417-pacific-atlantic-water-flow) |
@@ -55,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0166-fraction-to-recurring-decimal](https://github.com/shiivamkumar027/DSA/tree/master/0166-fraction-to-recurring-decimal) |
 | [0242-valid-anagram](https://github.com/shiivamkumar027/DSA/tree/master/0242-valid-anagram) |
 | [0290-word-pattern](https://github.com/shiivamkumar027/DSA/tree/master/0290-word-pattern) |
+| [0336-palindrome-pairs](https://github.com/shiivamkumar027/DSA/tree/master/0336-palindrome-pairs) |
 | [0451-sort-characters-by-frequency](https://github.com/shiivamkumar027/DSA/tree/master/0451-sort-characters-by-frequency) |
 | [0523-continuous-subarray-sum](https://github.com/shiivamkumar027/DSA/tree/master/0523-continuous-subarray-sum) |
 | [1006-vowel-spellchecker](https://github.com/shiivamkumar027/DSA/tree/master/1006-vowel-spellchecker) |
@@ -92,6 +94,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0166-fraction-to-recurring-decimal](https://github.com/shiivamkumar027/DSA/tree/master/0166-fraction-to-recurring-decimal) |
 | [0242-valid-anagram](https://github.com/shiivamkumar027/DSA/tree/master/0242-valid-anagram) |
 | [0290-word-pattern](https://github.com/shiivamkumar027/DSA/tree/master/0290-word-pattern) |
+| [0336-palindrome-pairs](https://github.com/shiivamkumar027/DSA/tree/master/0336-palindrome-pairs) |
 | [0394-decode-string](https://github.com/shiivamkumar027/DSA/tree/master/0394-decode-string) |
 | [0451-sort-characters-by-frequency](https://github.com/shiivamkumar027/DSA/tree/master/0451-sort-characters-by-frequency) |
 | [1006-vowel-spellchecker](https://github.com/shiivamkumar027/DSA/tree/master/1006-vowel-spellchecker) |
@@ -389,4 +392,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1509-replace-employee-id-with-the-unique-identifier](https://github.com/shiivamkumar027/DSA/tree/master/1509-replace-employee-id-with-the-unique-identifier) |
 | [1827-invalid-tweets](https://github.com/shiivamkumar027/DSA/tree/master/1827-invalid-tweets) |
 | [1908-recyclable-and-low-fat-products](https://github.com/shiivamkumar027/DSA/tree/master/1908-recyclable-and-low-fat-products) |
+## Trie
+|  |
+| ------- |
+| [0336-palindrome-pairs](https://github.com/shiivamkumar027/DSA/tree/master/0336-palindrome-pairs) |
 <!---LeetCode Topics End-->
