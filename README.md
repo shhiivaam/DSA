@@ -47,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2429-design-a-food-rating-system](https://github.com/shiivamkumar027/DSA/tree/master/2429-design-a-food-rating-system) |
 | [3106-length-of-the-longest-subsequence-that-sums-to-target](https://github.com/shiivamkumar027/DSA/tree/master/3106-length-of-the-longest-subsequence-that-sums-to-target) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/shiivamkumar027/DSA/tree/master/3242-count-elements-with-maximum-frequency) |
+| [3383-taking-maximum-energy-from-the-mystic-dungeon](https://github.com/shiivamkumar027/DSA/tree/master/3383-taking-maximum-energy-from-the-mystic-dungeon) |
 | [3744-minimum-operations-to-make-array-elements-zero](https://github.com/shiivamkumar027/DSA/tree/master/3744-minimum-operations-to-make-array-elements-zero) |
 | [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/shiivamkumar027/DSA/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
 | [3797-design-spreadsheet](https://github.com/shiivamkumar027/DSA/tree/master/3797-design-spreadsheet) |
@@ -378,6 +379,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0523-continuous-subarray-sum](https://github.com/shiivamkumar027/DSA/tree/master/0523-continuous-subarray-sum) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/shiivamkumar027/DSA/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
+| [3383-taking-maximum-energy-from-the-mystic-dungeon](https://github.com/shiivamkumar027/DSA/tree/master/3383-taking-maximum-energy-from-the-mystic-dungeon) |
 | [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/shiivamkumar027/DSA/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
 ## Geometry
 |  |
