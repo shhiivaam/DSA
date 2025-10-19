@@ -2,17 +2,13 @@ class Solution {
  public:
   string findLexSmallestString(string s, int a, int b) {
     string ans = s;
-
     dfs(s, a, b, {}, ans);
-
     return ans;
   }
-
  private:
   void dfs(string s, int a, int b, unordered_set<string>&& seen, string& ans) {
     if (seen.contains(s))
       return;
-
     seen.insert(s);
     ans = min(ans, s);
 
