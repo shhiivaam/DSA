@@ -21,7 +21,6 @@ class Solution {
       s[i] = '0' + (s[i] - '0' + a) % 10;
     return s;
   }
-
   string rotate(const string& s, int b) {
     const int n = s.length();
     return s.substr(n - b, n) + s.substr(0, n - b);
