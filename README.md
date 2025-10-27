@@ -46,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2023-design-movie-rental-system](https://github.com/shiivamkumar027/DSA/tree/master/2023-design-movie-rental-system) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/shiivamkumar027/DSA/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [2169-simple-bank-system](https://github.com/shiivamkumar027/DSA/tree/master/2169-simple-bank-system) |
+| [2244-number-of-laser-beams-in-a-bank](https://github.com/shiivamkumar027/DSA/tree/master/2244-number-of-laser-beams-in-a-bank) |
 | [2307-replace-non-coprime-numbers-in-array](https://github.com/shiivamkumar027/DSA/tree/master/2307-replace-non-coprime-numbers-in-array) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/shiivamkumar027/DSA/tree/master/2324-find-triangular-sum-of-an-array) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/shiivamkumar027/DSA/tree/master/2392-successful-pairs-of-spells-and-potions) |
@@ -127,6 +128,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1747-lexicographically-smallest-string-after-applying-operations](https://github.com/shiivamkumar027/DSA/tree/master/1747-lexicographically-smallest-string-after-applying-operations) |
 | [2053-check-if-all-characters-have-equal-number-of-occurrences](https://github.com/shiivamkumar027/DSA/tree/master/2053-check-if-all-characters-have-equal-number-of-occurrences) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/shiivamkumar027/DSA/tree/master/2137-final-value-of-variable-after-performing-operations) |
+| [2244-number-of-laser-beams-in-a-bank](https://github.com/shiivamkumar027/DSA/tree/master/2244-number-of-laser-beams-in-a-bank) |
 | [2429-design-a-food-rating-system](https://github.com/shiivamkumar027/DSA/tree/master/2429-design-a-food-rating-system) |
 | [2887-sort-vowels-in-a-string](https://github.com/shiivamkumar027/DSA/tree/master/2887-sort-vowels-in-a-string) |
 | [3233-maximize-the-number-of-partitions-after-operations](https://github.com/shiivamkumar027/DSA/tree/master/3233-maximize-the-number-of-partitions-after-operations) |
@@ -233,6 +235,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1642-water-bottles](https://github.com/shiivamkumar027/DSA/tree/master/1642-water-bottles) |
 | [1817-calculate-money-in-leetcode-bank](https://github.com/shiivamkumar027/DSA/tree/master/1817-calculate-money-in-leetcode-bank) |
 | [2174-next-greater-numerically-balanced-number](https://github.com/shiivamkumar027/DSA/tree/master/2174-next-greater-numerically-balanced-number) |
+| [2244-number-of-laser-beams-in-a-bank](https://github.com/shiivamkumar027/DSA/tree/master/2244-number-of-laser-beams-in-a-bank) |
 | [2307-replace-non-coprime-numbers-in-array](https://github.com/shiivamkumar027/DSA/tree/master/2307-replace-non-coprime-numbers-in-array) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/shiivamkumar027/DSA/tree/master/2324-find-triangular-sum-of-an-array) |
 | [2481-strictly-palindromic-number](https://github.com/shiivamkumar027/DSA/tree/master/2481-strictly-palindromic-number) |
@@ -355,6 +358,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0417-pacific-atlantic-water-flow](https://github.com/shiivamkumar027/DSA/tree/master/0417-pacific-atlantic-water-flow) |
 | [0794-swim-in-rising-water](https://github.com/shiivamkumar027/DSA/tree/master/0794-swim-in-rising-water) |
 | [1331-path-with-maximum-gold](https://github.com/shiivamkumar027/DSA/tree/master/1331-path-with-maximum-gold) |
+| [2244-number-of-laser-beams-in-a-bank](https://github.com/shiivamkumar027/DSA/tree/master/2244-number-of-laser-beams-in-a-bank) |
 | [3797-design-spreadsheet](https://github.com/shiivamkumar027/DSA/tree/master/3797-design-spreadsheet) |
 ## Greedy
 |  |
