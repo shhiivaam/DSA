@@ -56,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3242-count-elements-with-maximum-frequency](https://github.com/shiivamkumar027/DSA/tree/master/3242-count-elements-with-maximum-frequency) |
 | [3383-taking-maximum-energy-from-the-mystic-dungeon](https://github.com/shiivamkumar027/DSA/tree/master/3383-taking-maximum-energy-from-the-mystic-dungeon) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/shiivamkumar027/DSA/tree/master/3437-maximum-total-damage-with-spell-casting) |
+| [3616-make-array-elements-equal-to-zero](https://github.com/shiivamkumar027/DSA/tree/master/3616-make-array-elements-equal-to-zero) |
 | [3619-adjacent-increasing-subarrays-detection-ii](https://github.com/shiivamkumar027/DSA/tree/master/3619-adjacent-increasing-subarrays-detection-ii) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/shiivamkumar027/DSA/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
 | [3744-minimum-operations-to-make-array-elements-zero](https://github.com/shiivamkumar027/DSA/tree/master/3744-minimum-operations-to-make-array-elements-zero) |
@@ -332,6 +333,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2324-find-triangular-sum-of-an-array](https://github.com/shiivamkumar027/DSA/tree/master/2324-find-triangular-sum-of-an-array) |
 | [2408-number-of-people-aware-of-a-secret](https://github.com/shiivamkumar027/DSA/tree/master/2408-number-of-people-aware-of-a-secret) |
 | [3336-water-bottles-ii](https://github.com/shiivamkumar027/DSA/tree/master/3336-water-bottles-ii) |
+| [3616-make-array-elements-equal-to-zero](https://github.com/shiivamkumar027/DSA/tree/master/3616-make-array-elements-equal-to-zero) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/shiivamkumar027/DSA/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 | [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/shiivamkumar027/DSA/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
 ## Monotonic Stack
@@ -437,6 +439,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0523-continuous-subarray-sum](https://github.com/shiivamkumar027/DSA/tree/master/0523-continuous-subarray-sum) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/shiivamkumar027/DSA/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [3383-taking-maximum-energy-from-the-mystic-dungeon](https://github.com/shiivamkumar027/DSA/tree/master/3383-taking-maximum-energy-from-the-mystic-dungeon) |
+| [3616-make-array-elements-equal-to-zero](https://github.com/shiivamkumar027/DSA/tree/master/3616-make-array-elements-equal-to-zero) |
 | [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/shiivamkumar027/DSA/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
 ## Geometry
 |  |
