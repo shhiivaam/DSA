@@ -40,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1426-find-n-unique-integers-sum-up-to-zero](https://github.com/shiivamkumar027/DSA/tree/master/1426-find-n-unique-integers-sum-up-to-zero) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/shiivamkumar027/DSA/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1612-avoid-flood-in-the-city](https://github.com/shiivamkumar027/DSA/tree/master/1612-avoid-flood-in-the-city) |
+| [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/shiivamkumar027/DSA/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1646-kth-missing-positive-number](https://github.com/shiivamkumar027/DSA/tree/master/1646-kth-missing-positive-number) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/shiivamkumar027/DSA/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [1834-minimum-number-of-people-to-teach](https://github.com/shiivamkumar027/DSA/tree/master/1834-minimum-number-of-people-to-teach) |
@@ -154,6 +155,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1129-longest-string-chain](https://github.com/shiivamkumar027/DSA/tree/master/1129-longest-string-chain) |
 | [1263-number-of-dice-rolls-with-target-sum](https://github.com/shiivamkumar027/DSA/tree/master/1263-number-of-dice-rolls-with-target-sum) |
 | [1488-sort-integers-by-the-power-value](https://github.com/shiivamkumar027/DSA/tree/master/1488-sort-integers-by-the-power-value) |
+| [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/shiivamkumar027/DSA/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/shiivamkumar027/DSA/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [2408-number-of-people-aware-of-a-secret](https://github.com/shiivamkumar027/DSA/tree/master/2408-number-of-people-aware-of-a-secret) |
 | [3106-length-of-the-longest-subsequence-that-sums-to-target](https://github.com/shiivamkumar027/DSA/tree/master/3106-length-of-the-longest-subsequence-that-sums-to-target) |
@@ -286,6 +288,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0150-evaluate-reverse-polish-notation](https://github.com/shiivamkumar027/DSA/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0394-decode-string](https://github.com/shiivamkumar027/DSA/tree/master/0394-decode-string) |
 | [1197-parsing-a-boolean-expression](https://github.com/shiivamkumar027/DSA/tree/master/1197-parsing-a-boolean-expression) |
+| [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/shiivamkumar027/DSA/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [2307-replace-non-coprime-numbers-in-array](https://github.com/shiivamkumar027/DSA/tree/master/2307-replace-non-coprime-numbers-in-array) |
 ## Recursion
 |  |
@@ -343,6 +346,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0042-trapping-rain-water](https://github.com/shiivamkumar027/DSA/tree/master/0042-trapping-rain-water) |
 | [0084-largest-rectangle-in-histogram](https://github.com/shiivamkumar027/DSA/tree/master/0084-largest-rectangle-in-histogram) |
+| [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/shiivamkumar027/DSA/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 ## Topological Sort
 |  |
 | ------- |
@@ -374,6 +378,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1018-largest-perimeter-triangle](https://github.com/shiivamkumar027/DSA/tree/master/1018-largest-perimeter-triangle) |
 | [1026-string-without-aaa-or-bbb](https://github.com/shiivamkumar027/DSA/tree/master/1026-string-without-aaa-or-bbb) |
 | [1612-avoid-flood-in-the-city](https://github.com/shiivamkumar027/DSA/tree/master/1612-avoid-flood-in-the-city) |
+| [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/shiivamkumar027/DSA/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1834-minimum-number-of-people-to-teach](https://github.com/shiivamkumar027/DSA/tree/master/1834-minimum-number-of-people-to-teach) |
 | [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/shiivamkumar027/DSA/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/shiivamkumar027/DSA/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
