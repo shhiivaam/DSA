@@ -45,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/shiivamkumar027/DSA/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1646-kth-missing-positive-number](https://github.com/shiivamkumar027/DSA/tree/master/1646-kth-missing-positive-number) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/shiivamkumar027/DSA/tree/master/1669-minimum-cost-to-cut-a-stick) |
+| [1700-minimum-time-to-make-rope-colorful](https://github.com/shiivamkumar027/DSA/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1834-minimum-number-of-people-to-teach](https://github.com/shiivamkumar027/DSA/tree/master/1834-minimum-number-of-people-to-teach) |
 | [2023-design-movie-rental-system](https://github.com/shiivamkumar027/DSA/tree/master/2023-design-movie-rental-system) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/shiivamkumar027/DSA/tree/master/2137-final-value-of-variable-after-performing-operations) |
@@ -132,6 +133,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1264-maximum-number-of-words-you-can-type](https://github.com/shiivamkumar027/DSA/tree/master/1264-maximum-number-of-words-you-can-type) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/shiivamkumar027/DSA/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1469-minimum-number-of-steps-to-make-two-strings-anagram](https://github.com/shiivamkumar027/DSA/tree/master/1469-minimum-number-of-steps-to-make-two-strings-anagram) |
+| [1700-minimum-time-to-make-rope-colorful](https://github.com/shiivamkumar027/DSA/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1747-lexicographically-smallest-string-after-applying-operations](https://github.com/shiivamkumar027/DSA/tree/master/1747-lexicographically-smallest-string-after-applying-operations) |
 | [2053-check-if-all-characters-have-equal-number-of-occurrences](https://github.com/shiivamkumar027/DSA/tree/master/2053-check-if-all-characters-have-equal-number-of-occurrences) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/shiivamkumar027/DSA/tree/master/2137-final-value-of-variable-after-performing-operations) |
@@ -163,6 +165,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1488-sort-integers-by-the-power-value](https://github.com/shiivamkumar027/DSA/tree/master/1488-sort-integers-by-the-power-value) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/shiivamkumar027/DSA/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/shiivamkumar027/DSA/tree/master/1669-minimum-cost-to-cut-a-stick) |
+| [1700-minimum-time-to-make-rope-colorful](https://github.com/shiivamkumar027/DSA/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [2408-number-of-people-aware-of-a-secret](https://github.com/shiivamkumar027/DSA/tree/master/2408-number-of-people-aware-of-a-secret) |
 | [3106-length-of-the-longest-subsequence-that-sums-to-target](https://github.com/shiivamkumar027/DSA/tree/master/3106-length-of-the-longest-subsequence-that-sums-to-target) |
 | [3233-maximize-the-number-of-partitions-after-operations](https://github.com/shiivamkumar027/DSA/tree/master/3233-maximize-the-number-of-partitions-after-operations) |
@@ -388,6 +391,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1026-string-without-aaa-or-bbb](https://github.com/shiivamkumar027/DSA/tree/master/1026-string-without-aaa-or-bbb) |
 | [1612-avoid-flood-in-the-city](https://github.com/shiivamkumar027/DSA/tree/master/1612-avoid-flood-in-the-city) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/shiivamkumar027/DSA/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
+| [1700-minimum-time-to-make-rope-colorful](https://github.com/shiivamkumar027/DSA/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1834-minimum-number-of-people-to-teach](https://github.com/shiivamkumar027/DSA/tree/master/1834-minimum-number-of-people-to-teach) |
 | [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/shiivamkumar027/DSA/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/shiivamkumar027/DSA/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
