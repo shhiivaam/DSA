@@ -24,7 +24,6 @@ public:
                     board[i][j] = 2;
             }
         }
-
         for (int i = 0; i < m; i++)
             for (int j = 0; j < n; j++)
                 board[i][j] = board[i][j] > 0 ? 1 : 0;
