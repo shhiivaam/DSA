@@ -28,7 +28,6 @@ public:
             prev = curr;
             for (auto &x : curr) fill(x.begin(), x.end(), NEG);
         }
-
         int ans = -1;
         for (int c = 0; c <= k; c++)
             ans = max(ans, prev[m - 1][c]);
