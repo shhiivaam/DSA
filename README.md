@@ -75,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3827-implement-router](https://github.com/shiivamkumar027/DSA/tree/master/3827-implement-router) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/shiivamkumar027/DSA/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 | [3863-power-grid-maintenance](https://github.com/shiivamkumar027/DSA/tree/master/3863-power-grid-maintenance) |
+| [4116-minimum-moves-to-equal-array-elements-iii](https://github.com/shhiivaam/DSA/tree/master/4116-minimum-moves-to-equal-array-elements-iii) |
 ## Hash Table
 |  |
 | ------- |
@@ -276,6 +277,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3744-minimum-operations-to-make-array-elements-zero](https://github.com/shiivamkumar027/DSA/tree/master/3744-minimum-operations-to-make-array-elements-zero) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/shiivamkumar027/DSA/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 | [3830-find-closest-person](https://github.com/shiivamkumar027/DSA/tree/master/3830-find-closest-person) |
+| [4116-minimum-moves-to-equal-array-elements-iii](https://github.com/shhiivaam/DSA/tree/master/4116-minimum-moves-to-equal-array-elements-iii) |
 ## Depth-First Search
 |  |
 | ------- |
