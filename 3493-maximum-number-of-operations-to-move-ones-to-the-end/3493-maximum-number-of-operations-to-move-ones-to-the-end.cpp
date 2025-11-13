@@ -10,7 +10,7 @@ class Solution {
       ans += ones;
 
  
-    return ans;
+    return (int)ans;
   }
 };
 
