@@ -158,6 +158,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2887-sort-vowels-in-a-string](https://github.com/shiivamkumar027/DSA/tree/master/2887-sort-vowels-in-a-string) |
 | [3233-maximize-the-number-of-partitions-after-operations](https://github.com/shiivamkumar027/DSA/tree/master/3233-maximize-the-number-of-partitions-after-operations) |
 | [3462-vowels-game-in-a-string](https://github.com/shiivamkumar027/DSA/tree/master/3462-vowels-game-in-a-string) |
+| [3479-count-the-number-of-substrings-with-dominant-ones](https://github.com/shiivamkumar027/DSA/tree/master/3479-count-the-number-of-substrings-with-dominant-ones) |
 | [3493-maximum-number-of-operations-to-move-ones-to-the-end](https://github.com/shiivamkumar027/DSA/tree/master/3493-maximum-number-of-operations-to-move-ones-to-the-end) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/shiivamkumar027/DSA/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 | [3797-design-spreadsheet](https://github.com/shiivamkumar027/DSA/tree/master/3797-design-spreadsheet) |
@@ -362,6 +363,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1747-lexicographically-smallest-string-after-applying-operations](https://github.com/shiivamkumar027/DSA/tree/master/1747-lexicographically-smallest-string-after-applying-operations) |
 | [2174-next-greater-numerically-balanced-number](https://github.com/shiivamkumar027/DSA/tree/master/2174-next-greater-numerically-balanced-number) |
 | [2837-minimum-operations-to-make-the-integer-zero](https://github.com/shiivamkumar027/DSA/tree/master/2837-minimum-operations-to-make-the-integer-zero) |
+| [3479-count-the-number-of-substrings-with-dominant-ones](https://github.com/shiivamkumar027/DSA/tree/master/3479-count-the-number-of-substrings-with-dominant-ones) |
 ## Queue
 |  |
 | ------- |
@@ -501,6 +503,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0030-substring-with-concatenation-of-all-words](https://github.com/shiivamkumar027/DSA/tree/master/0030-substring-with-concatenation-of-all-words) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/shiivamkumar027/DSA/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [2618-maximize-the-minimum-powered-city](https://github.com/shiivamkumar027/DSA/tree/master/2618-maximize-the-minimum-powered-city) |
+| [3479-count-the-number-of-substrings-with-dominant-ones](https://github.com/shiivamkumar027/DSA/tree/master/3479-count-the-number-of-substrings-with-dominant-ones) |
 | [3592-find-x-sum-of-all-k-long-subarrays-ii](https://github.com/shiivamkumar027/DSA/tree/master/3592-find-x-sum-of-all-k-long-subarrays-ii) |
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/shiivamkumar027/DSA/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
 ## Prefix Sum
