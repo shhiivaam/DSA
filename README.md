@@ -298,6 +298,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0113-path-sum-ii](https://github.com/shiivamkumar027/DSA/tree/master/0113-path-sum-ii) |
 | [0130-surrounded-regions](https://github.com/shiivamkumar027/DSA/tree/master/0130-surrounded-regions) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/shiivamkumar027/DSA/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0417-pacific-atlantic-water-flow](https://github.com/shiivamkumar027/DSA/tree/master/0417-pacific-atlantic-water-flow) |
@@ -497,6 +498,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0040-combination-sum-ii](https://github.com/shiivamkumar027/DSA/tree/master/0040-combination-sum-ii) |
+| [0113-path-sum-ii](https://github.com/shiivamkumar027/DSA/tree/master/0113-path-sum-ii) |
 | [1331-path-with-maximum-gold](https://github.com/shiivamkumar027/DSA/tree/master/1331-path-with-maximum-gold) |
 | [2174-next-greater-numerically-balanced-number](https://github.com/shiivamkumar027/DSA/tree/master/2174-next-greater-numerically-balanced-number) |
 ## Design
@@ -558,4 +560,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3233-maximize-the-number-of-partitions-after-operations](https://github.com/shiivamkumar027/DSA/tree/master/3233-maximize-the-number-of-partitions-after-operations) |
+## Tree
+|  |
+| ------- |
+| [0113-path-sum-ii](https://github.com/shiivamkumar027/DSA/tree/master/0113-path-sum-ii) |
+## Binary Tree
+|  |
+| ------- |
+| [0113-path-sum-ii](https://github.com/shiivamkumar027/DSA/tree/master/0113-path-sum-ii) |
 <!---LeetCode Topics End-->
