@@ -1,16 +1,13 @@
 class Solution {
 public:
     int smallestRepunitDivByK(int k) {
-        int len = 1 , num = 1;
-        unordered_map<int,int>mp;
-        while (mp[num] < 1) {        
-            int rem = num % k;
-            if (rem == 0)
-                return len;
-            mp[rem] = 1;             
-            len++;
-            num = (rem * 10 + 1) % k;  
-        }
-        return -1;
+    if (k % 2 == 0 || k % 5 == 0) return -1;  
+
+    int num = 0;
+    for (int i = 1; i <= 100000; i++) {
+        num = (num * 10 + 1) % k;
+        if (num == 0) return i;
     }
+    return -1;
+}
 };
