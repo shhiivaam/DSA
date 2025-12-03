@@ -1,60 +1,136 @@
+#include <vector>
+#include <algorithm>
+#include <map>
+
+using namespace std;
+
 class Solution {
+    struct Segment {
+        long long dx, dy;
+        long long val;
+        int u, v;
+
+        bool operator<(const Segment& other) const {
+            if (dx != other.dx) return dx < other.dx;
+            if (dy != other.dy) return dy < other.dy;
+            return val < other.val;
+        }
+    };
+
+    long long gcd(long long a, long long b) {
+        while (b) {
+            a %= b;
+            swap(a, b);
+        }
+        return a;
+    }
+
 public:
-    int countTrapezoids(vector<vector<int>>& points) {
+    long long countTrapezoids(vector<vector<int>>& points) {
         int n = points.size();
-        int inf = 1e9 + 7;
-        unordered_map<float, vector<float>> slopeToIntercept;
-        unordered_map<int, vector<float>> midToSlope;
-        int ans = 0;
-        for (int i = 0; i < n; i++) {
-            int x1 = points[i][0];
-            int y1 = points[i][1];
-            for (int j = i + 1; j < n; j++) {
-                int x2 = points[j][0];
-                int y2 = points[j][1];
-                int dx = x1 - x2;
-                int dy = y1 - y2;
-                float k, b;
-                if (x2 == x1) {
-                    k = inf;
-                    b = x1;
-                } else {
-                    k = (float)(y2 - y1) / (x2 - x1);
-                    b = (float)(y1 * dx - x1 * dy) / dx;
+        if (n < 4) return 0;
+
+        vector<Segment> segments;
+        segments.reserve(n * (n - 1) / 2);
+
+        for (int i = 0; i < n; ++i) {
+            for (int j = i + 1; j < n; ++j) {
+                long long dx = points[j][0] - points[i][0];
+                long long dy = points[j][1] - points[i][1];
+                
+                long long g = gcd(abs(dx), abs(dy));
+                dx /= g;
+                dy /= g;
+                
+                if (dx < 0 || (dx == 0 && dy < 0)) {
+                    dx = -dx;
+                    dy = -dy;
                 }
-                int mid = (x1 + x2) * 10000 + (y1 + y2);
-                slopeToIntercept[k].push_back(b);
-                midToSlope[mid].push_back(k);
+                
+                long long val = (long long)points[i][0] * dy - (long long)points[i][1] * dx;
+                segments.push_back({dx, dy, val, i, j});
             }
         }
-        for (auto& [_, sti] : slopeToIntercept) {
-            if (sti.size() == 1) {
-                continue;
+
+        sort(segments.begin(), segments.end());
+
+        long long parallelPairsCount = 0;
+        int m = segments.size();
+        int i = 0;
+
+        while (i < m) {
+            int j = i;
+            while (j < m && segments[j].dx == segments[i].dx && segments[j].dy == segments[i].dy) {
+                j++;
             }
-            map<float, int> cnt;
-            for (float b : sti) {
-                cnt[b]++;
+            
+            map<long long, int> waysPerLine;
+            int k = i;
+            while (k < j) {
+                int l = k;
+                long long currentVal = segments[k].val;
+                
+                vector<int> distinctPoints;
+                while (l < j && segments[l].val == currentVal) {
+                    distinctPoints.push_back(segments[l].u);
+                    distinctPoints.push_back(segments[l].v);
+                    l++;
+                }
+                
+                sort(distinctPoints.begin(), distinctPoints.end());
+                int uniqueCount = unique(distinctPoints.begin(), distinctPoints.end()) - distinctPoints.begin();
+                
+                if (uniqueCount >= 2) {
+                    waysPerLine[currentVal] = uniqueCount * (uniqueCount - 1) / 2;
+                }
+                k = l;
             }
-            int sum = 0;
-            for (auto& [_, count] : cnt) {
-                ans += sum * count;
-                sum += count;
+            
+            long long sumWays = 0;
+            long long sumSqWays = 0;
+            
+            for (auto const& [val, count] : waysPerLine) {
+                sumWays += count;
+                sumSqWays += (long long)count * count;
+            }
+            
+            parallelPairsCount += (sumWays * sumWays - sumSqWays) / 2;
+            i = j;
+        }
+
+        map<pair<long long, long long>, map<pair<long long, long long>, int>> midPoints;
+        
+        for (int a = 0; a < n; ++a) {
+            for (int b = a + 1; b < n; ++b) {
+                long long mx = (long long)points[a][0] + points[b][0];
+                long long my = (long long)points[a][1] + points[b][1];
+                
+                long long dx = points[b][0] - points[a][0];
+                long long dy = points[b][1] - points[a][1];
+                long long g = gcd(abs(dx), abs(dy));
+                dx /= g; dy /= g;
+                if (dx < 0 || (dx == 0 && dy < 0)) { dx = -dx; dy = -dy; }
+                
+                midPoints[{mx, my}][{dx, dy}]++;
             }
         }
-        for (auto& [_, mts] : midToSlope) {
-            if (mts.size() == 1) {
-                continue;
+        
+        long long parallelogramCount = 0;
+        for (auto& entry : midPoints) {
+            auto& slopeMap = entry.second;
+            long long totalDiagonals = 0;
+            long long degeneratePairs = 0;
+            
+            for (auto& s : slopeMap) {
+                long long cnt = s.second;
+                totalDiagonals += cnt;
+                degeneratePairs += cnt * (cnt - 1) / 2;
             }
-            map<float, int> cnt;
-            for (float k : mts) {
-                cnt[k]++;
-            }
-            int sum = 0;
-            for (auto& [_, count] : cnt) {
-                ans -= sum * count;
-                sum += count;
-            }
+            
+            long long totalPairs = totalDiagonals * (totalDiagonals - 1) / 2;
+            parallelogramCount += (totalPairs - degeneratePairs);
         }
-        return ans;
+
+        return parallelPairsCount - parallelogramCount;
     }
 };
