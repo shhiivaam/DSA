@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/shiivamkumar027/DSA/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0330-patching-array](https://github.com/shiivamkumar027/DSA/tree/master/0330-patching-array) |
 | [0336-palindrome-pairs](https://github.com/shiivamkumar027/DSA/tree/master/0336-palindrome-pairs) |
+| [0349-intersection-of-two-arrays](https://github.com/shiivamkumar027/DSA/tree/master/0349-intersection-of-two-arrays) |
 | [0354-russian-doll-envelopes](https://github.com/shiivamkumar027/DSA/tree/master/0354-russian-doll-envelopes) |
 | [0407-trapping-rain-water-ii](https://github.com/shiivamkumar027/DSA/tree/master/0407-trapping-rain-water-ii) |
 | [0417-pacific-atlantic-water-flow](https://github.com/shiivamkumar027/DSA/tree/master/0417-pacific-atlantic-water-flow) |
@@ -106,6 +107,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/shiivamkumar027/DSA/tree/master/0242-valid-anagram) |
 | [0290-word-pattern](https://github.com/shiivamkumar027/DSA/tree/master/0290-word-pattern) |
 | [0336-palindrome-pairs](https://github.com/shiivamkumar027/DSA/tree/master/0336-palindrome-pairs) |
+| [0349-intersection-of-two-arrays](https://github.com/shiivamkumar027/DSA/tree/master/0349-intersection-of-two-arrays) |
 | [0387-first-unique-character-in-a-string](https://github.com/shiivamkumar027/DSA/tree/master/0387-first-unique-character-in-a-string) |
 | [0451-sort-characters-by-frequency](https://github.com/shiivamkumar027/DSA/tree/master/0451-sort-characters-by-frequency) |
 | [0523-continuous-subarray-sum](https://github.com/shiivamkumar027/DSA/tree/master/0523-continuous-subarray-sum) |
@@ -147,6 +149,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/shiivamkumar027/DSA/tree/master/0042-trapping-rain-water) |
 | [0165-compare-version-numbers](https://github.com/shiivamkumar027/DSA/tree/master/0165-compare-version-numbers) |
 | [0283-move-zeroes](https://github.com/shiivamkumar027/DSA/tree/master/0283-move-zeroes) |
+| [0349-intersection-of-two-arrays](https://github.com/shiivamkumar027/DSA/tree/master/0349-intersection-of-two-arrays) |
 | [0611-valid-triangle-number](https://github.com/shiivamkumar027/DSA/tree/master/0611-valid-triangle-number) |
 | [1129-longest-string-chain](https://github.com/shiivamkumar027/DSA/tree/master/1129-longest-string-chain) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/shiivamkumar027/DSA/tree/master/2392-successful-pairs-of-spells-and-potions) |
@@ -228,6 +231,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0018-4sum](https://github.com/shhiivaam/DSA/tree/master/0018-4sum) |
 | [0215-kth-largest-element-in-an-array](https://github.com/shiivamkumar027/DSA/tree/master/0215-kth-largest-element-in-an-array) |
 | [0242-valid-anagram](https://github.com/shiivamkumar027/DSA/tree/master/0242-valid-anagram) |
+| [0349-intersection-of-two-arrays](https://github.com/shiivamkumar027/DSA/tree/master/0349-intersection-of-two-arrays) |
 | [0354-russian-doll-envelopes](https://github.com/shiivamkumar027/DSA/tree/master/0354-russian-doll-envelopes) |
 | [0451-sort-characters-by-frequency](https://github.com/shiivamkumar027/DSA/tree/master/0451-sort-characters-by-frequency) |
 | [0611-valid-triangle-number](https://github.com/shiivamkumar027/DSA/tree/master/0611-valid-triangle-number) |
@@ -250,6 +254,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0033-search-in-rotated-sorted-array](https://github.com/shiivamkumar027/DSA/tree/master/0033-search-in-rotated-sorted-array) |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/shiivamkumar027/DSA/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/shiivamkumar027/DSA/tree/master/0315-count-of-smaller-numbers-after-self) |
+| [0349-intersection-of-two-arrays](https://github.com/shiivamkumar027/DSA/tree/master/0349-intersection-of-two-arrays) |
 | [0354-russian-doll-envelopes](https://github.com/shiivamkumar027/DSA/tree/master/0354-russian-doll-envelopes) |
 | [0611-valid-triangle-number](https://github.com/shiivamkumar027/DSA/tree/master/0611-valid-triangle-number) |
 | [0794-swim-in-rising-water](https://github.com/shiivamkumar027/DSA/tree/master/0794-swim-in-rising-water) |
