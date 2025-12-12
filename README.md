@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0033-search-in-rotated-sorted-array](https://github.com/shiivamkumar027/DSA/tree/master/0033-search-in-rotated-sorted-array) |
 | [0040-combination-sum-ii](https://github.com/shiivamkumar027/DSA/tree/master/0040-combination-sum-ii) |
 | [0042-trapping-rain-water](https://github.com/shiivamkumar027/DSA/tree/master/0042-trapping-rain-water) |
+| [0053-maximum-subarray](https://github.com/shiivamkumar027/DSA/tree/master/0053-maximum-subarray) |
 | [0054-spiral-matrix](https://github.com/shiivamkumar027/DSA/tree/master/0054-spiral-matrix) |
 | [0068-text-justification](https://github.com/shiivamkumar027/DSA/tree/master/0068-text-justification) |
 | [0073-set-matrix-zeroes](https://github.com/shiivamkumar027/DSA/tree/master/0073-set-matrix-zeroes) |
@@ -208,6 +209,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0032-longest-valid-parentheses](https://github.com/shiivamkumar027/DSA/tree/master/0032-longest-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/shiivamkumar027/DSA/tree/master/0042-trapping-rain-water) |
+| [0053-maximum-subarray](https://github.com/shiivamkumar027/DSA/tree/master/0053-maximum-subarray) |
 | [0120-triangle](https://github.com/shiivamkumar027/DSA/tree/master/0120-triangle) |
 | [0132-palindrome-partitioning-ii](https://github.com/shiivamkumar027/DSA/tree/master/0132-palindrome-partitioning-ii) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/shiivamkumar027/DSA/tree/master/0329-longest-increasing-path-in-a-matrix) |
@@ -278,6 +280,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Divide and Conquer
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/shiivamkumar027/DSA/tree/master/0053-maximum-subarray) |
 | [0215-kth-largest-element-in-an-array](https://github.com/shiivamkumar027/DSA/tree/master/0215-kth-largest-element-in-an-array) |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/shiivamkumar027/DSA/tree/master/0315-count-of-smaller-numbers-after-self) |
 ## Binary Indexed Tree
