@@ -5,7 +5,6 @@ struct OfflineUser {
     return returnTimestamp > other.returnTimestamp;
   }
 };
-
 class Solution {
  public:
   vector<int> countMentions(int numberOfUsers, vector<vector<string>>& events) {
