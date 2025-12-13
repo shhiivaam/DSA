@@ -48,7 +48,6 @@ public:
         for (auto &p : validCoupons) {
             result.push_back(p.second);
         }
-
         return result;
     }
 };
