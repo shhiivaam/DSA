@@ -10,7 +10,6 @@ public:
         if (seat_indices.size() == 0 || seat_indices.size() % 2 != 0) {
             return 0;
         }
-        
         long long ans = 1;
         long long MOD = 1e9 + 7;
         for (int i = 2; i < seat_indices.size(); i += 2) {
