@@ -85,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/shiivamkumar027/DSA/tree/master/3437-maximum-total-damage-with-spell-casting) |
 | [3531-count-covered-buildings](https://github.com/shiivamkumar027/DSA/tree/master/3531-count-covered-buildings) |
 | [3562-maximum-profit-from-trading-stocks-with-discounts](https://github.com/shiivamkumar027/DSA/tree/master/3562-maximum-profit-from-trading-stocks-with-discounts) |
+| [3573-best-time-to-buy-and-sell-stock-v](https://github.com/shiivamkumar027/DSA/tree/master/3573-best-time-to-buy-and-sell-stock-v) |
 | [3577-count-the-number-of-computer-unlocking-permutations](https://github.com/shiivamkumar027/DSA/tree/master/3577-count-the-number-of-computer-unlocking-permutations) |
 | [3578-count-partitions-with-max-min-difference-at-most-k](https://github.com/shiivamkumar027/DSA/tree/master/3578-count-partitions-with-max-min-difference-at-most-k) |
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/shiivamkumar027/DSA/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
@@ -243,6 +244,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3233-maximize-the-number-of-partitions-after-operations](https://github.com/shiivamkumar027/DSA/tree/master/3233-maximize-the-number-of-partitions-after-operations) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/shiivamkumar027/DSA/tree/master/3437-maximum-total-damage-with-spell-casting) |
 | [3562-maximum-profit-from-trading-stocks-with-discounts](https://github.com/shiivamkumar027/DSA/tree/master/3562-maximum-profit-from-trading-stocks-with-discounts) |
+| [3573-best-time-to-buy-and-sell-stock-v](https://github.com/shiivamkumar027/DSA/tree/master/3573-best-time-to-buy-and-sell-stock-v) |
 | [3578-count-partitions-with-max-min-difference-at-most-k](https://github.com/shiivamkumar027/DSA/tree/master/3578-count-partitions-with-max-min-difference-at-most-k) |
 ## Sorting
 |  |
