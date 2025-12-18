@@ -16,13 +16,10 @@ public:
             currentProfit += (long long)strategy[i] * prices[i];
         }
         auto getDiffHold = [&](int i) {
-            // New contribution (0) - Old contribution (strategy[i] * prices[i])
             return 0LL - ((long long)strategy[i] * prices[i]);
         };
 
-        // Change to 1 (Sell)
         auto getDiffSell = [&](int i) {
-            // New contribution (prices[i]) - Old contribution (strategy[i] * prices[i])
             return (long long)prices[i] - ((long long)strategy[i] * prices[i]);
         };
 
