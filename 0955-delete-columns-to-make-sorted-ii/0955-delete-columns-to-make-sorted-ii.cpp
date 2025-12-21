@@ -16,7 +16,6 @@ class Solution {
         for (i = 0; i + 1 < n; ++i)
           sorted[i] = sorted[i] || strs[i][j] < strs[i + 1][j];
     }
-
     return ans;
   }
 };
