@@ -7,7 +7,7 @@ public:
        for(int i =0;i<capacity.size();i++){
             c_sum += capacity[i];
             if(c_sum >= sum){
-                return i+1;
+                return i + 1;
             }
        } 
     return -1;
