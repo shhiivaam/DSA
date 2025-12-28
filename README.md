@@ -50,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1129-longest-string-chain](https://github.com/shiivamkumar027/DSA/tree/master/1129-longest-string-chain) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/shiivamkumar027/DSA/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1331-path-with-maximum-gold](https://github.com/shiivamkumar027/DSA/tree/master/1331-path-with-maximum-gold) |
+| [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/shiivamkumar027/DSA/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/shiivamkumar027/DSA/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1426-find-n-unique-integers-sum-up-to-zero](https://github.com/shiivamkumar027/DSA/tree/master/1426-find-n-unique-integers-sum-up-to-zero) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/shiivamkumar027/DSA/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
@@ -303,6 +304,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0611-valid-triangle-number](https://github.com/shiivamkumar027/DSA/tree/master/0611-valid-triangle-number) |
 | [0794-swim-in-rising-water](https://github.com/shiivamkumar027/DSA/tree/master/0794-swim-in-rising-water) |
 | [0923-super-egg-drop](https://github.com/shiivamkumar027/DSA/tree/master/0923-super-egg-drop) |
+| [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/shiivamkumar027/DSA/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [1612-avoid-flood-in-the-city](https://github.com/shiivamkumar027/DSA/tree/master/1612-avoid-flood-in-the-city) |
 | [1646-kth-missing-positive-number](https://github.com/shiivamkumar027/DSA/tree/master/1646-kth-missing-positive-number) |
 | [2054-two-best-non-overlapping-events](https://github.com/shiivamkumar027/DSA/tree/master/2054-two-best-non-overlapping-events) |
@@ -542,6 +544,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0417-pacific-atlantic-water-flow](https://github.com/shiivamkumar027/DSA/tree/master/0417-pacific-atlantic-water-flow) |
 | [0794-swim-in-rising-water](https://github.com/shiivamkumar027/DSA/tree/master/0794-swim-in-rising-water) |
 | [1331-path-with-maximum-gold](https://github.com/shiivamkumar027/DSA/tree/master/1331-path-with-maximum-gold) |
+| [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/shiivamkumar027/DSA/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [2244-number-of-laser-beams-in-a-bank](https://github.com/shiivamkumar027/DSA/tree/master/2244-number-of-laser-beams-in-a-bank) |
 | [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/shiivamkumar027/DSA/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
 | [2625-increment-submatrices-by-one](https://github.com/shiivamkumar027/DSA/tree/master/2625-increment-submatrices-by-one) |
