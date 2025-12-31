@@ -53,7 +53,6 @@ class Solution {
         matrix[x][y] = 1;
       }
     }
-
     return false;
   }
 };
