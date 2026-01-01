@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/shiivamkumar027/DSA/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/shiivamkumar027/DSA/tree/master/0053-maximum-subarray) |
 | [0054-spiral-matrix](https://github.com/shiivamkumar027/DSA/tree/master/0054-spiral-matrix) |
+| [0066-plus-one](https://github.com/shiivamkumar027/DSA/tree/master/0066-plus-one) |
 | [0068-text-justification](https://github.com/shiivamkumar027/DSA/tree/master/0068-text-justification) |
 | [0073-set-matrix-zeroes](https://github.com/shiivamkumar027/DSA/tree/master/0073-set-matrix-zeroes) |
 | [0084-largest-rectangle-in-histogram](https://github.com/shiivamkumar027/DSA/tree/master/0084-largest-rectangle-in-histogram) |
@@ -361,6 +362,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0060-permutation-sequence](https://github.com/shiivamkumar027/DSA/tree/master/0060-permutation-sequence) |
+| [0066-plus-one](https://github.com/shiivamkumar027/DSA/tree/master/0066-plus-one) |
 | [0067-add-binary](https://github.com/shiivamkumar027/DSA/tree/master/0067-add-binary) |
 | [0149-max-points-on-a-line](https://github.com/shhiivaam/DSA/tree/master/0149-max-points-on-a-line) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/shiivamkumar027/DSA/tree/master/0150-evaluate-reverse-polish-notation) |
