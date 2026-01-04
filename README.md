@@ -56,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1331-path-with-maximum-gold](https://github.com/shiivamkumar027/DSA/tree/master/1331-path-with-maximum-gold) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/shiivamkumar027/DSA/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/shiivamkumar027/DSA/tree/master/1353-find-resultant-array-after-removing-anagrams) |
+| [1390-four-divisors](https://github.com/shiivamkumar027/DSA/tree/master/1390-four-divisors) |
 | [1426-find-n-unique-integers-sum-up-to-zero](https://github.com/shiivamkumar027/DSA/tree/master/1426-find-n-unique-integers-sum-up-to-zero) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/shiivamkumar027/DSA/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1548-check-if-all-1s-are-at-least-length-k-places-away](https://github.com/shhiivaam/DSA/tree/master/1548-check-if-all-1s-are-at-least-length-k-places-away) |
@@ -379,6 +380,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0923-super-egg-drop](https://github.com/shiivamkumar027/DSA/tree/master/0923-super-egg-drop) |
 | [1015-smallest-integer-divisible-by-k](https://github.com/shhiivaam/DSA/tree/master/1015-smallest-integer-divisible-by-k) |
 | [1018-largest-perimeter-triangle](https://github.com/shiivamkumar027/DSA/tree/master/1018-largest-perimeter-triangle) |
+| [1390-four-divisors](https://github.com/shiivamkumar027/DSA/tree/master/1390-four-divisors) |
 | [1426-find-n-unique-integers-sum-up-to-zero](https://github.com/shiivamkumar027/DSA/tree/master/1426-find-n-unique-integers-sum-up-to-zero) |
 | [1440-convert-integer-to-the-sum-of-two-no-zero-integers](https://github.com/shiivamkumar027/DSA/tree/master/1440-convert-integer-to-the-sum-of-two-no-zero-integers) |
 | [1636-number-of-substrings-with-only-1s](https://github.com/shiivamkumar027/DSA/tree/master/1636-number-of-substrings-with-only-1s) |
