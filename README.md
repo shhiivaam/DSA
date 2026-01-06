@@ -196,6 +196,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0006-zigzag-conversion](https://github.com/shiivamkumar027/DSA/tree/master/0006-zigzag-conversion) |
 | [0030-substring-with-concatenation-of-all-words](https://github.com/shiivamkumar027/DSA/tree/master/0030-substring-with-concatenation-of-all-words) |
 | [0032-longest-valid-parentheses](https://github.com/shiivamkumar027/DSA/tree/master/0032-longest-valid-parentheses) |
+| [0065-valid-number](https://github.com/shiivamkumar027/DSA/tree/master/0065-valid-number) |
 | [0067-add-binary](https://github.com/shiivamkumar027/DSA/tree/master/0067-add-binary) |
 | [0068-text-justification](https://github.com/shiivamkumar027/DSA/tree/master/0068-text-justification) |
 | [0071-simplify-path](https://github.com/shiivamkumar027/DSA/tree/master/0071-simplify-path) |
