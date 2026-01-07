@@ -13,7 +13,6 @@ class Solution {
 public:
     long long totalSum = 0;
     long long ans = 0;
-
     long long _generateSum(TreeNode* root, vector<long long>& allSums) {
         if (root == NULL) return 0;
         long long cur_sum = root->val;
