@@ -58,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/shiivamkumar027/DSA/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1390-four-divisors](https://github.com/shiivamkumar027/DSA/tree/master/1390-four-divisors) |
 | [1426-find-n-unique-integers-sum-up-to-zero](https://github.com/shiivamkumar027/DSA/tree/master/1426-find-n-unique-integers-sum-up-to-zero) |
+| [1458-max-dot-product-of-two-subsequences](https://github.com/shiivamkumar027/DSA/tree/master/1458-max-dot-product-of-two-subsequences) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/shiivamkumar027/DSA/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1548-check-if-all-1s-are-at-least-length-k-places-away](https://github.com/shhiivaam/DSA/tree/master/1548-check-if-all-1s-are-at-least-length-k-places-away) |
 | [1590-make-sum-divisible-by-p](https://github.com/shiivamkumar027/DSA/tree/master/1590-make-sum-divisible-by-p) |
@@ -265,6 +266,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1262-greatest-sum-divisible-by-three](https://github.com/shiivamkumar027/DSA/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1263-number-of-dice-rolls-with-target-sum](https://github.com/shiivamkumar027/DSA/tree/master/1263-number-of-dice-rolls-with-target-sum) |
 | [1411-number-of-ways-to-paint-n-3-grid](https://github.com/shiivamkumar027/DSA/tree/master/1411-number-of-ways-to-paint-n-3-grid) |
+| [1458-max-dot-product-of-two-subsequences](https://github.com/shiivamkumar027/DSA/tree/master/1458-max-dot-product-of-two-subsequences) |
 | [1488-sort-integers-by-the-power-value](https://github.com/shiivamkumar027/DSA/tree/master/1488-sort-integers-by-the-power-value) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/shiivamkumar027/DSA/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/shiivamkumar027/DSA/tree/master/1669-minimum-cost-to-cut-a-stick) |
