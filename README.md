@@ -42,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0830-largest-triangle-area](https://github.com/shiivamkumar027/DSA/tree/master/0830-largest-triangle-area) |
 | [0840-magic-squares-in-grid](https://github.com/shiivamkumar027/DSA/tree/master/0840-magic-squares-in-grid) |
 | [0890-lemonade-change](https://github.com/shiivamkumar027/DSA/tree/master/0890-lemonade-change) |
+| [0908-smallest-range-i](https://github.com/shiivamkumar027/DSA/tree/master/0908-smallest-range-i) |
 | [0944-delete-columns-to-make-sorted](https://github.com/shiivamkumar027/DSA/tree/master/0944-delete-columns-to-make-sorted) |
 | [0955-delete-columns-to-make-sorted-ii](https://github.com/shiivamkumar027/DSA/tree/master/0955-delete-columns-to-make-sorted-ii) |
 | [0960-delete-columns-to-make-sorted-iii](https://github.com/shiivamkumar027/DSA/tree/master/0960-delete-columns-to-make-sorted-iii) |
@@ -383,6 +384,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0728-self-dividing-numbers](https://github.com/shiivamkumar027/DSA/tree/master/0728-self-dividing-numbers) |
 | [0830-largest-triangle-area](https://github.com/shiivamkumar027/DSA/tree/master/0830-largest-triangle-area) |
 | [0840-magic-squares-in-grid](https://github.com/shiivamkumar027/DSA/tree/master/0840-magic-squares-in-grid) |
+| [0908-smallest-range-i](https://github.com/shiivamkumar027/DSA/tree/master/0908-smallest-range-i) |
 | [0923-super-egg-drop](https://github.com/shiivamkumar027/DSA/tree/master/0923-super-egg-drop) |
 | [1015-smallest-integer-divisible-by-k](https://github.com/shhiivaam/DSA/tree/master/1015-smallest-integer-divisible-by-k) |
 | [1018-largest-perimeter-triangle](https://github.com/shiivamkumar027/DSA/tree/master/1018-largest-perimeter-triangle) |
