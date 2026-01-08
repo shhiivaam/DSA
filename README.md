@@ -380,6 +380,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0458-poor-pigs](https://github.com/shiivamkumar027/DSA/tree/master/0458-poor-pigs) |
 | [0479-largest-palindrome-product](https://github.com/shiivamkumar027/DSA/tree/master/0479-largest-palindrome-product) |
 | [0523-continuous-subarray-sum](https://github.com/shiivamkumar027/DSA/tree/master/0523-continuous-subarray-sum) |
+| [0728-self-dividing-numbers](https://github.com/shiivamkumar027/DSA/tree/master/0728-self-dividing-numbers) |
 | [0830-largest-triangle-area](https://github.com/shiivamkumar027/DSA/tree/master/0830-largest-triangle-area) |
 | [0840-magic-squares-in-grid](https://github.com/shiivamkumar027/DSA/tree/master/0840-magic-squares-in-grid) |
 | [0923-super-egg-drop](https://github.com/shiivamkumar027/DSA/tree/master/0923-super-egg-drop) |
