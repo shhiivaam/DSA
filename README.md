@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0068-text-justification](https://github.com/shiivamkumar027/DSA/tree/master/0068-text-justification) |
 | [0073-set-matrix-zeroes](https://github.com/shiivamkumar027/DSA/tree/master/0073-set-matrix-zeroes) |
 | [0084-largest-rectangle-in-histogram](https://github.com/shiivamkumar027/DSA/tree/master/0084-largest-rectangle-in-histogram) |
+| [0085-maximal-rectangle](https://github.com/shiivamkumar027/DSA/tree/master/0085-maximal-rectangle) |
 | [0120-triangle](https://github.com/shiivamkumar027/DSA/tree/master/0120-triangle) |
 | [0130-surrounded-regions](https://github.com/shiivamkumar027/DSA/tree/master/0130-surrounded-regions) |
 | [0149-max-points-on-a-line](https://github.com/shhiivaam/DSA/tree/master/0149-max-points-on-a-line) |
@@ -255,6 +256,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0032-longest-valid-parentheses](https://github.com/shiivamkumar027/DSA/tree/master/0032-longest-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/shiivamkumar027/DSA/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/shiivamkumar027/DSA/tree/master/0053-maximum-subarray) |
+| [0085-maximal-rectangle](https://github.com/shiivamkumar027/DSA/tree/master/0085-maximal-rectangle) |
 | [0120-triangle](https://github.com/shiivamkumar027/DSA/tree/master/0120-triangle) |
 | [0132-palindrome-partitioning-ii](https://github.com/shiivamkumar027/DSA/tree/master/0132-palindrome-partitioning-ii) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/shiivamkumar027/DSA/tree/master/0329-longest-increasing-path-in-a-matrix) |
@@ -481,6 +483,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/shiivamkumar027/DSA/tree/master/0042-trapping-rain-water) |
 | [0071-simplify-path](https://github.com/shiivamkumar027/DSA/tree/master/0071-simplify-path) |
 | [0084-largest-rectangle-in-histogram](https://github.com/shiivamkumar027/DSA/tree/master/0084-largest-rectangle-in-histogram) |
+| [0085-maximal-rectangle](https://github.com/shiivamkumar027/DSA/tree/master/0085-maximal-rectangle) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/shiivamkumar027/DSA/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0232-implement-queue-using-stacks](https://github.com/shiivamkumar027/DSA/tree/master/0232-implement-queue-using-stacks) |
 | [0394-decode-string](https://github.com/shiivamkumar027/DSA/tree/master/0394-decode-string) |
@@ -569,6 +572,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0042-trapping-rain-water](https://github.com/shiivamkumar027/DSA/tree/master/0042-trapping-rain-water) |
 | [0084-largest-rectangle-in-histogram](https://github.com/shiivamkumar027/DSA/tree/master/0084-largest-rectangle-in-histogram) |
+| [0085-maximal-rectangle](https://github.com/shiivamkumar027/DSA/tree/master/0085-maximal-rectangle) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/shiivamkumar027/DSA/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/shiivamkumar027/DSA/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 ## Topological Sort
@@ -585,6 +589,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0054-spiral-matrix](https://github.com/shiivamkumar027/DSA/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/shiivamkumar027/DSA/tree/master/0073-set-matrix-zeroes) |
+| [0085-maximal-rectangle](https://github.com/shiivamkumar027/DSA/tree/master/0085-maximal-rectangle) |
 | [0130-surrounded-regions](https://github.com/shiivamkumar027/DSA/tree/master/0130-surrounded-regions) |
 | [0289-game-of-life](https://github.com/shiivamkumar027/DSA/tree/master/0289-game-of-life) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/shiivamkumar027/DSA/tree/master/0329-longest-increasing-path-in-a-matrix) |
