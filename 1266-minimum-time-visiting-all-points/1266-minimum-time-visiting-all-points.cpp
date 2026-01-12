@@ -2,7 +2,6 @@ class Solution {
 public:
     int minTimeToVisitAllPoints(vector<vector<int>>& points) {
         int dist = 0;
-
         for (int i = 0; i < points.size() - 1; i++) {
             int x1 = points[i][0];
             int y1 = points[i][1];
