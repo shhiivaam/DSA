@@ -104,6 +104,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3432-count-partitions-with-even-sum-difference](https://github.com/shhiivaam/DSA/tree/master/3432-count-partitions-with-even-sum-difference) |
 | [3433-count-mentions-per-user](https://github.com/shiivamkumar027/DSA/tree/master/3433-count-mentions-per-user) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/shiivamkumar027/DSA/tree/master/3437-maximum-total-damage-with-spell-casting) |
+| [3453-separate-squares-i](https://github.com/shiivamkumar027/DSA/tree/master/3453-separate-squares-i) |
 | [3531-count-covered-buildings](https://github.com/shiivamkumar027/DSA/tree/master/3531-count-covered-buildings) |
 | [3562-maximum-profit-from-trading-stocks-with-discounts](https://github.com/shiivamkumar027/DSA/tree/master/3562-maximum-profit-from-trading-stocks-with-discounts) |
 | [3573-best-time-to-buy-and-sell-stock-v](https://github.com/shiivamkumar027/DSA/tree/master/3573-best-time-to-buy-and-sell-stock-v) |
@@ -342,6 +343,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2529-maximum-count-of-positive-integer-and-negative-integer](https://github.com/shiivamkumar027/DSA/tree/master/2529-maximum-count-of-positive-integer-and-negative-integer) |
 | [2618-maximize-the-minimum-powered-city](https://github.com/shiivamkumar027/DSA/tree/master/2618-maximize-the-minimum-powered-city) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/shiivamkumar027/DSA/tree/master/3437-maximum-total-damage-with-spell-casting) |
+| [3453-separate-squares-i](https://github.com/shiivamkumar027/DSA/tree/master/3453-separate-squares-i) |
 | [3619-adjacent-increasing-subarrays-detection-ii](https://github.com/shiivamkumar027/DSA/tree/master/3619-adjacent-increasing-subarrays-detection-ii) |
 | [3643-zero-array-transformation-ii](https://github.com/shhiivaam/DSA/tree/master/3643-zero-array-transformation-ii) |
 | [3827-implement-router](https://github.com/shiivamkumar027/DSA/tree/master/3827-implement-router) |
