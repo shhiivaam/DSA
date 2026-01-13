@@ -227,6 +227,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1006-vowel-spellchecker](https://github.com/shiivamkumar027/DSA/tree/master/1006-vowel-spellchecker) |
 | [1026-string-without-aaa-or-bbb](https://github.com/shiivamkumar027/DSA/tree/master/1026-string-without-aaa-or-bbb) |
 | [1129-longest-string-chain](https://github.com/shiivamkumar027/DSA/tree/master/1129-longest-string-chain) |
+| [1154-day-of-the-year](https://github.com/shiivamkumar027/DSA/tree/master/1154-day-of-the-year) |
 | [1197-parsing-a-boolean-expression](https://github.com/shiivamkumar027/DSA/tree/master/1197-parsing-a-boolean-expression) |
 | [1264-maximum-number-of-words-you-can-type](https://github.com/shiivamkumar027/DSA/tree/master/1264-maximum-number-of-words-you-can-type) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/shiivamkumar027/DSA/tree/master/1353-find-resultant-array-after-removing-anagrams) |
@@ -397,6 +398,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0923-super-egg-drop](https://github.com/shiivamkumar027/DSA/tree/master/0923-super-egg-drop) |
 | [1015-smallest-integer-divisible-by-k](https://github.com/shhiivaam/DSA/tree/master/1015-smallest-integer-divisible-by-k) |
 | [1018-largest-perimeter-triangle](https://github.com/shiivamkumar027/DSA/tree/master/1018-largest-perimeter-triangle) |
+| [1154-day-of-the-year](https://github.com/shiivamkumar027/DSA/tree/master/1154-day-of-the-year) |
 | [1217-minimum-cost-to-move-chips-to-the-same-position](https://github.com/shiivamkumar027/DSA/tree/master/1217-minimum-cost-to-move-chips-to-the-same-position) |
 | [1266-minimum-time-visiting-all-points](https://github.com/shiivamkumar027/DSA/tree/master/1266-minimum-time-visiting-all-points) |
 | [1390-four-divisors](https://github.com/shiivamkumar027/DSA/tree/master/1390-four-divisors) |
