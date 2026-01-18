@@ -72,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/shiivamkumar027/DSA/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/shiivamkumar027/DSA/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1834-minimum-number-of-people-to-teach](https://github.com/shiivamkumar027/DSA/tree/master/1834-minimum-number-of-people-to-teach) |
+| [1895-largest-magic-square](https://github.com/shiivamkumar027/DSA/tree/master/1895-largest-magic-square) |
 | [1970-last-day-where-you-can-still-cross](https://github.com/shiivamkumar027/DSA/tree/master/1970-last-day-where-you-can-still-cross) |
 | [1975-maximum-matrix-sum](https://github.com/shiivamkumar027/DSA/tree/master/1975-maximum-matrix-sum) |
 | [2023-design-movie-rental-system](https://github.com/shiivamkumar027/DSA/tree/master/2023-design-movie-rental-system) |
@@ -612,6 +613,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0840-magic-squares-in-grid](https://github.com/shiivamkumar027/DSA/tree/master/0840-magic-squares-in-grid) |
 | [1331-path-with-maximum-gold](https://github.com/shiivamkumar027/DSA/tree/master/1331-path-with-maximum-gold) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/shiivamkumar027/DSA/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
+| [1895-largest-magic-square](https://github.com/shiivamkumar027/DSA/tree/master/1895-largest-magic-square) |
 | [1970-last-day-where-you-can-still-cross](https://github.com/shiivamkumar027/DSA/tree/master/1970-last-day-where-you-can-still-cross) |
 | [1975-maximum-matrix-sum](https://github.com/shiivamkumar027/DSA/tree/master/1975-maximum-matrix-sum) |
 | [2244-number-of-laser-beams-in-a-bank](https://github.com/shiivamkumar027/DSA/tree/master/2244-number-of-laser-beams-in-a-bank) |
@@ -728,6 +730,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0523-continuous-subarray-sum](https://github.com/shiivamkumar027/DSA/tree/master/0523-continuous-subarray-sum) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/shiivamkumar027/DSA/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1590-make-sum-divisible-by-p](https://github.com/shiivamkumar027/DSA/tree/master/1590-make-sum-divisible-by-p) |
+| [1895-largest-magic-square](https://github.com/shiivamkumar027/DSA/tree/master/1895-largest-magic-square) |
 | [1930-unique-length-3-palindromic-subsequences](https://github.com/shiivamkumar027/DSA/tree/master/1930-unique-length-3-palindromic-subsequences) |
 | [2465-shifting-letters-ii](https://github.com/shhiivaam/DSA/tree/master/2465-shifting-letters-ii) |
 | [2483-minimum-penalty-for-a-shop](https://github.com/shiivamkumar027/DSA/tree/master/2483-minimum-penalty-for-a-shop) |
