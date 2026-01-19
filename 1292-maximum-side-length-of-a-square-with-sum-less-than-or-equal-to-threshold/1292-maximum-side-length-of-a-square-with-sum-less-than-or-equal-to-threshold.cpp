@@ -20,7 +20,6 @@ public:
                 for(int len = ans + 1; 
                     i + len - 1 <= n && j + len - 1 <= m; 
                     len++) {
-
                     int sum = pref[i+len-1][j+len-1]
                             - pref[i-1][j+len-1]
                             - pref[i+len-1][j-1]
