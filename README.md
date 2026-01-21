@@ -446,6 +446,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0110-balanced-binary-tree](https://github.com/shhiivaam/DSA/tree/master/0110-balanced-binary-tree) |
 | [0113-path-sum-ii](https://github.com/shiivamkumar027/DSA/tree/master/0113-path-sum-ii) |
 | [0130-surrounded-regions](https://github.com/shiivamkumar027/DSA/tree/master/0130-surrounded-regions) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/shiivamkumar027/DSA/tree/master/0329-longest-increasing-path-in-a-matrix) |
@@ -785,6 +786,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Tree
 |  |
 | ------- |
+| [0110-balanced-binary-tree](https://github.com/shhiivaam/DSA/tree/master/0110-balanced-binary-tree) |
 | [0113-path-sum-ii](https://github.com/shiivamkumar027/DSA/tree/master/0113-path-sum-ii) |
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/shiivamkumar027/DSA/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [0993-cousins-in-binary-tree](https://github.com/shiivamkumar027/DSA/tree/master/0993-cousins-in-binary-tree) |
@@ -794,6 +796,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Tree
 |  |
 | ------- |
+| [0110-balanced-binary-tree](https://github.com/shhiivaam/DSA/tree/master/0110-balanced-binary-tree) |
 | [0113-path-sum-ii](https://github.com/shiivamkumar027/DSA/tree/master/0113-path-sum-ii) |
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/shiivamkumar027/DSA/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [0993-cousins-in-binary-tree](https://github.com/shiivamkumar027/DSA/tree/master/0993-cousins-in-binary-tree) |
