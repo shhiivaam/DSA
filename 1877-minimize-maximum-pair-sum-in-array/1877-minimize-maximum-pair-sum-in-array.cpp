@@ -5,7 +5,7 @@ public:
         int ans=0;
         int s=0;
         int e=nums.size()-1;
-        while(s<e){
+        while(s < e){
             int cur=nums[s]+nums[e];
             ans = max(ans,cur);
             s++,e--;
