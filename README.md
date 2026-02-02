@@ -108,6 +108,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2977-minimum-cost-to-convert-string-ii](https://github.com/shiivamkumar027/DSA/tree/master/2977-minimum-cost-to-convert-string-ii) |
 | [2980-check-if-bitwise-or-has-trailing-zeros](https://github.com/shhiivaam/DSA/tree/master/2980-check-if-bitwise-or-has-trailing-zeros) |
 | [3010-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/shiivamkumar027/DSA/tree/master/3010-divide-an-array-into-subarrays-with-minimum-cost-i) |
+| [3013-divide-an-array-into-subarrays-with-minimum-cost-ii](https://github.com/shiivamkumar027/DSA/tree/master/3013-divide-an-array-into-subarrays-with-minimum-cost-ii) |
 | [3047-find-the-largest-area-of-square-inside-two-rectangles](https://github.com/shhiivaam/DSA/tree/master/3047-find-the-largest-area-of-square-inside-two-rectangles) |
 | [3074-apple-redistribution-into-boxes](https://github.com/shiivamkumar027/DSA/tree/master/3074-apple-redistribution-into-boxes) |
 | [3075-maximize-happiness-of-selected-children](https://github.com/shiivamkumar027/DSA/tree/master/3075-maximize-happiness-of-selected-children) |
@@ -188,6 +189,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2402-meeting-rooms-iii](https://github.com/shiivamkumar027/DSA/tree/master/2402-meeting-rooms-iii) |
 | [2429-design-a-food-rating-system](https://github.com/shiivamkumar027/DSA/tree/master/2429-design-a-food-rating-system) |
 | [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/shiivamkumar027/DSA/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
+| [3013-divide-an-array-into-subarrays-with-minimum-cost-ii](https://github.com/shiivamkumar027/DSA/tree/master/3013-divide-an-array-into-subarrays-with-minimum-cost-ii) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/shiivamkumar027/DSA/tree/master/3242-count-elements-with-maximum-frequency) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/shiivamkumar027/DSA/tree/master/3437-maximum-total-damage-with-spell-casting) |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/shiivamkumar027/DSA/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
@@ -704,6 +706,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2054-two-best-non-overlapping-events](https://github.com/shiivamkumar027/DSA/tree/master/2054-two-best-non-overlapping-events) |
 | [2402-meeting-rooms-iii](https://github.com/shiivamkumar027/DSA/tree/master/2402-meeting-rooms-iii) |
 | [2429-design-a-food-rating-system](https://github.com/shiivamkumar027/DSA/tree/master/2429-design-a-food-rating-system) |
+| [3013-divide-an-array-into-subarrays-with-minimum-cost-ii](https://github.com/shiivamkumar027/DSA/tree/master/3013-divide-an-array-into-subarrays-with-minimum-cost-ii) |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/shiivamkumar027/DSA/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 | [3510-minimum-pair-removal-to-sort-array-ii](https://github.com/shiivamkumar027/DSA/tree/master/3510-minimum-pair-removal-to-sort-array-ii) |
 | [3592-find-x-sum-of-all-k-long-subarrays-ii](https://github.com/shiivamkumar027/DSA/tree/master/3592-find-x-sum-of-all-k-long-subarrays-ii) |
@@ -768,6 +771,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/shiivamkumar027/DSA/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1984-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/shiivamkumar027/DSA/tree/master/1984-minimum-difference-between-highest-and-lowest-of-k-scores) |
 | [2618-maximize-the-minimum-powered-city](https://github.com/shiivamkumar027/DSA/tree/master/2618-maximize-the-minimum-powered-city) |
+| [3013-divide-an-array-into-subarrays-with-minimum-cost-ii](https://github.com/shiivamkumar027/DSA/tree/master/3013-divide-an-array-into-subarrays-with-minimum-cost-ii) |
 | [3479-count-the-number-of-substrings-with-dominant-ones](https://github.com/shiivamkumar027/DSA/tree/master/3479-count-the-number-of-substrings-with-dominant-ones) |
 | [3578-count-partitions-with-max-min-difference-at-most-k](https://github.com/shiivamkumar027/DSA/tree/master/3578-count-partitions-with-max-min-difference-at-most-k) |
 | [3592-find-x-sum-of-all-k-long-subarrays-ii](https://github.com/shiivamkumar027/DSA/tree/master/3592-find-x-sum-of-all-k-long-subarrays-ii) |
