@@ -1,33 +1,21 @@
 class Solution {
 public:
     int longestBalanced(vector<int>& nums) {
-            int n = nums.size();
-        int ans = 0;
-
+        int n = nums.size();
+        int res = 0;
         for (int i = 0; i < n; i++) {
-            unordered_map<int, pair<int,int>> mp;
-            int distinctEven = 0, distinctOdd = 0;
-
+            unordered_set<int> e, o;
             for (int j = i; j < n; j++) {
-                int x = nums[j];
-
-                if (x % 2 == 0) {
-                    if (mp[x].first == 0) {
-                        distinctEven++;    
-                    }
-                    mp[x].first++;
+                if (nums[j] % 2 == 0) {
+                    e.insert(nums[j]);
                 } else {
-                    if (mp[x].second == 0) {
-                        distinctOdd++;     
-                    }
-                    mp[x].second++;
+                    o.insert(nums[j]);
                 }
-
-                if (distinctEven == distinctOdd) {
-                    ans = max(ans, j - i + 1);
+                if (e.size() == o.size()) {
+                    res = max(res, j - i + 1);
                 }
             }
         }
-        return ans;
+        return res;
     }
 };
