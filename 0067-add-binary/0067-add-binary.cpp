@@ -11,8 +11,8 @@ public:
         carry += a[i--] - '0';
       if (j >= 0)
         carry += b[j--] - '0';
-      ans += carry % 2 + '0';
-      carry /= 2;
+        ans += carry % 2 + '0';
+        carry /= 2;
     }
 
     ranges::reverse(ans);
