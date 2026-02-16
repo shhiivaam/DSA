@@ -410,6 +410,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/shiivamkumar027/DSA/tree/master/0053-maximum-subarray) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/shhiivaam/DSA/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/shhiivaam/DSA/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+| [0190-reverse-bits](https://github.com/shhiivaam/DSA/tree/master/0190-reverse-bits) |
 | [0215-kth-largest-element-in-an-array](https://github.com/shiivamkumar027/DSA/tree/master/0215-kth-largest-element-in-an-array) |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/shiivamkumar027/DSA/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [3719-longest-balanced-subarray-i](https://github.com/shiivamkumar027/DSA/tree/master/3719-longest-balanced-subarray-i) |
@@ -587,6 +588,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0067-add-binary](https://github.com/shiivamkumar027/DSA/tree/master/0067-add-binary) |
 | [0089-gray-code](https://github.com/shiivamkumar027/DSA/tree/master/0089-gray-code) |
+| [0190-reverse-bits](https://github.com/shhiivaam/DSA/tree/master/0190-reverse-bits) |
 | [0756-pyramid-transition-matrix](https://github.com/shiivamkumar027/DSA/tree/master/0756-pyramid-transition-matrix) |
 | [1018-binary-prefix-divisible-by-5](https://github.com/shhiivaam/DSA/tree/master/1018-binary-prefix-divisible-by-5) |
 | [1930-unique-length-3-palindromic-subsequences](https://github.com/shiivamkumar027/DSA/tree/master/1930-unique-length-3-palindromic-subsequences) |
