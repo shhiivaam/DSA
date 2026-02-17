@@ -596,6 +596,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0067-add-binary](https://github.com/shiivamkumar027/DSA/tree/master/0067-add-binary) |
 | [0089-gray-code](https://github.com/shiivamkumar027/DSA/tree/master/0089-gray-code) |
 | [0190-reverse-bits](https://github.com/shhiivaam/DSA/tree/master/0190-reverse-bits) |
+| [0401-binary-watch](https://github.com/shiivamkumar027/DSA/tree/master/0401-binary-watch) |
 | [0756-pyramid-transition-matrix](https://github.com/shiivamkumar027/DSA/tree/master/0756-pyramid-transition-matrix) |
 | [1018-binary-prefix-divisible-by-5](https://github.com/shhiivaam/DSA/tree/master/1018-binary-prefix-divisible-by-5) |
 | [1930-unique-length-3-palindromic-subsequences](https://github.com/shiivamkumar027/DSA/tree/master/1930-unique-length-3-palindromic-subsequences) |
@@ -785,6 +786,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0040-combination-sum-ii](https://github.com/shiivamkumar027/DSA/tree/master/0040-combination-sum-ii) |
 | [0089-gray-code](https://github.com/shiivamkumar027/DSA/tree/master/0089-gray-code) |
 | [0113-path-sum-ii](https://github.com/shiivamkumar027/DSA/tree/master/0113-path-sum-ii) |
+| [0401-binary-watch](https://github.com/shiivamkumar027/DSA/tree/master/0401-binary-watch) |
 | [0756-pyramid-transition-matrix](https://github.com/shiivamkumar027/DSA/tree/master/0756-pyramid-transition-matrix) |
 | [1331-path-with-maximum-gold](https://github.com/shiivamkumar027/DSA/tree/master/1331-path-with-maximum-gold) |
 | [2174-next-greater-numerically-balanced-number](https://github.com/shiivamkumar027/DSA/tree/master/2174-next-greater-numerically-balanced-number) |
