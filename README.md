@@ -504,6 +504,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0110-balanced-binary-tree](https://github.com/shhiivaam/DSA/tree/master/0110-balanced-binary-tree) |
+| [0112-path-sum](https://github.com/shhiivaam/DSA/tree/master/0112-path-sum) |
 | [0113-path-sum-ii](https://github.com/shiivamkumar027/DSA/tree/master/0113-path-sum-ii) |
 | [0130-surrounded-regions](https://github.com/shiivamkumar027/DSA/tree/master/0130-surrounded-regions) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/shhiivaam/DSA/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
@@ -524,6 +525,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/shhiivaam/DSA/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
+| [0112-path-sum](https://github.com/shhiivaam/DSA/tree/master/0112-path-sum) |
 | [0130-surrounded-regions](https://github.com/shiivamkumar027/DSA/tree/master/0130-surrounded-regions) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/shiivamkumar027/DSA/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0407-trapping-rain-water-ii](https://github.com/shiivamkumar027/DSA/tree/master/0407-trapping-rain-water-ii) |
@@ -870,6 +872,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/shhiivaam/DSA/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/shhiivaam/DSA/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0110-balanced-binary-tree](https://github.com/shhiivaam/DSA/tree/master/0110-balanced-binary-tree) |
+| [0112-path-sum](https://github.com/shhiivaam/DSA/tree/master/0112-path-sum) |
 | [0113-path-sum-ii](https://github.com/shiivamkumar027/DSA/tree/master/0113-path-sum-ii) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/shhiivaam/DSA/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/shiivamkumar027/DSA/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
@@ -884,6 +887,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/shhiivaam/DSA/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/shhiivaam/DSA/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0110-balanced-binary-tree](https://github.com/shhiivaam/DSA/tree/master/0110-balanced-binary-tree) |
+| [0112-path-sum](https://github.com/shhiivaam/DSA/tree/master/0112-path-sum) |
 | [0113-path-sum-ii](https://github.com/shiivamkumar027/DSA/tree/master/0113-path-sum-ii) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/shhiivaam/DSA/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/shiivamkumar027/DSA/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
