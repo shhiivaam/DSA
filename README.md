@@ -261,6 +261,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0696-count-binary-substrings](https://github.com/shiivamkumar027/DSA/tree/master/0696-count-binary-substrings) |
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/shiivamkumar027/DSA/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 | [0756-pyramid-transition-matrix](https://github.com/shiivamkumar027/DSA/tree/master/0756-pyramid-transition-matrix) |
+| [0761-special-binary-string](https://github.com/shiivamkumar027/DSA/tree/master/0761-special-binary-string) |
 | [0944-delete-columns-to-make-sorted](https://github.com/shiivamkumar027/DSA/tree/master/0944-delete-columns-to-make-sorted) |
 | [0955-delete-columns-to-make-sorted-ii](https://github.com/shiivamkumar027/DSA/tree/master/0955-delete-columns-to-make-sorted-ii) |
 | [0960-delete-columns-to-make-sorted-iii](https://github.com/shiivamkumar027/DSA/tree/master/0960-delete-columns-to-make-sorted-iii) |
@@ -354,6 +355,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0451-sort-characters-by-frequency](https://github.com/shiivamkumar027/DSA/tree/master/0451-sort-characters-by-frequency) |
 | [0611-valid-triangle-number](https://github.com/shiivamkumar027/DSA/tree/master/0611-valid-triangle-number) |
 | [0759-set-intersection-size-at-least-two](https://github.com/shhiivaam/DSA/tree/master/0759-set-intersection-size-at-least-two) |
+| [0761-special-binary-string](https://github.com/shiivamkumar027/DSA/tree/master/0761-special-binary-string) |
 | [1018-largest-perimeter-triangle](https://github.com/shiivamkumar027/DSA/tree/master/1018-largest-perimeter-triangle) |
 | [1129-longest-string-chain](https://github.com/shiivamkumar027/DSA/tree/master/1129-longest-string-chain) |
 | [1200-minimum-absolute-difference](https://github.com/shiivamkumar027/DSA/tree/master/1200-minimum-absolute-difference) |
@@ -418,6 +420,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0190-reverse-bits](https://github.com/shhiivaam/DSA/tree/master/0190-reverse-bits) |
 | [0215-kth-largest-element-in-an-array](https://github.com/shiivamkumar027/DSA/tree/master/0215-kth-largest-element-in-an-array) |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/shiivamkumar027/DSA/tree/master/0315-count-of-smaller-numbers-after-self) |
+| [0761-special-binary-string](https://github.com/shiivamkumar027/DSA/tree/master/0761-special-binary-string) |
 | [3719-longest-balanced-subarray-i](https://github.com/shiivamkumar027/DSA/tree/master/3719-longest-balanced-subarray-i) |
 | [3721-longest-balanced-subarray-ii](https://github.com/shiivamkumar027/DSA/tree/master/3721-longest-balanced-subarray-ii) |
 ## Binary Indexed Tree
