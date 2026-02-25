@@ -177,6 +177,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0451-sort-characters-by-frequency](https://github.com/shiivamkumar027/DSA/tree/master/0451-sort-characters-by-frequency) |
 | [0523-continuous-subarray-sum](https://github.com/shiivamkumar027/DSA/tree/master/0523-continuous-subarray-sum) |
 | [0756-pyramid-transition-matrix](https://github.com/shiivamkumar027/DSA/tree/master/0756-pyramid-transition-matrix) |
+| [0791-custom-sort-string](https://github.com/shhiivaam/DSA/tree/master/0791-custom-sort-string) |
 | [0840-magic-squares-in-grid](https://github.com/shiivamkumar027/DSA/tree/master/0840-magic-squares-in-grid) |
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/shiivamkumar027/DSA/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [0961-n-repeated-element-in-size-2n-array](https://github.com/shiivamkumar027/DSA/tree/master/0961-n-repeated-element-in-size-2n-array) |
@@ -264,6 +265,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/shiivamkumar027/DSA/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 | [0756-pyramid-transition-matrix](https://github.com/shiivamkumar027/DSA/tree/master/0756-pyramid-transition-matrix) |
 | [0761-special-binary-string](https://github.com/shiivamkumar027/DSA/tree/master/0761-special-binary-string) |
+| [0791-custom-sort-string](https://github.com/shhiivaam/DSA/tree/master/0791-custom-sort-string) |
 | [0944-delete-columns-to-make-sorted](https://github.com/shiivamkumar027/DSA/tree/master/0944-delete-columns-to-make-sorted) |
 | [0955-delete-columns-to-make-sorted-ii](https://github.com/shiivamkumar027/DSA/tree/master/0955-delete-columns-to-make-sorted-ii) |
 | [0960-delete-columns-to-make-sorted-iii](https://github.com/shiivamkumar027/DSA/tree/master/0960-delete-columns-to-make-sorted-iii) |
@@ -359,6 +361,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0611-valid-triangle-number](https://github.com/shiivamkumar027/DSA/tree/master/0611-valid-triangle-number) |
 | [0759-set-intersection-size-at-least-two](https://github.com/shhiivaam/DSA/tree/master/0759-set-intersection-size-at-least-two) |
 | [0761-special-binary-string](https://github.com/shiivamkumar027/DSA/tree/master/0761-special-binary-string) |
+| [0791-custom-sort-string](https://github.com/shhiivaam/DSA/tree/master/0791-custom-sort-string) |
 | [1018-largest-perimeter-triangle](https://github.com/shiivamkumar027/DSA/tree/master/1018-largest-perimeter-triangle) |
 | [1129-longest-string-chain](https://github.com/shiivamkumar027/DSA/tree/master/1129-longest-string-chain) |
 | [1200-minimum-absolute-difference](https://github.com/shiivamkumar027/DSA/tree/master/1200-minimum-absolute-difference) |
