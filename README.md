@@ -277,6 +277,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1197-parsing-a-boolean-expression](https://github.com/shiivamkumar027/DSA/tree/master/1197-parsing-a-boolean-expression) |
 | [1264-maximum-number-of-words-you-can-type](https://github.com/shiivamkumar027/DSA/tree/master/1264-maximum-number-of-words-you-can-type) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/shiivamkumar027/DSA/tree/master/1353-find-resultant-array-after-removing-anagrams) |
+| [1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one](https://github.com/shhiivaam/DSA/tree/master/1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one) |
 | [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/shiivamkumar027/DSA/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
 | [1469-minimum-number-of-steps-to-make-two-strings-anagram](https://github.com/shiivamkumar027/DSA/tree/master/1469-minimum-number-of-steps-to-make-two-strings-anagram) |
 | [1636-number-of-substrings-with-only-1s](https://github.com/shiivamkumar027/DSA/tree/master/1636-number-of-substrings-with-only-1s) |
@@ -622,6 +623,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0868-binary-gap](https://github.com/shhiivaam/DSA/tree/master/0868-binary-gap) |
 | [1018-binary-prefix-divisible-by-5](https://github.com/shhiivaam/DSA/tree/master/1018-binary-prefix-divisible-by-5) |
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/shhiivaam/DSA/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
+| [1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one](https://github.com/shhiivaam/DSA/tree/master/1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one) |
 | [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/shiivamkumar027/DSA/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
 | [1930-unique-length-3-palindromic-subsequences](https://github.com/shiivamkumar027/DSA/tree/master/1930-unique-length-3-palindromic-subsequences) |
 | [2837-minimum-operations-to-make-the-integer-zero](https://github.com/shiivamkumar027/DSA/tree/master/2837-minimum-operations-to-make-the-integer-zero) |
@@ -667,6 +669,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0289-game-of-life](https://github.com/shiivamkumar027/DSA/tree/master/0289-game-of-life) |
 | [0412-fizz-buzz](https://github.com/shhiivaam/DSA/tree/master/0412-fizz-buzz) |
 | [0735-asteroid-collision](https://github.com/shiivamkumar027/DSA/tree/master/0735-asteroid-collision) |
+| [1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one](https://github.com/shhiivaam/DSA/tree/master/1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one) |
 | [1642-water-bottles](https://github.com/shiivamkumar027/DSA/tree/master/1642-water-bottles) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/shiivamkumar027/DSA/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [2169-simple-bank-system](https://github.com/shiivamkumar027/DSA/tree/master/2169-simple-bank-system) |
