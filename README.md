@@ -285,6 +285,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one](https://github.com/shhiivaam/DSA/tree/master/1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one) |
 | [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/shiivamkumar027/DSA/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
 | [1469-minimum-number-of-steps-to-make-two-strings-anagram](https://github.com/shiivamkumar027/DSA/tree/master/1469-minimum-number-of-steps-to-make-two-strings-anagram) |
+| [1545-find-kth-bit-in-nth-binary-string](https://github.com/shhiivaam/DSA/tree/master/1545-find-kth-bit-in-nth-binary-string) |
 | [1636-number-of-substrings-with-only-1s](https://github.com/shiivamkumar027/DSA/tree/master/1636-number-of-substrings-with-only-1s) |
 | [1653-minimum-deletions-to-make-string-balanced](https://github.com/shiivamkumar027/DSA/tree/master/1653-minimum-deletions-to-make-string-balanced) |
 | [1689-partitioning-into-minimum-number-of-deci-binary-numbers](https://github.com/shiivamkumar027/DSA/tree/master/1689-partitioning-into-minimum-number-of-deci-binary-numbers) |
@@ -611,6 +612,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0060-permutation-sequence](https://github.com/shiivamkumar027/DSA/tree/master/0060-permutation-sequence) |
 | [0394-decode-string](https://github.com/shiivamkumar027/DSA/tree/master/0394-decode-string) |
 | [1197-parsing-a-boolean-expression](https://github.com/shiivamkumar027/DSA/tree/master/1197-parsing-a-boolean-expression) |
+| [1545-find-kth-bit-in-nth-binary-string](https://github.com/shhiivaam/DSA/tree/master/1545-find-kth-bit-in-nth-binary-string) |
 ## Combinatorics
 |  |
 | ------- |
@@ -679,6 +681,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0412-fizz-buzz](https://github.com/shhiivaam/DSA/tree/master/0412-fizz-buzz) |
 | [0735-asteroid-collision](https://github.com/shiivamkumar027/DSA/tree/master/0735-asteroid-collision) |
 | [1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one](https://github.com/shhiivaam/DSA/tree/master/1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one) |
+| [1545-find-kth-bit-in-nth-binary-string](https://github.com/shhiivaam/DSA/tree/master/1545-find-kth-bit-in-nth-binary-string) |
 | [1642-water-bottles](https://github.com/shiivamkumar027/DSA/tree/master/1642-water-bottles) |
 | [1680-concatenation-of-consecutive-binary-numbers](https://github.com/shiivamkumar027/DSA/tree/master/1680-concatenation-of-consecutive-binary-numbers) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/shiivamkumar027/DSA/tree/master/2137-final-value-of-variable-after-performing-operations) |
