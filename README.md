@@ -181,6 +181,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0451-sort-characters-by-frequency](https://github.com/shiivamkumar027/DSA/tree/master/0451-sort-characters-by-frequency) |
 | [0454-4sum-ii](https://github.com/shhiivaam/DSA/tree/master/0454-4sum-ii) |
 | [0523-continuous-subarray-sum](https://github.com/shiivamkumar027/DSA/tree/master/0523-continuous-subarray-sum) |
+| [0567-permutation-in-string](https://github.com/shiivamkumar027/DSA/tree/master/0567-permutation-in-string) |
 | [0756-pyramid-transition-matrix](https://github.com/shiivamkumar027/DSA/tree/master/0756-pyramid-transition-matrix) |
 | [0791-custom-sort-string](https://github.com/shhiivaam/DSA/tree/master/0791-custom-sort-string) |
 | [0840-magic-squares-in-grid](https://github.com/shiivamkumar027/DSA/tree/master/0840-magic-squares-in-grid) |
@@ -239,6 +240,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0165-compare-version-numbers](https://github.com/shiivamkumar027/DSA/tree/master/0165-compare-version-numbers) |
 | [0283-move-zeroes](https://github.com/shiivamkumar027/DSA/tree/master/0283-move-zeroes) |
 | [0349-intersection-of-two-arrays](https://github.com/shiivamkumar027/DSA/tree/master/0349-intersection-of-two-arrays) |
+| [0567-permutation-in-string](https://github.com/shiivamkumar027/DSA/tree/master/0567-permutation-in-string) |
 | [0611-valid-triangle-number](https://github.com/shiivamkumar027/DSA/tree/master/0611-valid-triangle-number) |
 | [0696-count-binary-substrings](https://github.com/shiivamkumar027/DSA/tree/master/0696-count-binary-substrings) |
 | [1129-longest-string-chain](https://github.com/shiivamkumar027/DSA/tree/master/1129-longest-string-chain) |
@@ -270,6 +272,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0412-fizz-buzz](https://github.com/shhiivaam/DSA/tree/master/0412-fizz-buzz) |
 | [0451-sort-characters-by-frequency](https://github.com/shiivamkumar027/DSA/tree/master/0451-sort-characters-by-frequency) |
 | [0474-ones-and-zeroes](https://github.com/shiivamkumar027/DSA/tree/master/0474-ones-and-zeroes) |
+| [0567-permutation-in-string](https://github.com/shiivamkumar027/DSA/tree/master/0567-permutation-in-string) |
 | [0696-count-binary-substrings](https://github.com/shiivamkumar027/DSA/tree/master/0696-count-binary-substrings) |
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/shiivamkumar027/DSA/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 | [0756-pyramid-transition-matrix](https://github.com/shiivamkumar027/DSA/tree/master/0756-pyramid-transition-matrix) |
@@ -870,6 +873,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0030-substring-with-concatenation-of-all-words](https://github.com/shiivamkumar027/DSA/tree/master/0030-substring-with-concatenation-of-all-words) |
+| [0567-permutation-in-string](https://github.com/shiivamkumar027/DSA/tree/master/0567-permutation-in-string) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/shiivamkumar027/DSA/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1888-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/shiivamkumar027/DSA/tree/master/1888-minimum-number-of-flips-to-make-the-binary-string-alternating) |
 | [1984-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/shiivamkumar027/DSA/tree/master/1984-minimum-difference-between-highest-and-lowest-of-k-scores) |
