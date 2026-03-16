@@ -10,18 +10,15 @@ public:
         }
 
         for (int i = 0; i < m; i++) {
-
-            if (i + n > m) break;
-
+            if (i + n > m) return false;
             vector<int> temp(26, 0);
-
             for (int k = i; k < i + n; k++) {
                 temp[s2[k] - 'a']++;
             }
-
-            if (freq == temp) return true;
+            if (freq == temp)
+                return true;
         }
-        
+
         return false;
     }
 };
