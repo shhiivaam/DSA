@@ -262,6 +262,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0067-add-binary](https://github.com/shiivamkumar027/DSA/tree/master/0067-add-binary) |
 | [0068-text-justification](https://github.com/shiivamkumar027/DSA/tree/master/0068-text-justification) |
 | [0071-simplify-path](https://github.com/shiivamkumar027/DSA/tree/master/0071-simplify-path) |
+| [0087-scramble-string](https://github.com/shiivamkumar027/DSA/tree/master/0087-scramble-string) |
 | [0132-palindrome-partitioning-ii](https://github.com/shiivamkumar027/DSA/tree/master/0132-palindrome-partitioning-ii) |
 | [0165-compare-version-numbers](https://github.com/shiivamkumar027/DSA/tree/master/0165-compare-version-numbers) |
 | [0166-fraction-to-recurring-decimal](https://github.com/shiivamkumar027/DSA/tree/master/0166-fraction-to-recurring-decimal) |
@@ -334,6 +335,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/shiivamkumar027/DSA/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/shiivamkumar027/DSA/tree/master/0053-maximum-subarray) |
 | [0085-maximal-rectangle](https://github.com/shiivamkumar027/DSA/tree/master/0085-maximal-rectangle) |
+| [0087-scramble-string](https://github.com/shiivamkumar027/DSA/tree/master/0087-scramble-string) |
 | [0120-triangle](https://github.com/shiivamkumar027/DSA/tree/master/0120-triangle) |
 | [0132-palindrome-partitioning-ii](https://github.com/shiivamkumar027/DSA/tree/master/0132-palindrome-partitioning-ii) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/shiivamkumar027/DSA/tree/master/0329-longest-increasing-path-in-a-matrix) |
