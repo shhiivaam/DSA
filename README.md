@@ -156,6 +156,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3643-zero-array-transformation-ii](https://github.com/shhiivaam/DSA/tree/master/3643-zero-array-transformation-ii) |
 | [3651-minimum-cost-path-with-teleportations](https://github.com/shhiivaam/DSA/tree/master/3651-minimum-cost-path-with-teleportations) |
 | [3652-best-time-to-buy-and-sell-stock-using-strategy](https://github.com/shiivamkumar027/DSA/tree/master/3652-best-time-to-buy-and-sell-stock-using-strategy) |
+| [3693-climbing-stairs-ii](https://github.com/shiivamkumar027/DSA/tree/master/3693-climbing-stairs-ii) |
 | [3719-longest-balanced-subarray-i](https://github.com/shiivamkumar027/DSA/tree/master/3719-longest-balanced-subarray-i) |
 | [3721-longest-balanced-subarray-ii](https://github.com/shiivamkumar027/DSA/tree/master/3721-longest-balanced-subarray-ii) |
 | [3744-minimum-operations-to-make-array-elements-zero](https://github.com/shiivamkumar027/DSA/tree/master/3744-minimum-operations-to-make-array-elements-zero) |
@@ -377,6 +378,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3578-count-partitions-with-max-min-difference-at-most-k](https://github.com/shiivamkumar027/DSA/tree/master/3578-count-partitions-with-max-min-difference-at-most-k) |
 | [3640-trionic-array-ii](https://github.com/shiivamkumar027/DSA/tree/master/3640-trionic-array-ii) |
 | [3651-minimum-cost-path-with-teleportations](https://github.com/shhiivaam/DSA/tree/master/3651-minimum-cost-path-with-teleportations) |
+| [3693-climbing-stairs-ii](https://github.com/shiivamkumar027/DSA/tree/master/3693-climbing-stairs-ii) |
 ## Sorting
 |  |
 | ------- |
