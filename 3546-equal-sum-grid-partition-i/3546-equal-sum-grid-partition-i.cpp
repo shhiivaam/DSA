@@ -19,6 +19,7 @@ public:
                  if ((c_sum * 2) == sum)
                      return true;
             }
+            if((c_sum * 2) > sum) break;
         }
         c_sum = 0;
         for (int i = 0; i < m; i++) {
@@ -27,6 +28,7 @@ public:
                 if ((c_sum * 2) == sum)
                     return true;
             }
+            if((c_sum * 2) > sum) break;
         }
         return false;
     }
