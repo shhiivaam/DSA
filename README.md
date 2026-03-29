@@ -579,6 +579,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3676-smallest-number-with-all-set-bits](https://github.com/shiivamkumar027/DSA/tree/master/3676-smallest-number-with-all-set-bits) |
 | [3744-minimum-operations-to-make-array-elements-zero](https://github.com/shiivamkumar027/DSA/tree/master/3744-minimum-operations-to-make-array-elements-zero) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/shiivamkumar027/DSA/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
+| [3783-mirror-distance-of-an-integer](https://github.com/shiivamkumar027/DSA/tree/master/3783-mirror-distance-of-an-integer) |
 | [3830-find-closest-person](https://github.com/shiivamkumar027/DSA/tree/master/3830-find-closest-person) |
 | [4116-minimum-moves-to-equal-array-elements-iii](https://github.com/shhiivaam/DSA/tree/master/4116-minimum-moves-to-equal-array-elements-iii) |
 ## Depth-First Search
