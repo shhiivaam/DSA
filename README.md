@@ -167,6 +167,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3643-flip-square-submatrix-vertically](https://github.com/shhiivaam/DSA/tree/master/3643-flip-square-submatrix-vertically) |
 | [3651-minimum-cost-path-with-teleportations](https://github.com/shhiivaam/DSA/tree/master/3651-minimum-cost-path-with-teleportations) |
 | [3652-best-time-to-buy-and-sell-stock-using-strategy](https://github.com/shiivamkumar027/DSA/tree/master/3652-best-time-to-buy-and-sell-stock-using-strategy) |
+| [3668-restore-finishing-order](https://github.com/shiivamkumar027/DSA/tree/master/3668-restore-finishing-order) |
 | [3693-climbing-stairs-ii](https://github.com/shiivamkumar027/DSA/tree/master/3693-climbing-stairs-ii) |
 | [3719-longest-balanced-subarray-i](https://github.com/shiivamkumar027/DSA/tree/master/3719-longest-balanced-subarray-i) |
 | [3721-longest-balanced-subarray-ii](https://github.com/shiivamkumar027/DSA/tree/master/3721-longest-balanced-subarray-ii) |
@@ -234,6 +235,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/shiivamkumar027/DSA/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
 | [3623-count-number-of-trapezoids-i](https://github.com/shiivamkumar027/DSA/tree/master/3623-count-number-of-trapezoids-i) |
 | [3625-count-number-of-trapezoids-ii](https://github.com/shiivamkumar027/DSA/tree/master/3625-count-number-of-trapezoids-ii) |
+| [3668-restore-finishing-order](https://github.com/shiivamkumar027/DSA/tree/master/3668-restore-finishing-order) |
 | [3678-design-task-manager](https://github.com/shiivamkumar027/DSA/tree/master/3678-design-task-manager) |
 | [3713-longest-balanced-substring-i](https://github.com/shiivamkumar027/DSA/tree/master/3713-longest-balanced-substring-i) |
 | [3714-longest-balanced-substring-ii](https://github.com/shiivamkumar027/DSA/tree/master/3714-longest-balanced-substring-ii) |
