@@ -7,7 +7,6 @@ public:
             else if(moves[i] == 'R') r++;
         }
         int pv = moves.length() - (l + r);
-        if( l > r) return (l + pv) -  r;
-        return (r + pv) - l;
+        return max((l + pv) -  r,(r + pv) - l);
     }
 };
