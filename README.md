@@ -171,6 +171,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3651-minimum-cost-path-with-teleportations](https://github.com/shhiivaam/DSA/tree/master/3651-minimum-cost-path-with-teleportations) |
 | [3652-best-time-to-buy-and-sell-stock-using-strategy](https://github.com/shiivamkumar027/DSA/tree/master/3652-best-time-to-buy-and-sell-stock-using-strategy) |
 | [3653-xor-after-range-multiplication-queries-i](https://github.com/shiivamkumar027/DSA/tree/master/3653-xor-after-range-multiplication-queries-i) |
+| [3655-xor-after-range-multiplication-queries-ii](https://github.com/shiivamkumar027/DSA/tree/master/3655-xor-after-range-multiplication-queries-ii) |
 | [3668-restore-finishing-order](https://github.com/shiivamkumar027/DSA/tree/master/3668-restore-finishing-order) |
 | [3693-climbing-stairs-ii](https://github.com/shiivamkumar027/DSA/tree/master/3693-climbing-stairs-ii) |
 | [3719-longest-balanced-subarray-i](https://github.com/shiivamkumar027/DSA/tree/master/3719-longest-balanced-subarray-i) |
@@ -504,6 +505,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0315-count-of-smaller-numbers-after-self](https://github.com/shiivamkumar027/DSA/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0761-special-binary-string](https://github.com/shiivamkumar027/DSA/tree/master/0761-special-binary-string) |
 | [3653-xor-after-range-multiplication-queries-i](https://github.com/shiivamkumar027/DSA/tree/master/3653-xor-after-range-multiplication-queries-i) |
+| [3655-xor-after-range-multiplication-queries-ii](https://github.com/shiivamkumar027/DSA/tree/master/3655-xor-after-range-multiplication-queries-ii) |
 | [3719-longest-balanced-subarray-i](https://github.com/shiivamkumar027/DSA/tree/master/3719-longest-balanced-subarray-i) |
 | [3721-longest-balanced-subarray-ii](https://github.com/shiivamkumar027/DSA/tree/master/3721-longest-balanced-subarray-ii) |
 ## Binary Indexed Tree
