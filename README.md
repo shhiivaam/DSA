@@ -109,6 +109,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2402-meeting-rooms-iii](https://github.com/shiivamkumar027/DSA/tree/master/2402-meeting-rooms-iii) |
 | [2429-design-a-food-rating-system](https://github.com/shiivamkumar027/DSA/tree/master/2429-design-a-food-rating-system) |
 | [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/shiivamkumar027/DSA/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
+| [2463-minimum-total-distance-traveled](https://github.com/shiivamkumar027/DSA/tree/master/2463-minimum-total-distance-traveled) |
 | [2465-shifting-letters-ii](https://github.com/shhiivaam/DSA/tree/master/2465-shifting-letters-ii) |
 | [2529-maximum-count-of-positive-integer-and-negative-integer](https://github.com/shiivamkumar027/DSA/tree/master/2529-maximum-count-of-positive-integer-and-negative-integer) |
 | [2573-find-the-string-with-lcp](https://github.com/shiivamkumar027/DSA/tree/master/2573-find-the-string-with-lcp) |
@@ -409,6 +410,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2147-number-of-ways-to-divide-a-long-corridor](https://github.com/shiivamkumar027/DSA/tree/master/2147-number-of-ways-to-divide-a-long-corridor) |
 | [2408-number-of-people-aware-of-a-secret](https://github.com/shiivamkumar027/DSA/tree/master/2408-number-of-people-aware-of-a-secret) |
 | [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/shiivamkumar027/DSA/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
+| [2463-minimum-total-distance-traveled](https://github.com/shiivamkumar027/DSA/tree/master/2463-minimum-total-distance-traveled) |
 | [2573-find-the-string-with-lcp](https://github.com/shiivamkumar027/DSA/tree/master/2573-find-the-string-with-lcp) |
 | [2977-minimum-cost-to-convert-string-ii](https://github.com/shiivamkumar027/DSA/tree/master/2977-minimum-cost-to-convert-string-ii) |
 | [3106-length-of-the-longest-subsequence-that-sums-to-target](https://github.com/shiivamkumar027/DSA/tree/master/3106-length-of-the-longest-subsequence-that-sums-to-target) |
@@ -455,6 +457,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2274-keep-multiplying-found-values-by-two](https://github.com/shiivamkumar027/DSA/tree/master/2274-keep-multiplying-found-values-by-two) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/shiivamkumar027/DSA/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [2402-meeting-rooms-iii](https://github.com/shiivamkumar027/DSA/tree/master/2402-meeting-rooms-iii) |
+| [2463-minimum-total-distance-traveled](https://github.com/shiivamkumar027/DSA/tree/master/2463-minimum-total-distance-traveled) |
 | [2751-robot-collisions](https://github.com/shiivamkumar027/DSA/tree/master/2751-robot-collisions) |
 | [2785-sort-vowels-in-a-string](https://github.com/shhiivaam/DSA/tree/master/2785-sort-vowels-in-a-string) |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/shiivamkumar027/DSA/tree/master/2840-check-if-strings-can-be-made-equal-with-operations-ii) |
