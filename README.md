@@ -141,6 +141,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3106-length-of-the-longest-subsequence-that-sums-to-target](https://github.com/shiivamkumar027/DSA/tree/master/3106-length-of-the-longest-subsequence-that-sums-to-target) |
 | [3190-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/shhiivaam/DSA/tree/master/3190-find-minimum-operations-to-make-all-elements-divisible-by-three) |
 | [3212-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/shiivamkumar027/DSA/tree/master/3212-count-submatrices-with-equal-frequency-of-x-and-y) |
+| [3225-maximum-score-from-grid-operations](https://github.com/shiivamkumar027/DSA/tree/master/3225-maximum-score-from-grid-operations) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/shiivamkumar027/DSA/tree/master/3242-count-elements-with-maximum-frequency) |
 | [3314-construct-the-minimum-bitwise-array-i](https://github.com/shiivamkumar027/DSA/tree/master/3314-construct-the-minimum-bitwise-array-i) |
 | [3315-construct-the-minimum-bitwise-array-ii](https://github.com/shhiivaam/DSA/tree/master/3315-construct-the-minimum-bitwise-array-ii) |
@@ -429,6 +430,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3106-length-of-the-longest-subsequence-that-sums-to-target](https://github.com/shiivamkumar027/DSA/tree/master/3106-length-of-the-longest-subsequence-that-sums-to-target) |
 | [3129-find-all-possible-stable-binary-arrays-i](https://github.com/shiivamkumar027/DSA/tree/master/3129-find-all-possible-stable-binary-arrays-i) |
 | [3130-find-all-possible-stable-binary-arrays-ii](https://github.com/shiivamkumar027/DSA/tree/master/3130-find-all-possible-stable-binary-arrays-ii) |
+| [3225-maximum-score-from-grid-operations](https://github.com/shiivamkumar027/DSA/tree/master/3225-maximum-score-from-grid-operations) |
 | [3233-maximize-the-number-of-partitions-after-operations](https://github.com/shiivamkumar027/DSA/tree/master/3233-maximize-the-number-of-partitions-after-operations) |
 | [3418-maximum-amount-of-money-robot-can-earn](https://github.com/shiivamkumar027/DSA/tree/master/3418-maximum-amount-of-money-robot-can-earn) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/shiivamkumar027/DSA/tree/master/3437-maximum-total-damage-with-spell-casting) |
@@ -873,6 +875,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/shiivamkumar027/DSA/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
 | [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/shiivamkumar027/DSA/tree/master/3070-count-submatrices-with-top-left-element-and-sum-less-than-k) |
 | [3212-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/shiivamkumar027/DSA/tree/master/3212-count-submatrices-with-equal-frequency-of-x-and-y) |
+| [3225-maximum-score-from-grid-operations](https://github.com/shiivamkumar027/DSA/tree/master/3225-maximum-score-from-grid-operations) |
 | [3418-maximum-amount-of-money-robot-can-earn](https://github.com/shiivamkumar027/DSA/tree/master/3418-maximum-amount-of-money-robot-can-earn) |
 | [3546-equal-sum-grid-partition-i](https://github.com/shiivamkumar027/DSA/tree/master/3546-equal-sum-grid-partition-i) |
 | [3567-minimum-absolute-difference-in-sliding-submatrix](https://github.com/shiivamkumar027/DSA/tree/master/3567-minimum-absolute-difference-in-sliding-submatrix) |
@@ -1028,6 +1031,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3129-find-all-possible-stable-binary-arrays-i](https://github.com/shiivamkumar027/DSA/tree/master/3129-find-all-possible-stable-binary-arrays-i) |
 | [3130-find-all-possible-stable-binary-arrays-ii](https://github.com/shiivamkumar027/DSA/tree/master/3130-find-all-possible-stable-binary-arrays-ii) |
 | [3212-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/shiivamkumar027/DSA/tree/master/3212-count-submatrices-with-equal-frequency-of-x-and-y) |
+| [3225-maximum-score-from-grid-operations](https://github.com/shiivamkumar027/DSA/tree/master/3225-maximum-score-from-grid-operations) |
 | [3383-taking-maximum-energy-from-the-mystic-dungeon](https://github.com/shiivamkumar027/DSA/tree/master/3383-taking-maximum-energy-from-the-mystic-dungeon) |
 | [3432-count-partitions-with-even-sum-difference](https://github.com/shhiivaam/DSA/tree/master/3432-count-partitions-with-even-sum-difference) |
 | [3546-equal-sum-grid-partition-i](https://github.com/shiivamkumar027/DSA/tree/master/3546-equal-sum-grid-partition-i) |
