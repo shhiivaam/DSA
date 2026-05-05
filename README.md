@@ -278,6 +278,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0011-container-with-most-water](https://github.com/shiivamkumar027/DSA/tree/master/0011-container-with-most-water) |
 | [0018-4sum](https://github.com/shhiivaam/DSA/tree/master/0018-4sum) |
 | [0042-trapping-rain-water](https://github.com/shiivamkumar027/DSA/tree/master/0042-trapping-rain-water) |
+| [0061-rotate-list](https://github.com/shiivamkumar027/DSA/tree/master/0061-rotate-list) |
 | [0165-compare-version-numbers](https://github.com/shiivamkumar027/DSA/tree/master/0165-compare-version-numbers) |
 | [0283-move-zeroes](https://github.com/shiivamkumar027/DSA/tree/master/0283-move-zeroes) |
 | [0349-intersection-of-two-arrays](https://github.com/shiivamkumar027/DSA/tree/master/0349-intersection-of-two-arrays) |
@@ -1133,6 +1134,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Linked List
 |  |
 | ------- |
+| [0061-rotate-list](https://github.com/shiivamkumar027/DSA/tree/master/0061-rotate-list) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/shhiivaam/DSA/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/shiivamkumar027/DSA/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 | [3510-minimum-pair-removal-to-sort-array-ii](https://github.com/shiivamkumar027/DSA/tree/master/3510-minimum-pair-removal-to-sort-array-ii) |
