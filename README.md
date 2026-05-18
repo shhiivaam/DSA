@@ -67,6 +67,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1266-minimum-time-visiting-all-points](https://github.com/shiivamkumar027/DSA/tree/master/1266-minimum-time-visiting-all-points) |
 | [1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold](https://github.com/shiivamkumar027/DSA/tree/master/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold) |
 | [1331-path-with-maximum-gold](https://github.com/shiivamkumar027/DSA/tree/master/1331-path-with-maximum-gold) |
+| [1345-jump-game-iv](https://github.com/shiivamkumar027/DSA/tree/master/1345-jump-game-iv) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/shiivamkumar027/DSA/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/shiivamkumar027/DSA/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/shhiivaam/DSA/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
@@ -235,6 +236,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1015-smallest-integer-divisible-by-k](https://github.com/shhiivaam/DSA/tree/master/1015-smallest-integer-divisible-by-k) |
 | [1129-longest-string-chain](https://github.com/shiivamkumar027/DSA/tree/master/1129-longest-string-chain) |
 | [1264-maximum-number-of-words-you-can-type](https://github.com/shiivamkumar027/DSA/tree/master/1264-maximum-number-of-words-you-can-type) |
+| [1345-jump-game-iv](https://github.com/shiivamkumar027/DSA/tree/master/1345-jump-game-iv) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/shiivamkumar027/DSA/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/shiivamkumar027/DSA/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
 | [1469-minimum-number-of-steps-to-make-two-strings-anagram](https://github.com/shiivamkumar027/DSA/tree/master/1469-minimum-number-of-steps-to-make-two-strings-anagram) |
@@ -701,6 +703,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/shiivamkumar027/DSA/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [0993-cousins-in-binary-tree](https://github.com/shiivamkumar027/DSA/tree/master/0993-cousins-in-binary-tree) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/shiivamkumar027/DSA/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
+| [1345-jump-game-iv](https://github.com/shiivamkumar027/DSA/tree/master/1345-jump-game-iv) |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/shiivamkumar027/DSA/tree/master/1391-check-if-there-is-a-valid-path-in-a-grid) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/shiivamkumar027/DSA/tree/master/1559-detect-cycles-in-2d-grid) |
 | [1747-lexicographically-smallest-string-after-applying-operations](https://github.com/shiivamkumar027/DSA/tree/master/1747-lexicographically-smallest-string-after-applying-operations) |
