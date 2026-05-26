@@ -1,24 +1,23 @@
 class Solution {
 public:
     int numberOfSpecialChars(string word) {
+        int lower[26] = {0};
+        int upper[26] = {0};
+
+        for (char ch : word) {
+            if (ch >= 'a' && ch <= 'z')
+                lower[ch - 'a'] = 1;
+            else if (ch >= 'A' && ch <= 'Z')
+                upper[ch - 'A'] = 1;
+        }
+
         int cnt = 0;
-        set<char> l_st;
-        set<char> used;
-        for (auto v : word) {
-            if (v >= 'A' && v <= 'Z') {
-                l_st.insert(v);
-            }
+
+        for (int i = 0; i < 26; i++) {
+            if (lower[i] && upper[i])
+                cnt++;
         }
-        for (auto ch : word) {
-            if (ch >= 'a' && ch <= 'z') {
-                char cc = char(ch - 32);
-                if (l_st.find(cc) != l_st.end() &&
-                    used.find(ch) == used.end()) {
-                    cnt++;
-                    used.insert(ch);
-                }
-            }
-        }
+
         return cnt;
     }
 };
