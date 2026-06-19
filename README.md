@@ -91,6 +91,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/shiivamkumar027/DSA/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1722-minimize-hamming-distance-after-swap-operations](https://github.com/shiivamkumar027/DSA/tree/master/1722-minimize-hamming-distance-after-swap-operations) |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/shiivamkumar027/DSA/tree/master/1727-largest-submatrix-with-rearrangements) |
+| [1732-find-the-highest-altitude](https://github.com/shiivamkumar027/DSA/tree/master/1732-find-the-highest-altitude) |
 | [1834-minimum-number-of-people-to-teach](https://github.com/shiivamkumar027/DSA/tree/master/1834-minimum-number-of-people-to-teach) |
 | [1848-minimum-distance-to-the-target-element](https://github.com/shiivamkumar027/DSA/tree/master/1848-minimum-distance-to-the-target-element) |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/shiivamkumar027/DSA/tree/master/1855-maximum-distance-between-a-pair-of-values) |
@@ -1066,6 +1067,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/shiivamkumar027/DSA/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1590-make-sum-divisible-by-p](https://github.com/shiivamkumar027/DSA/tree/master/1590-make-sum-divisible-by-p) |
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/shiivamkumar027/DSA/tree/master/1674-minimum-moves-to-make-array-complementary) |
+| [1732-find-the-highest-altitude](https://github.com/shiivamkumar027/DSA/tree/master/1732-find-the-highest-altitude) |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/shiivamkumar027/DSA/tree/master/1878-get-biggest-three-rhombus-sums-in-a-grid) |
 | [1895-largest-magic-square](https://github.com/shiivamkumar027/DSA/tree/master/1895-largest-magic-square) |
 | [1930-unique-length-3-palindromic-subsequences](https://github.com/shiivamkumar027/DSA/tree/master/1930-unique-length-3-palindromic-subsequences) |
