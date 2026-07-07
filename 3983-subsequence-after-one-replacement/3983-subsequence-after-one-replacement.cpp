@@ -5,7 +5,6 @@ public:
         int m = t.length();
 
         if (n > m) return false;
-
         if (n == 1) return true;
 
         vector<int> L(n, m);
