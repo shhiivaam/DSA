@@ -1,0 +1,25 @@
+class Solution {
+public:
+    vector<bool> pathExistenceQueries(int n, vector<int>& nums, int maxDiff, vector<vector<int>>& queries) {
+         vector<int> component(n, 0);
+        int compId = 0;
+
+        component[0] = compId;
+        for (int i = 1; i < n; ++i) {
+            if (nums[i] - nums[i-1] <= maxDiff) {
+                component[i] = compId;
+            } else {
+                compId++;
+                component[i] = compId;
+            }
+        }
+        
+        vector<bool> ans;
+        for (auto& q : queries) {
+            int u = q[0], v = q[1];
+            ans.push_back(component[u] == component[v]);
+        }
+        
+        return ans;
+    }
+};
