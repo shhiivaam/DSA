@@ -206,6 +206,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3660-jump-game-ix](https://github.com/shiivamkumar027/DSA/tree/master/3660-jump-game-ix) |
 | [3668-restore-finishing-order](https://github.com/shiivamkumar027/DSA/tree/master/3668-restore-finishing-order) |
 | [3693-climbing-stairs-ii](https://github.com/shiivamkumar027/DSA/tree/master/3693-climbing-stairs-ii) |
+| [3718-smallest-missing-multiple-of-k](https://github.com/shiivamkumar027/DSA/tree/master/3718-smallest-missing-multiple-of-k) |
 | [3719-longest-balanced-subarray-i](https://github.com/shiivamkumar027/DSA/tree/master/3719-longest-balanced-subarray-i) |
 | [3721-longest-balanced-subarray-ii](https://github.com/shiivamkumar027/DSA/tree/master/3721-longest-balanced-subarray-ii) |
 | [3740-minimum-distance-between-three-equal-elements-i](https://github.com/shiivamkumar027/DSA/tree/master/3740-minimum-distance-between-three-equal-elements-i) |
@@ -292,6 +293,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3678-design-task-manager](https://github.com/shiivamkumar027/DSA/tree/master/3678-design-task-manager) |
 | [3713-longest-balanced-substring-i](https://github.com/shiivamkumar027/DSA/tree/master/3713-longest-balanced-substring-i) |
 | [3714-longest-balanced-substring-ii](https://github.com/shiivamkumar027/DSA/tree/master/3714-longest-balanced-substring-ii) |
+| [3718-smallest-missing-multiple-of-k](https://github.com/shiivamkumar027/DSA/tree/master/3718-smallest-missing-multiple-of-k) |
 | [3719-longest-balanced-subarray-i](https://github.com/shiivamkumar027/DSA/tree/master/3719-longest-balanced-subarray-i) |
 | [3721-longest-balanced-subarray-ii](https://github.com/shiivamkumar027/DSA/tree/master/3721-longest-balanced-subarray-ii) |
 | [3740-minimum-distance-between-three-equal-elements-i](https://github.com/shiivamkumar027/DSA/tree/master/3740-minimum-distance-between-three-equal-elements-i) |
