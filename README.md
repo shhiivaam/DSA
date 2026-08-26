@@ -49,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0830-largest-triangle-area](https://github.com/shiivamkumar027/DSA/tree/master/0830-largest-triangle-area) |
 | [0840-magic-squares-in-grid](https://github.com/shiivamkumar027/DSA/tree/master/0840-magic-squares-in-grid) |
 | [0874-walking-robot-simulation](https://github.com/shiivamkumar027/DSA/tree/master/0874-walking-robot-simulation) |
+| [0877-stone-game](https://github.com/shiivamkumar027/DSA/tree/master/0877-stone-game) |
 | [0890-lemonade-change](https://github.com/shiivamkumar027/DSA/tree/master/0890-lemonade-change) |
 | [0908-smallest-range-i](https://github.com/shiivamkumar027/DSA/tree/master/0908-smallest-range-i) |
 | [0944-delete-columns-to-make-sorted](https://github.com/shiivamkumar027/DSA/tree/master/0944-delete-columns-to-make-sorted) |
@@ -447,6 +448,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/shiivamkumar027/DSA/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 | [0788-rotated-digits](https://github.com/shiivamkumar027/DSA/tree/master/0788-rotated-digits) |
 | [0799-champagne-tower](https://github.com/shiivamkumar027/DSA/tree/master/0799-champagne-tower) |
+| [0877-stone-game](https://github.com/shiivamkumar027/DSA/tree/master/0877-stone-game) |
 | [0923-super-egg-drop](https://github.com/shiivamkumar027/DSA/tree/master/0923-super-egg-drop) |
 | [0960-delete-columns-to-make-sorted-iii](https://github.com/shiivamkumar027/DSA/tree/master/0960-delete-columns-to-make-sorted-iii) |
 | [1111-minimum-score-triangulation-of-polygon](https://github.com/shiivamkumar027/DSA/tree/master/1111-minimum-score-triangulation-of-polygon) |
@@ -646,6 +648,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0788-rotated-digits](https://github.com/shiivamkumar027/DSA/tree/master/0788-rotated-digits) |
 | [0830-largest-triangle-area](https://github.com/shiivamkumar027/DSA/tree/master/0830-largest-triangle-area) |
 | [0840-magic-squares-in-grid](https://github.com/shiivamkumar027/DSA/tree/master/0840-magic-squares-in-grid) |
+| [0877-stone-game](https://github.com/shiivamkumar027/DSA/tree/master/0877-stone-game) |
 | [0908-smallest-range-i](https://github.com/shiivamkumar027/DSA/tree/master/0908-smallest-range-i) |
 | [0923-super-egg-drop](https://github.com/shiivamkumar027/DSA/tree/master/0923-super-egg-drop) |
 | [1015-smallest-integer-divisible-by-k](https://github.com/shhiivaam/DSA/tree/master/1015-smallest-integer-divisible-by-k) |
@@ -1030,6 +1033,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Game Theory
 |  |
 | ------- |
+| [0877-stone-game](https://github.com/shiivamkumar027/DSA/tree/master/0877-stone-game) |
 | [3462-vowels-game-in-a-string](https://github.com/shiivamkumar027/DSA/tree/master/3462-vowels-game-in-a-string) |
 ## Bucket Sort
 |  |
@@ -1275,4 +1279,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0796-rotate-string](https://github.com/shiivamkumar027/DSA/tree/master/0796-rotate-string) |
 | [3474-lexicographically-smallest-generated-string](https://github.com/shiivamkumar027/DSA/tree/master/3474-lexicographically-smallest-generated-string) |
+## Minimax
+|  |
+| ------- |
+| [0877-stone-game](https://github.com/shiivamkumar027/DSA/tree/master/0877-stone-game) |
+## Zero-Sum Game
+|  |
+| ------- |
+| [0877-stone-game](https://github.com/shiivamkumar027/DSA/tree/master/0877-stone-game) |
 <!---LeetCode Topics End-->
