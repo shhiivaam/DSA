@@ -220,6 +220,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/shiivamkumar027/DSA/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 | [3838-weighted-word-mapping](https://github.com/shiivamkumar027/DSA/tree/master/3838-weighted-word-mapping) |
 | [3863-power-grid-maintenance](https://github.com/shiivamkumar027/DSA/tree/master/3863-power-grid-maintenance) |
+| [3903-smallest-stable-index-i](https://github.com/shiivamkumar027/DSA/tree/master/3903-smallest-stable-index-i) |
 | [4116-minimum-moves-to-equal-array-elements-iii](https://github.com/shhiivaam/DSA/tree/master/4116-minimum-moves-to-equal-array-elements-iii) |
 ## Hash Table
 |  |
@@ -1140,6 +1141,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3719-longest-balanced-subarray-i](https://github.com/shiivamkumar027/DSA/tree/master/3719-longest-balanced-subarray-i) |
 | [3721-longest-balanced-subarray-ii](https://github.com/shiivamkumar027/DSA/tree/master/3721-longest-balanced-subarray-ii) |
 | [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/shiivamkumar027/DSA/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
+| [3903-smallest-stable-index-i](https://github.com/shiivamkumar027/DSA/tree/master/3903-smallest-stable-index-i) |
 ## Geometry
 |  |
 | ------- |
